@@ -23,7 +23,7 @@ export default function InstagramGallery() {
 
         {/* Instagram Profile Header */}
         <div className="flex flex-col sm:flex-row items-center gap-6 mb-12 pb-8 border-b border-zinc-150/60 max-w-4xl mx-auto">
-          <div className="relative w-20 h-20 rounded-full overflow-hidden border border-zinc-200/80 bg-zinc-100 flex-shrink-0 shadow-sm">
+          <div className="relative w-20 h-20 rounded-full overflow-hidden border border-zinc-200/80 bg-zinc-100 flex-shrink-0">
             <Image
               src="/logos/logo-instagram.jpg"
               alt="La Favorita Instagram Logo"
@@ -41,7 +41,7 @@ export default function InstagramGallery() {
                 href="https://www.instagram.com/lafavoritainterior/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-6 py-2 bg-[#4a5df9] hover:bg-[#3547f1] text-white font-semibold rounded-lg text-xs sm:text-sm shadow-sm uppercase tracking-wider"
+                className="inline-flex items-center justify-center px-6 py-2 bg-[#4a5df9] hover:bg-[#3547f1] text-white font-semibold rounded-lg text-xs sm:text-sm uppercase tracking-wider"
               >
                 Seguir
               </a>
@@ -79,7 +79,7 @@ export default function InstagramGallery() {
                   />
                   {/* Carousel Multiple Icon (Scaled and adjusted position) */}
                   {post.id === 6 && (
-                    <div className="absolute top-4 right-4 z-10 text-white/90 bg-black/20 p-2 rounded-lg backdrop-blur-xs pointer-events-none">
+                    <div className="absolute top-4 right-4 z-10 text-white/90 bg-black/40 p-2 rounded-lg pointer-events-none">
                       <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
                         <path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z" />
                       </svg>
@@ -105,7 +105,7 @@ export default function InstagramGallery() {
             href="https://www.instagram.com/lafavoritainterior/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-1 sm:flex-none inline-flex items-center justify-center gap-1.5 sm:gap-2.5 px-2 sm:px-8 py-3 sm:py-3.5 bg-[#4a5df9] hover:bg-[#3547f1] text-white font-bold rounded-xl text-[11px] sm:text-sm shadow-md hover:shadow-lg tracking-wider uppercase text-center"
+            className="flex-1 sm:flex-none inline-flex items-center justify-center gap-1.5 sm:gap-2.5 px-2 sm:px-8 py-3 sm:py-3.5 bg-[#4a5df9] hover:bg-[#3547f1] text-white font-bold rounded-xl text-[11px] sm:text-sm tracking-wider uppercase text-center"
           >
             <svg className="w-4 h-4 sm:w-5 sm:h-5 fill-current flex-shrink-0" viewBox="0 0 24 24">
               <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />

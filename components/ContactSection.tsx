@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import ShinyText from "@/components/ShinyText";
 
 interface FormData {
@@ -19,7 +19,18 @@ export default function ContactSection() {
   });
   const [isSending, setIsSending] = useState(false);
   const [sent, setSent] = useState(false);
+  const [mapInteractable, setMapInteractable] = useState(false);
   const formRef = useRef<HTMLFormElement>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setMapInteractable(false);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -360,7 +371,7 @@ export default function ContactSection() {
             href="https://www.google.com/maps/dir/?api=1&destination=La+Favorita+Interior+Tenerife,+C.+Espronceda+6,+38611+Granadilla+de+Abona,+Santa+Cruz+de+Tenerife"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 mb-8 text-xs font-bold tracking-widest bg-[#388186] hover:bg-[#2d6a6e] text-white py-3.5 px-7 rounded-2xl shadow-xs transition-all duration-300 uppercase group"
+            className="inline-flex items-center gap-2.5 mb-8 text-xs font-bold tracking-widest bg-[#388186] hover:bg-[#2d6a6e] text-white py-3.5 px-7 rounded-2xl transition-all duration-300 uppercase group"
           >
             <svg
               className="w-4 h-4 transition-colors duration-300"
@@ -376,15 +387,25 @@ export default function ContactSection() {
           </a>
 
           <div
-            className="w-full rounded-2xl overflow-hidden border border-zinc-200"
+            className="w-full rounded-2xl overflow-hidden border border-zinc-200 relative cursor-pointer"
             style={{ transform: "translateZ(0)", willChange: "transform" }}
+            onClick={() => setMapInteractable(true)}
+            onMouseLeave={() => setMapInteractable(false)}
           >
+            {/* Overlay to capture mouse clicks and allow scrolling to pass through by default */}
+            {!mapInteractable && (
+              <div className="absolute inset-0 bg-transparent z-10 flex items-center justify-center">
+                <span className="bg-[#1c1c1c]/80 text-white text-xs font-semibold px-4 py-2 rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+                  Haga clic para interactuar con el mapa
+                </span>
+              </div>
+            )}
             <iframe
               title="La Favorita Interior — Ubicación"
               src="https://www.google.com/maps?q=La+Favorita+Interior+Tenerife,+C.+Espronceda+6,+38611+Granadilla+de+Abona,+Santa+Cruz+de+Tenerife&t=&z=15&ie=UTF8&iwloc=B&output=embed"
               width="100%"
               height="520"
-              style={{ border: 0 }}
+              style={{ border: 0, pointerEvents: mapInteractable ? "auto" : "none" }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

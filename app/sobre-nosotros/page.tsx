@@ -13,7 +13,7 @@ export default function SobreNosotrosPage() {
         {/* HERO SECTION */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32">
           {/* Left: Image */}
-          <div className="relative w-full h-[500px] sm:h-[600px] rounded-3xl overflow-hidden shadow-2xl group">
+          <div className="relative w-full h-[500px] sm:h-[600px] rounded-3xl overflow-hidden group">
             <div className="absolute inset-0 bg-gradient-to-t from-[#388186]/40 to-transparent z-10 opacity-60 mix-blend-multiply" />
             <img
               src="/images/patricia.png"
@@ -65,7 +65,7 @@ export default function SobreNosotrosPage() {
                 href="https://wa.me/34650323800?text=Hola%20Patricia,%20me%20gustar%C3%ADa%20hablar%20sobre%20mi%20proyecto."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 bg-[#388186] hover:bg-[#2d6a6e] text-white font-bold py-4 px-8 rounded-full text-sm uppercase tracking-widest transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1 group"
+                className="inline-flex items-center gap-3 bg-[#388186] hover:bg-[#2d6a6e] text-white font-bold py-4 px-8 rounded-full text-sm uppercase tracking-widest transition-all duration-300 hover:-translate-y-1 group"
               >
                 <svg
                   className="w-5 h-5"
@@ -84,7 +84,7 @@ export default function SobreNosotrosPage() {
         <div className="flex flex-col gap-12 lg:gap-16">
           
           {/* Card 1: Misión & Valores */}
-          <div className="flex flex-col lg:flex-row bg-white rounded-[2.5rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100">
+          <div className="flex flex-col lg:flex-row bg-white rounded-[2.5rem] overflow-hidden border border-zinc-100">
             {/* Misión (Teal background) */}
             <div className="w-full lg:w-5/12 bg-[#388186] text-white p-12 lg:p-16 flex flex-col items-center justify-center text-center group cursor-default relative overflow-hidden">
               <div className="absolute inset-0 bg-[url('/noise.png')] opacity-10 mix-blend-overlay"></div>
@@ -141,7 +141,7 @@ export default function SobreNosotrosPage() {
           </div>
 
           {/* Card 2: Principios & Visión */}
-          <div className="flex flex-col lg:flex-row bg-white rounded-[2.5rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-zinc-100">
+          <div className="flex flex-col lg:flex-row bg-white rounded-[2.5rem] overflow-hidden border border-zinc-100">
             {/* Principios (White background) */}
             <div className="w-full lg:w-7/12 p-12 lg:p-16 flex flex-col justify-center order-2 lg:order-1">
               <h3 className="text-3xl lg:text-4xl font-extrabold text-[#388186] mb-10 tracking-tight text-center lg:text-left">Principios</h3>

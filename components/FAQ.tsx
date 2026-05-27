@@ -142,7 +142,7 @@ export default function FAQ() {
             return (
               <div
                 key={index}
-                className="bg-white border border-zinc-200/80 rounded-2xl overflow-hidden transition-all duration-300 shadow-[0_2px_8px_rgba(0,0,0,0.02)]"
+                className="bg-white border border-zinc-200/80 rounded-2xl overflow-hidden transition-all duration-300"
               >
                 {/* Header Toggle Clickable Area (Fills with brand teal on hover/active) */}
                 <button

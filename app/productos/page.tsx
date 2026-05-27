@@ -63,7 +63,7 @@ export default function ProductosPage() {
           {PRODUCT_CATEGORIES.map((category) => (
             <div
               key={category.slug}
-              className="bg-zinc-50/50 border border-zinc-200/60 rounded-[32px] overflow-hidden flex flex-col justify-between hover:shadow-xl hover:bg-white hover:border-zinc-200 transition-all duration-500 group"
+              className="bg-zinc-50/50 border border-zinc-200/60 rounded-[32px] overflow-hidden flex flex-col justify-between hover:bg-white hover:border-zinc-200 transition-all duration-500 group"
             >
               {/* Image Block */}
               <div className="h-60 overflow-hidden relative">

@@ -78,7 +78,7 @@ export default async function CategoryPage({ params }: { params: Params }) {
 
           {/* Right Column: large image and gallery */}
           <div className="lg:col-span-5 flex flex-col gap-5 lg:gap-6 h-full">
-            <div className="w-full flex-1 min-h-[300px] sm:min-h-[400px] rounded-3xl overflow-hidden border border-zinc-200 shadow-xl relative group">
+            <div className="w-full flex-1 min-h-[300px] sm:min-h-[400px] rounded-3xl overflow-hidden border border-zinc-200 relative group">
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent z-10" />
               <img
                 src={data.image}
@@ -91,7 +91,7 @@ export default async function CategoryPage({ params }: { params: Params }) {
               {data.gallery.map((img, idx) => (
                 <div
                   key={idx}
-                  className="w-full h-full rounded-2xl overflow-hidden border border-zinc-200 shadow-md relative group"
+                  className="w-full h-full rounded-2xl overflow-hidden border border-zinc-200 relative group"
                 >
                   <img
                     src={img}
@@ -106,7 +106,7 @@ export default async function CategoryPage({ params }: { params: Params }) {
         </div>
 
         {/* Remote Design Section */}
-        <div className="bg-white rounded-[32px] overflow-hidden shadow-xl border border-zinc-100/80 mb-20 flex flex-col md:flex-row items-stretch">
+        <div className="bg-white rounded-[32px] overflow-hidden border border-zinc-100/80 mb-20 flex flex-col md:flex-row items-stretch">
           {/* Text Content */}
           <div className="p-10 md:p-14 lg:p-16 flex-1 flex flex-col justify-center">
             <h2 className="text-3xl sm:text-4xl lg:text-[42px] font-extrabold text-[#1c1c1c] tracking-tight leading-tight mb-4">
@@ -150,9 +150,8 @@ export default async function CategoryPage({ params }: { params: Params }) {
         </div>
 
         {/* Dynamic CTA Banner */}
-        <div className="bg-[#1c1c1c] text-white rounded-[36px] p-8 sm:p-12 lg:p-16 flex flex-col md:flex-row items-center justify-between gap-8 relative overflow-hidden shadow-2xl">
-          {/* Subtle design element */}
-          <div className="absolute -right-16 -bottom-16 w-64 h-64 bg-[#388186]/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="bg-[#1c1c1c] text-white rounded-[36px] p-8 sm:p-12 lg:p-16 flex flex-col md:flex-row items-center justify-between gap-8 relative overflow-hidden">
+          {/* Subtle design element (shadow removed) */}
 
           <div className="space-y-3 z-10 text-center md:text-left">
             <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
@@ -165,7 +164,7 @@ export default async function CategoryPage({ params }: { params: Params }) {
 
           <HashLink
             href="/#contacto"
-            className="bg-[#388186] hover:bg-[#2d6a6e] text-white font-bold py-4 px-8 rounded-xl text-xs sm:text-sm uppercase tracking-widest transition-all duration-300 z-10 hover:scale-[1.02] active:scale-[0.98] shadow-lg flex items-center gap-2"
+            className="bg-[#388186] hover:bg-[#2d6a6e] text-white font-bold py-4 px-8 rounded-xl text-xs sm:text-sm uppercase tracking-widest transition-all duration-300 z-10 hover:scale-[1.02] active:scale-[0.98] flex items-center gap-2"
           >
             <span>Pedir Presupuesto</span>
             <svg

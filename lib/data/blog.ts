@@ -13,7 +13,7 @@ export const BLOG_POSTS = [
       <h3>2. Islas Multifuncionales</h3>
       <p>La isla ya no es solo para cocinar. Ahora integra zonas de trabajo (home office), estaciones de carga inalámbrica, cavas de vino ocultas e incluso pequeños huertos hidropónicos. Es el verdadero centro de operaciones del hogar.</p>
       
-      <p><img src="/images/003-image.jpg" alt="Isla multifuncional en cocina moderna" className="w-full rounded-2xl my-8 object-cover shadow-lg aspect-video" /></p>
+      <p><img src="/images/003-image.jpg" alt="Isla multifuncional en cocina moderna" className="w-full rounded-2xl my-8 object-cover aspect-video" /></p>
       
       <h3>3. Despensas Ocultas (Back Kitchen)</h3>
       <p>Para mantener la estética minimalista, la zona de "batalla" (donde están los pequeños electrodomésticos, el fregadero principal y el desorden) se esconde detrás de elegantes puertas correderas o coplanares.</p>
@@ -40,7 +40,7 @@ export const BLOG_POSTS = [
       <h3>1. Análisis de tu Vestuario</h3>
       <p>Antes de diseñar, debes auditar lo que tienes. ¿Tienes más vestidos largos o camisas cortas? ¿Coleccionas zapatos? El diseño debe responder a tu inventario real, no a un estándar genérico.</p>
       
-      <p><img src="/images/004-image.jpg" alt="Interior de armario a medida" className="w-full rounded-2xl my-8 object-cover shadow-lg aspect-video" /></p>
+      <p><img src="/images/004-image.jpg" alt="Interior de armario a medida" className="w-full rounded-2xl my-8 object-cover aspect-video" /></p>
       
       <h3>2. Accesorios Extraíbles</h3>
       <p>Las baldas fijas son cosa del pasado. Los pantaloneros extraíbles, las bandejas para camisas y los zapateros inclinados permiten acceder al fondo del armario sin esfuerzo y mantienen todo a la vista.</p>
@@ -64,7 +64,7 @@ export const BLOG_POSTS = [
       <h3>Zonificación Mediante Alfombras y Techos</h3>
       <p>No necesitas paredes para separar espacios. Una alfombra grande puede delimitar la zona del salón, mientras que un cambio sutil en el techo (como un foseado con luz LED) puede enmarcar la zona del comedor.</p>
       
-      <p><img src="/images/006-image.jpg" alt="Espacio abierto cocina y salón" className="w-full rounded-2xl my-8 object-cover shadow-lg aspect-video" /></p>
+      <p><img src="/images/006-image.jpg" alt="Espacio abierto cocina y salón" className="w-full rounded-2xl my-8 object-cover aspect-video" /></p>
       
       <h3>Coherencia de Materiales</h3>
       <p>Usa la misma madera de los muebles del salón en algunos detalles de la cocina. Si tienes detalles en negro mate en la cocina (como el grifo), replícalos en las patas de la mesa del comedor o en las lámparas.</p>
@@ -85,7 +85,7 @@ export const BLOG_POSTS = [
       <h3>El Rincón Mágico</h3>
       <p>Los armarios esquineros solían ser agujeros negros donde se perdían ollas y sartenes. Los nuevos herrajes extraíbles articulados permiten sacar todo el contenido del rincón hacia afuera con un solo dedo.</p>
       
-      <p><img src="/images/008-image.jpg" alt="Accesorios extraíbles para cocina" className="w-full rounded-2xl my-8 object-cover shadow-lg aspect-video" /></p>
+      <p><img src="/images/008-image.jpg" alt="Accesorios extraíbles para cocina" className="w-full rounded-2xl my-8 object-cover aspect-video" /></p>
       
       <h3>Sistemas de Apertura Asistida</h3>
       <p>Los cajones pesados llenos de platos o sartenes ahora se abren con un ligero toque de la rodilla, ideal cuando tienes las manos manchadas o llenas. Un sistema eléctrico se encarga del trabajo pesado.</p>

@@ -41,7 +41,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
         </div>
 
         {/* Hero Image */}
-        <div className="w-full aspect-video rounded-3xl overflow-hidden mb-16 shadow-xl relative group">
+        <div className="w-full aspect-video rounded-3xl overflow-hidden mb-16 relative group">
           <img
             src={post.image}
             alt={post.title}
@@ -54,7 +54,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
           className="text-lg text-zinc-700 leading-relaxed 
           [&>h3]:text-2xl [&>h3]:sm:text-3xl [&>h3]:font-extrabold [&>h3]:text-[#1c1c1c] [&>h3]:mt-12 [&>h3]:mb-6 [&>h3]:tracking-tight
           [&>p]:mb-6
-          [&>p>img]:w-full [&>p>img]:rounded-3xl [&>p>img]:my-12 [&>p>img]:shadow-xl [&>p>img]:aspect-video [&>p>img]:object-cover"
+          [&>p>img]:w-full [&>p>img]:rounded-3xl [&>p>img]:my-12 [&>p>img]:aspect-video [&>p>img]:object-cover"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
 
@@ -66,7 +66,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
           </p>
           <HashLink
             href="/#contacto"
-            className="bg-[#388186] hover:bg-[#2d6a6e] text-white font-bold py-4 px-8 rounded-xl text-xs sm:text-sm uppercase tracking-widest transition-all duration-300 z-10 hover:scale-[1.02] active:scale-[0.98] shadow-lg flex items-center gap-2"
+            className="bg-[#388186] hover:bg-[#2d6a6e] text-white font-bold py-4 px-8 rounded-xl text-xs sm:text-sm uppercase tracking-widest transition-all duration-300 z-10 hover:scale-[1.02] active:scale-[0.98] flex items-center gap-2"
           >
             <span>Pedir Presupuesto</span>
             <svg

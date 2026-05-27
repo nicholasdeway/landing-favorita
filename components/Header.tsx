@@ -246,7 +246,7 @@ export default function Header() {
 
                   {/* Dropdown Menu */}
                   {link.sublinks && (
-                    <div className="absolute left-0 top-full mt-2 w-64 bg-white border border-zinc-100 shadow-xl rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 z-50">
+                    <div className="absolute left-0 top-full mt-2 w-64 bg-white border border-zinc-100 rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 z-50">
                       <div className="flex flex-col py-2">
                         {link.sublinks.map((sublink) => (
                           <Link

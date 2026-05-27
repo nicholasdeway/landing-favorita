@@ -80,7 +80,7 @@ export default function HeroCarousel() {
     <section
       className="w-full h-[calc(100vh-80px)] md:h-[calc(100vh-112px)] min-h-[500px] bg-background px-4 pb-4 pt-0 sm:px-8 sm:pb-8 sm:pt-0 lg:px-12 lg:pb-12 lg:pt-0 select-none"
     >
-      <div className="relative w-full h-full overflow-hidden bg-zinc-900 shadow-2xl">
+      <div className="relative w-full h-full overflow-hidden bg-zinc-900">
         {/* Background Images Layer */}
         {SLIDES.map((slide, idx) => (
           <div
@@ -104,7 +104,7 @@ export default function HeroCarousel() {
         <div className="absolute inset-0 z-20 flex items-center justify-start pointer-events-none">
           <div className="mx-auto w-full max-w-7xl px-6 sm:px-10 lg:px-14">
             {/* Golden outline container */}
-            <div className="relative w-[280px] h-[280px] sm:w-[380px] sm:h-[380px] border-[1.5px] border-brand-teal/70 p-6 sm:p-10 flex flex-col justify-end pointer-events-auto shadow-2xl">
+            <div className="relative w-[280px] h-[280px] sm:w-[380px] sm:h-[380px] border-[1.5px] border-brand-teal/70 p-6 sm:p-10 flex flex-col justify-end pointer-events-auto">
 
               {/* Slide content inside the box */}
               {SLIDES.map((slide, idx) => (

@@ -55,7 +55,7 @@ export default function AboutSection() {
             <div className="relative w-full max-w-[420px] aspect-[4/5] sm:aspect-[3/4] lg:aspect-[4/5]">
 
               {/* Image Container with Shadow */}
-              <div className="relative w-full h-full overflow-hidden shadow-xl z-10">
+              <div className="relative w-full h-full overflow-hidden z-10">
                 {/* Image overlay gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent z-10" />
 
@@ -67,7 +67,7 @@ export default function AboutSection() {
 
                 {/* Overlapping text inside the image */}
                 <div className="absolute bottom-6 left-6 z-20">
-                  <p className="text-white font-bold text-xl md:text-2xl uppercase tracking-wider drop-shadow-md">
+                  <p className="text-white font-bold text-xl md:text-2xl uppercase tracking-wider">
                     Pasión y Experiencia
                   </p>
                 </div>

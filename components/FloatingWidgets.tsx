@@ -24,7 +24,7 @@ export default function FloatingWidgets() {
     <>
       {/* 1. Floating Vertical Social Bar (Mobile/Tablet Only) */}
       <div
-        className={`fixed right-2 sm:right-4 z-40 lg:hidden flex flex-col items-center bg-background/95 backdrop-blur-sm py-4 px-2.5 rounded-full shadow-lg border border-zinc-100 gap-4.5 transition-all duration-500 ease-in-out hover:shadow-xl ${menuOpen ? "top-[78%] -translate-y-1/2 scale-50 opacity-0 pointer-events-none" : "top-1/2 -translate-y-1/2 opacity-100"
+        className={`fixed right-2 sm:right-4 z-40 lg:hidden flex flex-col items-center bg-background py-4 px-2.5 rounded-full border border-zinc-100 gap-4.5 transition-all duration-500 ease-in-out ${menuOpen ? "top-[78%] -translate-y-1/2 scale-50 opacity-0 pointer-events-none" : "top-1/2 -translate-y-1/2 opacity-100"
           }`}
       >
         {/* Instagram */}
@@ -75,7 +75,7 @@ export default function FloatingWidgets() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="WhatsApp"
-        className="fixed right-4 bottom-4 z-40 flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 bg-[#25d366] hover:bg-[#20ba5a] text-white rounded-full shadow-lg transition-all duration-300 hover:scale-110 active:scale-95 focus:outline-none focus:ring-4 focus:ring-[#25d366]/40"
+        className="fixed right-4 bottom-4 z-40 flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 bg-[#25d366] hover:bg-[#20ba5a] text-white rounded-full transition-all duration-300 hover:scale-110 active:scale-95 focus:outline-none focus:ring-4 focus:ring-[#25d366]/40"
       >
         {/* Pulse effect */}
         <span className="absolute inline-flex h-full w-full rounded-full bg-[#25d366] opacity-35 animate-ping -z-10"></span>

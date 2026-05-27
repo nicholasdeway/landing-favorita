@@ -36,7 +36,7 @@ const ReviewCard: React.FC<ReviewCardProps> = ({
         width: `calc((100% - (24px * (${cardsPerView} - 1))) / ${cardsPerView})`,
         flexShrink: 0,
       }}
-      className="bg-white border border-zinc-100 rounded-3xl p-6 shadow-[0_4px_20px_rgba(0,0,0,0.02)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.06)] hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between relative overflow-hidden h-full"
+      className="bg-white border border-zinc-100 rounded-3xl p-6 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between relative overflow-hidden h-full"
     >
       {/* Card Header */}
       <div className="flex items-start justify-between gap-4 mb-3">
@@ -177,7 +177,7 @@ export default function GoogleReviews() {
           {/* Left Block: Google Profile Summary */}
           <div className="lg:col-span-4 flex flex-col items-center lg:items-start text-center lg:text-left">
             <div className="flex flex-col sm:flex-row items-center lg:items-start gap-4 mb-5">
-              <div className="relative w-18 h-18 rounded-full overflow-hidden shadow-md bg-white border border-zinc-100 flex-shrink-0">
+              <div className="relative w-18 h-18 rounded-full overflow-hidden bg-white border border-zinc-100 flex-shrink-0">
                 <Image
                   src="/logos/mini-logo.png"
                   alt="La Favorita Logo"
@@ -241,7 +241,7 @@ export default function GoogleReviews() {
             <button
               onClick={handlePrev}
               disabled={currentIndex === 0}
-              className={`absolute top-1/2 -left-4 -translate-y-1/2 w-9 h-9 rounded-full bg-white border border-zinc-200 shadow-md flex items-center justify-center text-zinc-600 hover:text-zinc-900 transition-all duration-300 z-10 ${currentIndex === 0 ? "opacity-30 cursor-not-allowed" : "hover:scale-105 active:scale-95 cursor-pointer"
+              className={`absolute top-1/2 -left-4 -translate-y-1/2 w-9 h-9 rounded-full bg-white border border-zinc-200 flex items-center justify-center text-zinc-600 hover:text-zinc-900 transition-all duration-300 z-10 ${currentIndex === 0 ? "opacity-30 cursor-not-allowed" : "hover:scale-105 active:scale-95 cursor-pointer"
                 }`}
             >
               <svg className="w-5 h-5 stroke-current" fill="none" strokeWidth="2.5" viewBox="0 0 24 24">
@@ -253,7 +253,7 @@ export default function GoogleReviews() {
             <button
               onClick={handleNext}
               disabled={currentIndex >= maxIndex}
-              className={`absolute top-1/2 -right-4 -translate-y-1/2 w-9 h-9 rounded-full bg-white border border-zinc-200 shadow-md flex items-center justify-center text-zinc-600 hover:text-zinc-900 transition-all duration-300 z-10 ${currentIndex >= maxIndex ? "opacity-30 cursor-not-allowed" : "hover:scale-105 active:scale-95 cursor-pointer"
+              className={`absolute top-1/2 -right-4 -translate-y-1/2 w-9 h-9 rounded-full bg-white border border-zinc-200 flex items-center justify-center text-zinc-600 hover:text-zinc-900 transition-all duration-300 z-10 ${currentIndex >= maxIndex ? "opacity-30 cursor-not-allowed" : "hover:scale-105 active:scale-95 cursor-pointer"
                 }`}
             >
               <svg className="w-5 h-5 stroke-current" fill="none" strokeWidth="2.5" viewBox="0 0 24 24">

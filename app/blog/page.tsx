@@ -31,7 +31,7 @@ export default function BlogPage() {
               alt={BLOG_POSTS[0].title}
               className="w-full h-full object-cover transform scale-100 group-hover:scale-103 transition-transform duration-[1200ms]"
             />
-            <span className="absolute top-6 left-6 z-20 bg-[#388186] text-white text-xs font-bold tracking-widest uppercase px-4.5 py-2.5 rounded-xl shadow-lg">
+            <span className="absolute top-6 left-6 z-20 bg-[#388186] text-white text-xs font-bold tracking-widest uppercase px-4.5 py-2.5 rounded-xl">
               {BLOG_POSTS[0].category}
             </span>
           </div>
@@ -72,7 +72,7 @@ export default function BlogPage() {
           {BLOG_POSTS.slice(1).map((post) => (
             <article
               key={post.id}
-              className="bg-white border border-zinc-100 hover:border-zinc-200 rounded-3xl overflow-hidden shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col group"
+              className="bg-white border border-zinc-100 hover:border-zinc-200 rounded-3xl overflow-hidden transition-all duration-300 flex flex-col group"
             >
               {/* Image box */}
               <div className="h-56 overflow-hidden relative">
@@ -81,7 +81,7 @@ export default function BlogPage() {
                   alt={post.title}
                   className="w-full h-full object-cover transform scale-100 group-hover:scale-105 transition-transform duration-700"
                 />
-                <span className="absolute top-4 left-4 z-10 bg-white/90 backdrop-blur-xs text-[#388186] text-[10px] font-extrabold tracking-widest uppercase px-3.5 py-1.5 rounded-lg shadow-sm border border-zinc-100">
+                <span className="absolute top-4 left-4 z-10 bg-white/90 text-[#388186] text-[10px] font-extrabold tracking-widest uppercase px-3.5 py-1.5 rounded-lg border border-zinc-100">
                   {post.category}
                 </span>
               </div>
