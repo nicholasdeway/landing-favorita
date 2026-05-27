@@ -59,7 +59,7 @@ export const GOOGLE_REVIEWS: Review[] = [
   {
     id: 7,
     name: "HenckShot",
-    avatar: "/henckshot.png",
+    avatar: "/google/henckshot.png",
     date: "Hace 1 año",
     rating: 5,
     text: "Patrícia es una persona atenta para ayudarte a hacer realidad tu sueño de muebles a medida. No pierdas tiempo y ven a visitar su tienda y su persona.",

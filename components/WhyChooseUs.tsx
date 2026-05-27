@@ -21,19 +21,40 @@ export default function WhyChooseUs() {
   }, []);
 
   React.useLayoutEffect(() => {
-    if (isCompleted && phase2Ref.current && wasInViewRef.current) {
-      const containerTop = phase2Ref.current.getBoundingClientRect().top + window.scrollY;
-      // Position the top of the grid 120px from the top of the viewport (just below the sticky header)
-      const targetScroll = containerTop + 40 - 120;
+    if (!isCompleted || !phase2Ref.current) return;
 
-      // Since wasInViewRef ensures we arrived naturally, safely anchor the scroll
-      // to prevent the viewport from dropping drastically when the stack collapses.
+    // If a programmatic navigation is in progress (cross-page or same-page header
+    // click), the scroll to the real target was interrupted when isCompleted flipped
+    // and Lenis was destroyed/recreated. Re-trigger it now that the new Lenis is up.
+    const navTarget = (window as any).__scrollingTo as string | undefined;
+    if (navTarget) {
+      const tid = setTimeout(() => {
+        const element = document.getElementById(navTarget);
+        if (!element) return;
+        const headerOffset = window.innerWidth >= 1024 ? 128 : 96;
+        const lenis = (window as any).globalLenis;
+        if (lenis) {
+          lenis.scrollTo(element, { offset: -headerOffset, force: true, duration: 1 });
+        } else {
+          const pos = element.getBoundingClientRect().top + window.scrollY - headerOffset;
+          window.scrollTo({ top: pos, behavior: "smooth" });
+        }
+        delete (window as any).__scrollingTo;
+      }, 150); // small buffer for new Lenis to initialise
+      return () => clearTimeout(tid);
+    }
+
+    // Natural user scroll: snap-back to prevent jarring layout shift when
+    // the stack collapses and Phase 1 height drops to zero.
+    if (wasInViewRef.current) {
+      const containerTop = phase2Ref.current.getBoundingClientRect().top + window.scrollY;
+      const targetScroll = containerTop + 40 - 120;
       if (window.scrollY > targetScroll) {
         const lenis = (window as any).globalLenis;
         if (lenis) {
           lenis.scrollTo(targetScroll, { immediate: true });
         } else {
-          window.scrollTo(0, targetScroll);
+          window.scrollTo({ top: targetScroll, behavior: "smooth" });
         }
       }
     }

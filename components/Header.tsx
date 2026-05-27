@@ -136,14 +136,21 @@ export default function Header() {
         setMobileMenuOpen(false);
         const element = document.getElementById(targetId);
         if (element) {
-          let headerOffset = window.innerWidth >= 1024 ? 128 : 96;
-          if (targetId === "contacto") headerOffset;
-          const elementPosition = element.getBoundingClientRect().top + window.scrollY;
-          window.scrollTo({
-            top: elementPosition - headerOffset,
-            behavior: "smooth"
-          });
+          const headerOffset = window.innerWidth >= 1024 ? 128 : 96;
+          // Set flag so WhyChooseUs re-triggers the scroll after its Lenis
+          // instance is recreated (instead of snapping back to its own position).
+          (window as any).__scrollingTo = targetId;
+          const lenis = (window as any).globalLenis;
+          if (lenis) {
+            // Use lenis.scrollTo so Lenis' onNativeScroll doesn't cancel the scroll.
+            lenis.scrollTo(element, { offset: -headerOffset, force: true, duration: 1.2 });
+          } else {
+            const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+            window.scrollTo({ top: elementPosition - headerOffset, behavior: "smooth" });
+          }
           window.history.replaceState(null, "", "/");
+          // Safety clear if WhyChooseUs transition never fires.
+          setTimeout(() => { delete (window as any).__scrollingTo; }, 3000);
         }
       } else {
         e.preventDefault();

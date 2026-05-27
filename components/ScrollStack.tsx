@@ -221,18 +221,36 @@ const ScrollStack: React.FC<ScrollStackProps> = ({
     updateCardTransforms();
   }, [updateCardTransforms]);
 
+  /** Returns true when the primary input is touch (mobile / tablet). */
+  const isTouchDevice = useCallback(() => {
+    if (typeof window === 'undefined') return false;
+    return window.matchMedia('(pointer: coarse)').matches;
+  }, []);
+
   const setupLenis = useCallback(() => {
+    // On touch devices, Lenis' touchMultiplier makes the scroll feel
+    // hyper-sensitive. Native momentum scrolling is already smooth there,
+    // so we skip Lenis entirely and rely on a plain scroll event listener.
+    if (isTouchDevice()) {
+      const target = useWindowScroll ? window : scrollerRef.current;
+      if (!target) return;
+      target.addEventListener('scroll', handleScroll, { passive: true });
+      // Expose a minimal no-op so the rest of the code that reads
+      // window.globalLenis doesn't break (e.g. WhyChooseUs scrollTo).
+      (window as any).globalLenis = null;
+      return;
+    }
+
     if (useWindowScroll) {
       const lenis = new Lenis({
         duration: 1.2,
         easing: t => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
         smoothWheel: true,
-        touchMultiplier: 2,
+        touchMultiplier: 1,
         infinite: false,
         wheelMultiplier: 1,
         lerp: 0.1,
-        syncTouch: true,
-        syncTouchLerp: 0.075
+        syncTouch: false,
       });
 
       lenis.on('scroll', handleScroll);
@@ -256,13 +274,12 @@ const ScrollStack: React.FC<ScrollStackProps> = ({
         duration: 1.2,
         easing: t => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
         smoothWheel: true,
-        touchMultiplier: 2,
+        touchMultiplier: 1,
         infinite: false,
         gestureOrientation: 'vertical',
         wheelMultiplier: 1,
         lerp: 0.1,
-        syncTouch: true,
-        syncTouchLerp: 0.075
+        syncTouch: false,
       });
 
       lenis.on('scroll', handleScroll);
@@ -277,7 +294,7 @@ const ScrollStack: React.FC<ScrollStackProps> = ({
       (window as any).globalLenis = lenis;
       return lenis;
     }
-  }, [handleScroll, useWindowScroll]);
+  }, [handleScroll, useWindowScroll, isTouchDevice]);
 
   useLayoutEffect(() => {
     const cards = Array.from(
@@ -344,6 +361,11 @@ const ScrollStack: React.FC<ScrollStackProps> = ({
         lenisRef.current.destroy();
         lenisRef.current = null;
         (window as any).globalLenis = null;
+      }
+      // Clean up the native scroll listener added for touch devices.
+      const target = useWindowScroll ? window : scrollerRef.current;
+      if (target) {
+        target.removeEventListener('scroll', handleScroll);
       }
       stackCompletedRef.current = false;
       cardsRef.current = [];
