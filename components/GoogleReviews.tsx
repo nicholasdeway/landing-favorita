@@ -2,9 +2,8 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 import { Review, GOOGLE_REVIEWS } from "@/lib/data/google-reviews";
-
-
 
 interface ReviewCardProps {
   review: Review;
@@ -19,6 +18,7 @@ const ReviewCard: React.FC<ReviewCardProps> = ({
   isExpanded,
   onToggleExpand,
 }) => {
+  const { t } = useTranslation();
   const contentRef = useRef<HTMLDivElement>(null);
   const [maxHeight, setMaxHeight] = useState("72px");
 
@@ -55,7 +55,7 @@ const ReviewCard: React.FC<ReviewCardProps> = ({
               {review.name}
             </h4>
             <p className="text-xs text-zinc-400 font-medium truncate">
-              {review.date}
+              {t(`reviews.items.${review.id}.date`, { defaultValue: review.date })}
             </p>
           </div>
         </div>
@@ -95,7 +95,7 @@ const ReviewCard: React.FC<ReviewCardProps> = ({
           }}
         >
           <p className="text-zinc-600 text-sm leading-relaxed">
-            {review.text}
+            {t(`reviews.items.${review.id}.text`, { defaultValue: review.text })}
           </p>
           <div
             className={`absolute bottom-0 left-0 right-0 h-6 bg-gradient-to-t from-white to-transparent transition-opacity duration-300 ${isExpanded ? "opacity-0 pointer-events-none" : "opacity-100"
@@ -106,7 +106,7 @@ const ReviewCard: React.FC<ReviewCardProps> = ({
           onClick={onToggleExpand}
           className="mt-2 text-xs font-semibold text-zinc-400 hover:text-zinc-800 transition-colors duration-200 cursor-pointer"
         >
-          {isExpanded ? "Leer menos" : "Leer más"}
+          {isExpanded ? t("reviews.read_less") : t("reviews.read_more")}
         </button>
       </div>
     </div>
@@ -114,6 +114,7 @@ const ReviewCard: React.FC<ReviewCardProps> = ({
 };
 
 export default function GoogleReviews() {
+  const { t } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
   const carouselRef = useRef<HTMLDivElement>(null);
@@ -188,7 +189,7 @@ export default function GoogleReviews() {
               </div>
               <div>
                 <h2 className="text-xl sm:text-2xl font-bold text-zinc-950 leading-tight tracking-tight max-w-sm">
-                  La Favorita Interior en Tenerife: Especialistas en Cocinas y Muebles a medida.
+                  {t("reviews.profile_title")}
                 </h2>
                 <div className="flex items-center justify-center lg:justify-start gap-1 mt-2.5">
                   {Array.from({ length: 5 }).map((_, i) => (
@@ -198,7 +199,7 @@ export default function GoogleReviews() {
                   ))}
                 </div>
                 <p className="mt-1.5 text-sm text-zinc-500 font-medium">
-                  81 reseñas Google
+                  {t("reviews.count")}
                 </p>
               </div>
             </div>
@@ -209,7 +210,7 @@ export default function GoogleReviews() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-6 py-2.5 border border-zinc-200 hover:border-zinc-800 text-zinc-800 font-semibold rounded-xl text-sm transition-all duration-300 hover:bg-zinc-50 tracking-wide"
             >
-              Escribe una reseña
+              {t("reviews.write_review")}
             </a>
           </div>
 
@@ -260,6 +261,7 @@ export default function GoogleReviews() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
               </svg>
             </button>
+
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import ShinyText from "@/components/ShinyText";
 
 interface FormData {
@@ -11,6 +12,7 @@ interface FormData {
 }
 
 export default function ContactSection() {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState<FormData>({
     nombre: "",
     email: "",
@@ -32,10 +34,13 @@ export default function ContactSection() {
     setIsSending(true);
 
     const subject = encodeURIComponent(
-      `Nueva consulta de cocina — ${formData.nombre}`
+      t("contact.email.subject", { name: formData.nombre })
     );
     const body = encodeURIComponent(
-      `Nombre: ${formData.nombre}\nEmail: ${formData.email}\nTeléfono: ${formData.telefono}\n\nMensaje:\n${formData.mensaje}`
+      `${t("contact.form.name_label")}: ${formData.nombre}\n` +
+      `${t("contact.form.email_label")}: ${formData.email}\n` +
+      `${t("contact.form.phone_label")}: ${formData.telefono}\n\n` +
+      `${t("contact.form.message_label")}:\n${formData.mensaje}`
     );
 
     window.location.href = `mailto:proyectoslafavorita@gmail.com?subject=${subject}&body=${body}`;
@@ -56,26 +61,25 @@ export default function ContactSection() {
           {/* Left Side — Title & Info */}
           <div className="flex flex-col justify-center lg:sticky lg:top-32">
             {/* Small tag above title */}
-            <span className="inline-flex items-center gap-2 text-[#388186] text-xs sm:text-sm font-bold tracking-[0.2em] uppercase mb-6">
-              <span className="w-8 h-[2px] bg-[#388186] rounded-full" />
-              Contacto
+            <span className="inline-flex items-center gap-2 text-brand-gold text-xs sm:text-sm font-bold tracking-[0.2em] uppercase mb-6">
+              <span className="w-8 h-[2px] bg-brand-gold rounded-full" />
+              {t("contact.tag")}
             </span>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-[3.4rem] font-extrabold text-[#1c1c1c] tracking-tight leading-[1.1] mb-6">
-              Cuéntanos tu idea
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-[3.4rem] font-bold text-zinc-900 tracking-tight leading-[1.1] mb-6">
+              {t("contact.title_part1")}
               <br />
               <ShinyText
-                text="de cocina"
-                color="#388186"
-                shineColor="#5fbfc4"
+                text={t("contact.title_shiny")}
+                color="#C5A880"
+                shineColor="#ffffff"
                 speed={3}
-                className="text-3xl sm:text-4xl lg:text-5xl xl:text-[3.4rem] font-extrabold tracking-tight"
+                className="text-3xl sm:text-4xl lg:text-5xl xl:text-[3.4rem] font-bold tracking-tight"
               />
             </h2>
 
             <p className="text-zinc-500 text-sm sm:text-base lg:text-lg leading-relaxed max-w-lg mb-10">
-              Comparte con nosotros los detalles de tu proyecto y te
-              responderemos con una propuesta personalizada. Sin compromiso.
+              {t("contact.subtitle")}
             </p>
 
             {/* Contact Info Cards */}
@@ -99,7 +103,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="text-zinc-500 text-xs font-semibold uppercase tracking-wider">
-                    Email
+                    {t("contact.info.email_label")}
                   </p>
                   <a
                     href="mailto:proyectoslafavorita@gmail.com"
@@ -129,7 +133,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="text-zinc-500 text-xs font-semibold uppercase tracking-wider">
-                    Teléfono
+                    {t("contact.info.phone_label")}
                   </p>
                   <a
                     href="tel:+34650323800"
@@ -164,7 +168,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="text-zinc-500 text-xs font-semibold uppercase tracking-wider">
-                    Dirección
+                    {t("contact.info.address_label")}
                   </p>
                   <p className="text-[#1c1c1c] text-sm sm:text-base font-medium">
                     C. Espronceda 6, 38611, Granadilla, Tenerife
@@ -197,11 +201,10 @@ export default function ContactSection() {
                     </svg>
                   </div>
                   <p className="text-[#1c1c1c] font-bold text-lg">
-                    ¡Mensaje preparado!
+                    {t("contact.success_title")}
                   </p>
                   <p className="text-zinc-400 text-sm text-center max-w-xs">
-                    Se ha abierto tu cliente de correo. Envía el mensaje para
-                    completar la consulta.
+                    {t("contact.success_desc")}
                   </p>
                 </div>
               )}
@@ -217,7 +220,7 @@ export default function ContactSection() {
                     htmlFor="contact-nombre"
                     className="text-zinc-500 text-xs font-bold uppercase tracking-[0.15em]"
                   >
-                    Nombre completo
+                    {t("contact.form.name_label")}
                   </label>
                   <input
                     id="contact-nombre"
@@ -226,7 +229,7 @@ export default function ContactSection() {
                     value={formData.nombre}
                     onChange={handleChange}
                     required
-                    placeholder="Tu nombre"
+                    placeholder={t("contact.form.name_placeholder")}
                     className="w-full bg-zinc-100 border border-zinc-200 rounded-xl px-5 py-4 text-[#1c1c1c] text-sm sm:text-base placeholder:text-zinc-400 focus:outline-none focus:border-[#388186]/60 focus:bg-zinc-50 transition-all duration-300"
                   />
                 </div>
@@ -238,7 +241,7 @@ export default function ContactSection() {
                       htmlFor="contact-email"
                       className="text-zinc-500 text-xs font-bold uppercase tracking-[0.15em]"
                     >
-                      Email
+                      {t("contact.form.email_label")}
                     </label>
                     <input
                       id="contact-email"
@@ -247,7 +250,7 @@ export default function ContactSection() {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      placeholder="tu@email.com"
+                      placeholder={t("contact.form.email_placeholder")}
                       className="w-full bg-zinc-100 border border-zinc-200 rounded-xl px-5 py-4 text-[#1c1c1c] text-sm sm:text-base placeholder:text-zinc-400 focus:outline-none focus:border-[#388186]/60 focus:bg-zinc-50 transition-all duration-300"
                     />
                   </div>
@@ -256,7 +259,7 @@ export default function ContactSection() {
                       htmlFor="contact-telefono"
                       className="text-zinc-500 text-xs font-bold uppercase tracking-[0.15em]"
                     >
-                      Teléfono
+                      {t("contact.form.phone_label")}
                     </label>
                     <input
                       id="contact-telefono"
@@ -264,7 +267,7 @@ export default function ContactSection() {
                       name="telefono"
                       value={formData.telefono}
                       onChange={handleChange}
-                      placeholder="+34 600 000 000"
+                      placeholder={t("contact.form.phone_placeholder")}
                       className="w-full bg-zinc-100 border border-zinc-200 rounded-xl px-5 py-4 text-[#1c1c1c] text-sm sm:text-base placeholder:text-zinc-400 focus:outline-none focus:border-[#388186]/60 focus:bg-zinc-50 transition-all duration-300"
                     />
                   </div>
@@ -274,9 +277,9 @@ export default function ContactSection() {
                 <div className="flex flex-col gap-2">
                   <label
                     htmlFor="contact-mensaje"
-                    className="text-zinc-400 text-xs font-bold uppercase tracking-[0.15em]"
+                    className="text-zinc-500 text-xs font-bold uppercase tracking-[0.15em]"
                   >
-                    Cuéntanos tu idea
+                    {t("contact.form.message_label")}
                   </label>
                   <textarea
                     id="contact-mensaje"
@@ -285,7 +288,7 @@ export default function ContactSection() {
                     onChange={handleChange}
                     required
                     rows={5}
-                    placeholder="Describe tu proyecto ideal: distribución, estilo, materiales, presupuesto estimado..."
+                    placeholder={t("contact.form.message_placeholder")}
                     className="w-full bg-zinc-100 border border-zinc-200 rounded-xl px-5 py-4 text-[#1c1c1c] text-sm sm:text-base placeholder:text-zinc-400 focus:outline-none focus:border-[#388186]/60 focus:bg-zinc-50 transition-all duration-300 resize-none"
                   />
                 </div>
@@ -299,7 +302,7 @@ export default function ContactSection() {
                   <span
                     className={`inline-flex items-center gap-2 transition-all duration-300 ${isSending ? "opacity-0" : "opacity-100"}`}
                   >
-                    Enviar consulta
+                    {t("contact.form.submit")}
                     <svg
                       className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1"
                       fill="none"
@@ -341,8 +344,7 @@ export default function ContactSection() {
 
                 {/* Privacy note */}
                 <p className="text-center text-zinc-400 text-[11px] sm:text-xs leading-relaxed">
-                  Al enviar este formulario, aceptas que nos pongamos en contacto
-                  contigo para responder a tu consulta. Sin spam, sin compromiso.
+                  {t("contact.form.privacy_note")}
                 </p>
               </form>
             </div>
@@ -352,7 +354,7 @@ export default function ContactSection() {
         {/* Google Maps — Grayscale */}
         <div className="mt-20 flex flex-col items-center">
           <h3 className="text-center text-lg sm:text-xl lg:text-2xl font-extrabold text-[#1c1c1c] tracking-tight mb-5">
-            ¿Dónde estamos?
+            {t("contact.map.title")}
           </h3>
 
           {/* Minimalist button to open route in Google Maps */}
@@ -372,7 +374,7 @@ export default function ContactSection() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
               <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
             </svg>
-            <span>Abrir ruta en Google Maps</span>
+            <span>{t("contact.map.open_route")}</span>
           </a>
 
           <a
@@ -385,7 +387,7 @@ export default function ContactSection() {
             {/* Hover overlay showing helper text */}
             <div className="absolute inset-0 bg-[#1c1c1c]/0 group-hover:bg-[#1c1c1c]/5 transition-all duration-300 z-10 flex items-center justify-center pointer-events-none">
               <span className="bg-[#1c1c1c]/80 text-white text-xs font-semibold px-4 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                Click para abrir en Google Maps
+                {t("contact.map.hover_text")}
               </span>
             </div>
             <iframe

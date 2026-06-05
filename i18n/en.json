@@ -1,0 +1,327 @@
+{
+  "header": {
+    "cocinas": "KITCHENS",
+    "productos": "PRODUCTS & SERVICES",
+    "sublinks": {
+      "cocinas_medida": "Custom Kitchens",
+      "muebles_medida": "Custom Furniture",
+      "decoracion_interiores": "Interior Design",
+      "accesorios_inteligentes": "Smart Accessories",
+      "cortinas_pergolas": "Curtains & Pergolas"
+    },
+    "sobre_nosotros": "ABOUT US",
+    "blog": "BLOG",
+    "contacto": "CONTACT",
+    "rights_reserved": "All rights reserved © - La Favorita 2025"
+  },
+  "hero": {
+    "tag": "La Favorita Interior",
+    "slides": [
+      {
+        "title": "Kitchens and wardrobes designed to transform your home",
+        "subtitle": "Quality, ergonomics and high-end finishes custom-made in Tenerife."
+      },
+      {
+        "title": "Wardrobes and dressing rooms tailored to your space",
+        "subtitle": "Smart storage solutions that maximize and organize your daily life."
+      },
+      {
+        "title": "Personalized interiors with soul and elegance",
+        "subtitle": "Photorealistic 3D designs to project the space of your dreams."
+      },
+      {
+        "title": "Smart details for absolute comfort",
+        "subtitle": "Integrated lighting and automatic mechanisms for modern furniture."
+      },
+      {
+        "title": "Pergolas and curtains to enjoy the Canarian climate",
+        "subtitle": "Advanced solar protection and automation for your terrace and outdoors."
+      }
+    ],
+    "btn_presupuesto": "Request a quote",
+    "btn_proyectos": "View projects",
+    "arrow_prev": "Previous slide",
+    "arrow_next": "Next slide",
+    "dot_aria": "Go to slide"
+  },
+  "about": {
+    "tag": "Custom furniture in Tenerife",
+    "title_part1": "More than 20 years",
+    "title_part2": "transforming",
+    "title_shiny": "homes",
+    "desc_1": "With <0>experience</0> and <1>personalized design</1>, we create practical, functional and stylish spaces.",
+    "desc_2": "We serve in <0>Tenerife</0>, <1>El Hierro</1> and <2>La Gomera</2>, delivering unique projects that combine quality, good taste and functionality.",
+    "sub_title": "Custom furniture in Tenerife, 100% customizable",
+    "sub_desc_1": "We create furniture that adapts to your lifestyle and makes the most of every space.",
+    "sub_desc_2": "From kitchens and bedrooms to interior decoration, we offer <0>innovative designs</0> to transform your home into a functional and stylish space.",
+    "img_alt": "Designer kitchen in Tenerife",
+    "passion_title": "Passion & Experience",
+    "quote": "The passion to care for every detail, the experience to make everything fit."
+  },
+  "why_choose_us": {
+    "title": "Why have more than 500 clients already chosen us?",
+    "subtitle": "Design, quality and trust for your home in Tenerife.",
+    "cards": {
+      "01": {
+        "title": "Fair Prices",
+        "description": "Exclusive factory-direct design at fair prices."
+      },
+      "02": {
+        "title": "Flexible Financing",
+        "description": "Up to 60 months."
+      },
+      "03": {
+        "title": "Wide Variety",
+        "description": "Kitchens, wardrobes and more, custom-made for each space."
+      },
+      "04": {
+        "title": "Extended Warranty",
+        "description": "Up to 5 years warranty on all our furniture."
+      }
+    }
+  },
+  "stats": {
+    "proyectos": {
+      "value": "+500",
+      "label": "Completed Projects",
+      "description": "Premium kitchens, wardrobes and renovations in Tenerife."
+    },
+    "garantia": {
+      "value": "5 Years",
+      "label": "Full Warranty",
+      "description": "Peace of mind and direct factory support on furniture."
+    },
+    "diseno": {
+      "value": "100%",
+      "label": "Custom Design",
+      "description": "Photorealistic 3D projections before manufacturing."
+    },
+    "atencion": {
+      "value": "Tenerife",
+      "label": "Island-wide Service",
+      "description": "We travel to your home without any obligation."
+    }
+  },
+  "projects": {
+    "tag": "Exclusive Portfolio",
+    "title": "Real spaces designed to inspire",
+    "subtitle": "Explore a selection of our latest completed works in Tenerife. Less quantity, more handcrafted quality.",
+    "categories": {
+      "all": "All Projects",
+      "cocinas": "Kitchens",
+      "armarios": "Wardrobes",
+      "vestidores": "Dressing Rooms",
+      "banos": "Bathrooms"
+    },
+    "items": {
+      "1": {
+        "title": "Japandi Kitchen in Natural Oak",
+        "description": "Kitchen with integrated central island, Dekton countertop, and cabinets with soft-close Blum hardware.",
+        "materials": "Solid oak, Fenix NTM and Dekton"
+      },
+      "2": {
+        "title": "U-Shaped Dressing Room with LED Profiles",
+        "description": "High-density open walk-in closet with leather organizers, pull-out trouser racks, and sensorized LED lighting.",
+        "materials": "19mm textured melamine, black anodized aluminum"
+      },
+      "3": {
+        "title": "Premium Open Concept Kitchen",
+        "description": "Renovation project of a kitchen open to the living room with concealed gola handles and ceiling extractor hood.",
+        "materials": "Silk anti-fingerprint laminate, Silestone Calacatta"
+      },
+      "4": {
+        "title": "Integrated Entrance Wardrobe",
+        "description": "Custom carpentry solution elegantly integrating shoe storage, coats, and electrical panel.",
+        "materials": "Matte lacquered MDF, milled handles"
+      },
+      "5": {
+        "title": "Double Suspended Bathroom Cabinet",
+        "description": "Minimalist wall-mounted bathroom set with full-extension drawers and countertop washbasins.",
+        "materials": "Waterproof teak wood, matte resin washbasin"
+      },
+      "6": {
+        "title": "Linear Kitchen with Hidden Columns",
+        "description": "Optimized linear layout for an urban apartment with fully integrated pantry and appliances.",
+        "materials": "High-pressure laminate, Neolith Iron"
+      },
+      "7": {
+        "title": "Open Design Dressing Room",
+        "description": "Elegant and sober design for the master bedroom with symmetrical layout and slanted shoe rack modules.",
+        "materials": "Varnished wood, warm internal lighting"
+      },
+      "8": {
+        "title": "Coplanar Built-in Wardrobe",
+        "description": "Built-in wardrobe front with coplanar sliding doors that sit on a single plane when closed.",
+        "materials": "Tinted tempered glass, steel profile frame"
+      }
+    },
+    "labels": {
+      "location": "Location",
+      "materials": "Materials",
+      "description_label": "Project Description",
+      "cta": "Inquire about a similar design",
+      "baño": "Bathroom",
+      "mueble_baño": "Bathroom Furniture"
+    }
+  },
+  "reviews": {
+    "profile_title": "La Favorita Interior in Tenerife: Specialists in Custom Kitchens and Furniture.",
+    "count": "81 Google reviews",
+    "write_review": "Write a review",
+    "read_more": "Read more",
+    "read_less": "Read less",
+    "items": {
+      "1": {
+        "date": "A week ago",
+        "text": "Incredible service and variety!"
+      },
+      "2": {
+        "date": "2 months ago",
+        "text": "La Favorita Interior is without a doubt one of the best furniture stores in Tenerife, Patricia is an excellent professional. Thank you so much for everything, I will always recommend you guys. 💪"
+      },
+      "3": {
+        "date": "6 months ago",
+        "text": "Honestly, I only have positive comments for the entire La Favorita team. Even though we didn't hire them (not because we didn't like or weren't convinced by their project, but because in the end we did it with some friends), I would recommend them 100%. Both Patricia and all her team are great people and professionals. I wish them the best and we are immensely grateful for their time, dedication, and all their help."
+      },
+      "4": {
+        "date": "6 months ago",
+        "text": "Excellent quality and service. Patricia is a great professional and a very kind person, 100% recommended. Thank you very much for your work."
+      },
+      "5": {
+        "date": "1 year ago",
+        "text": "Highly recommended, wonderful treatment and smooth communication to adapt to our needs, contributing ideas and options. Thank you very much for everything. 🥰"
+      },
+      "6": {
+        "date": "1 year ago",
+        "text": "I can't say anything else other than my dreams have come true ✨🪄 and Patricia had a lot to do with that dream. Thank you for your professionalism and commitment to the job!! I thank you for all the enthusiasm and effort that you and Jonathan put in to please me so that everything would turn out well. Immensely grateful!! 😍<3"
+      },
+      "7": {
+        "date": "1 year ago",
+        "text": "Patricia is an attentive person to help you make your dream of custom furniture come true. Don't waste time and come visit her store and meet her in person."
+      },
+      "8": {
+        "date": "1 year ago",
+        "text": "I am very grateful for the work of Patricia and her team, although we never went to the store, everything went quite well and now we can enjoy a beautiful kitchen, very practical, also making the best use of the space."
+      },
+      "9": {
+        "date": "1 year ago",
+        "text": "I arrived at La Favorita without having any idea who to hire, only because of the Google reviews, and I couldn't be happier with my kitchen and my pantry. Patricia is a great professional, she gets your idea quickly, adapts to your needs and advises you if you are wrong about any idea. Everything turned out exactly as we had designed in the render and within the deadlines. Then we have Jonathan who is the executor, they work phenomenally and are very detailed. Honestly, I couldn't have fallen into better hands. Infinite thanks to both."
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "item1": {
+      "question": "Are the kitchens custom-made or pre-designed models?",
+      "p1": "We design and manufacture kitchens <0>100% custom-made</0>. Although we have inspiring concepts and layout references as a starting point, each project is designed from scratch to adapt with total precision to the architecture of your home and your daily routines.",
+      "p2": "We do not limit ourselves to fitting standard catalog modules. We meticulously plan the storage capacity of each area, the interior configuration of drawers and pull-outs, the direction of opening doors, advanced hardware systems, height ergonomics and overall proportions.",
+      "p3": "Your kitchen is created to actually work in your house, not to meet the standards of a predefined catalog."
+    },
+    "item2": {
+      "question": "What does the project include?",
+      "header": "We offer a <0>comprehensive turnkey service</0> that covers from the initial idea to the final finish:",
+      "li1": "<0>Consultation and Concept:</0> We meet to understand your lifestyle, usage needs and aesthetic preferences.",
+      "li2": "<0>Technical Measurement:</0> We perform an exact and professional in-situ measurement to avoid any margin of error.",
+      "li3": "<0>3D Design and Visualization:</0> We prepare a realistic three-dimensional proposal so you can see and perfect the kitchen before starting production.",
+      "li4": "<0>Manufacturing and Installation:</0> We produce each piece to high standards and install it using our team of specialized installers for a millimeter-perfect fit."
+    },
+    "item3": {
+      "question": "How long will I be without a kitchen during the installation?",
+      "p1": "We minimize transition times to mitigate inconvenience in your daily life. The installation is meticulously planned in advance, coordinating delivery and assembly times efficiently.",
+      "p2": "Our goal is to make the process fast, organized and clean, allowing you to enjoy your new kitchen in the shortest possible time without compromising high precision in the finishes."
+    },
+    "item4": {
+      "question": "What brands do you work with?",
+      "header": "We exclusively select top-tier brands that guarantee durability, ergonomics and resistance to continuous daily use:",
+      "box1": {
+        "title": "Surfaces and Countertops",
+        "text": "We work with high-end and highly durable countertops such as <0>Silestone</0>, <1>Dekton</1>, <2>Corian Solid Surface</2> and <3>Compac</3>."
+      },
+      "box2": {
+        "title": "Mobiliario y Acabados",
+        "text": "We use advanced technology panels from <0>Alvic</0> to achieve impeccable finishes and front panels resistant to wear."
+      },
+      "box3": {
+        "title": "Hardware and Systems",
+        "text": "We equip our modules with systems from the Austrian firm <0>Blum</0>, recognized for the smoothness and soft-closing in drawers and doors."
+      },
+      "box4": {
+        "title": "Appliances",
+        "text": "We integrate equipment adapted to your kitchen style with trusted brands such as <0>Bosch</0>, <1>Siemens</1>, <2>Franke</2>, <3>Teka</3>, <4>Balay</4> and <5>Fagor</5>."
+      },
+      "note": "* The final selection is defined in a personalized way during the project phase based on design, technical requirements and budget."
+    },
+    "item5": {
+      "question": "What happens if I need an adjustment or a problem arises with the kitchen?",
+      "p1": "Your long-term peace of mind is our priority. If over time you need to recalibrate a door, check the sliding of a drawer or correct a soft-close system, our after-sales service will take care of resolving it.",
+      "p2": "In addition, all components and countertops have their corresponding official warranty, managed directly by our team to avoid intermediaries and inconvenience."
+    },
+    "item6": {
+      "question": "How does financing work?",
+      "p1": "We offer attractive flexible financing options of up to <0>96 months</0> so you can accommodate the payment of your project with total comfort. This facility is subject to approval by the collaborating financial entity.",
+      "p2": "We explain all conditions transparently and without fine print at the time of delivering the detailed quote, ensuring that everything is perfectly defined before starting."
+    }
+  },
+  "instagram": {
+    "subtitle": "LA FAVORITA CUSTOM FURNITURE IN TENERIFE",
+    "posts": "posts",
+    "followers": "followers",
+    "following": "following",
+    "follow": "Follow",
+    "load_more": "Load more",
+    "follow_on_instagram": "Follow on Instagram"
+  },
+  "contact": {
+    "tag": "Contact",
+    "title_part1": "Ready to transform",
+    "title_shiny": "your kitchen?",
+    "subtitle": "Request a free quote and receive personalized design advice for your home in Tenerife. With no obligation.",
+    "success_title": "Message prepared!",
+    "success_desc": "Your email client has been opened. Send the message to complete the inquiry.",
+    "email": {
+      "subject": "New kitchen inquiry — {{name}}"
+    },
+    "info": {
+      "email_label": "Email",
+      "phone_label": "Phone",
+      "address_label": "Address"
+    },
+    "form": {
+      "name_label": "Full Name",
+      "name_placeholder": "Your name",
+      "email_label": "Email",
+      "email_placeholder": "you@email.com",
+      "phone_label": "Phone",
+      "phone_placeholder": "+34 600 000 000",
+      "message_label": "Tell us your idea",
+      "message_placeholder": "Describe your ideal project: layout, style, materials, estimated budget...",
+      "submit": "Send Inquiry",
+      "privacy_note": "By sending this form, you agree to let us contact you to respond to your inquiry. No spam, no obligation."
+    },
+    "map": {
+      "title": "Where are we?",
+      "open_route": "Open route in Google Maps",
+      "hover_text": "Click to open in Google Maps"
+    }
+  },
+  "footer": {
+    "rights_reserved": "All rights reserved",
+    "developed_by": "Developed by",
+    "official_distributor": "Official Distributor",
+    "company_title": "Company",
+    "tenerife_title": "Tenerife",
+    "links": {
+      "cocinas": "Kitchens",
+      "productos": "Products & services",
+      "sobre_nosotros": "About Us",
+      "blog": "Blog",
+      "contacto": "Contact"
+    },
+    "services": {
+      "cocinas_medida": "Custom kitchens",
+      "armarios_empotrados": "Built-in wardrobes",
+      "vestidores_medida": "Custom dressing rooms",
+      "muebles_bano": "Bathroom furniture"
+    }
+  }
+}

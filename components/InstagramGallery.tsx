@@ -2,11 +2,11 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 import { InstagramPost, INSTAGRAM_POSTS, INSTAGRAM_EXTRA_POSTS } from "@/lib/data/instagram";
 
-
-
 export default function InstagramGallery() {
+  const { t } = useTranslation();
   const [posts, setPosts] = useState<InstagramPost[]>(INSTAGRAM_POSTS);
   const [hasLoadedMore, setHasLoadedMore] = useState(false);
 
@@ -43,21 +43,21 @@ export default function InstagramGallery() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-6 py-2 bg-[#4a5df9] hover:bg-[#3547f1] text-white font-semibold rounded-lg text-xs sm:text-sm uppercase tracking-wider"
               >
-                Seguir
+                {t("instagram.follow")}
               </a>
             </div>
             <p className="mt-3 text-zinc-500 font-bold uppercase tracking-widest text-xs sm:text-sm">
-              LA FAVORITA MUEBLES A MEDIDA EN TENERIFE
+              {t("instagram.subtitle")}
             </p>
             <div className="flex items-center justify-center sm:justify-start gap-6 mt-4 text-xs sm:text-sm text-zinc-500 font-medium">
-              <span><strong className="text-zinc-800 font-bold">341</strong> publicaciones</span>
-              <span><strong className="text-zinc-800 font-bold">5.008</strong> seguidores</span>
-              <span><strong className="text-zinc-800 font-bold">1.515</strong> seguidos</span>
+              <span><strong className="text-zinc-800 font-bold">341</strong> {t("instagram.posts")}</span>
+              <span><strong className="text-zinc-800 font-bold">5.008</strong> {t("instagram.followers")}</span>
+              <span><strong className="text-zinc-800 font-bold">1.515</strong> {t("instagram.following")}</span>
             </div>
           </div>
         </div>
 
-        {/* 4x2 Grid Container (Increased to max-w-[1800px] and gap scaled up) */}
+        {/* 4x2 Grid Container */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-4 max-w-[1800px] mx-auto">
           {posts.map((post) => (
             <a
@@ -77,7 +77,7 @@ export default function InstagramGallery() {
                     sizes="(max-width: 768px) 50vw, 25vw"
                     className="object-cover transition-transform duration-700"
                   />
-                  {/* Carousel Multiple Icon (Scaled and adjusted position) */}
+                  {/* Carousel Multiple Icon */}
                   {post.id === 6 && (
                     <div className="absolute top-4 right-4 z-10 text-white/90 bg-black/40 p-2 rounded-lg pointer-events-none">
                       <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
@@ -98,7 +98,7 @@ export default function InstagramGallery() {
               onClick={handleLoadMore}
               className="flex-1 sm:flex-none px-2 sm:px-8 py-3 sm:py-3.5 border border-zinc-300 hover:border-zinc-800 text-zinc-700 hover:text-zinc-950 font-bold rounded-xl text-[11px] sm:text-sm transition-all duration-300 hover:bg-zinc-50 tracking-wider uppercase cursor-pointer flex items-center justify-center text-center"
             >
-              Cargar más
+              {t("instagram.load_more")}
             </button>
           )}
           <a
@@ -110,7 +110,7 @@ export default function InstagramGallery() {
             <svg className="w-4 h-4 sm:w-5 sm:h-5 fill-current flex-shrink-0" viewBox="0 0 24 24">
               <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
             </svg>
-            <span className="truncate">Seguir en Instagram</span>
+            <span className="truncate">{t("instagram.follow_on_instagram")}</span>
           </a>
         </div>
 

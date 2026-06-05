@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { useTranslation, Trans } from "react-i18next";
 
 interface FAQItem {
   question: string;
@@ -8,6 +9,7 @@ interface FAQItem {
 }
 
 export default function FAQ() {
+  const { t } = useTranslation();
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   const toggleIndex = (index: number) => {
@@ -16,111 +18,151 @@ export default function FAQ() {
 
   const faqData: FAQItem[] = [
     {
-      question: "¿Las cocinas son a medida o modelos cerrados?",
+      question: t("faq.item1.question"),
       answer: (
         <div className="space-y-4 text-zinc-600 leading-relaxed text-sm sm:text-base">
           <p>
-            Diseñamos y fabricamos cocinas <strong>100% a medida</strong>. Aunque contamos con conceptos inspiradores y distribuciones de referencia como punto de partida, cada proyecto se proyecta desde cero para adaptarse con total precisión a la arquitectura de tu hogar y a tus rutinas cotidianas.
+            <Trans i18nKey="faq.item1.p1">
+              Diseñamos y fabricamos cocinas <strong>100% a medida</strong>. Aunque contamos con conceptos inspiradores y distribuciones de referencia como punto de partida, cada proyecto se proyecta desde cero para adaptarse con total precisión a la arquitectura de tu hogar y a tus rutinas cotidianas.
+            </Trans>
           </p>
           <p>
-            No nos limitamos a encajar módulos estándar de catálogo. Planificamos meticulosamente la capacidad de almacenamiento de cada zona, la configuración interior de cajones y gavetas, el sentido de apertura de las puertas, los sistemas de herrajes avanzados, la ergonomía de las alturas y las proporciones generales.
+            <Trans i18nKey="faq.item1.p2">
+              No nos limitamos a encajar módulos estándar de catálogo. Planificamos meticulosamente la capacidad de almacenamiento de cada zona, la configuración interior de cajones y gavetas, el sentido de apertura de las puertas, los sistemas de herrajes avanzados, la ergonomía de las alturas y las proporciones generales.
+            </Trans>
           </p>
           <p className="italic text-zinc-500 font-medium">
-            Tu cocina se crea para funcionar de verdad en tu casa, no para cumplir con los estándares de un catálogo predefinido.
+            {t("faq.item1.p3")}
           </p>
         </div>
       ),
     },
     {
-      question: "¿Qué incluye el proyecto?",
+      question: t("faq.item2.question"),
       answer: (
         <div className="space-y-4 text-zinc-600 leading-relaxed text-sm sm:text-base">
           <p>
-            Ofrecemos un <strong>servicio integral llave en mano</strong> que abarca desde la idea inicial hasta el acabado final:
+            <Trans i18nKey="faq.item2.header">
+              Ofrecemos un <strong>servicio integral llave en mano</strong> que abarca desde la idea inicial hasta el acabado final:
+            </Trans>
           </p>
           <ul className="list-disc pl-5 space-y-2">
-            <li><strong>Asesoría y Concepto:</strong> Nos reunimos para entender tu estilo de vida, necesidades de uso y preferencias estéticas.</li>
-            <li><strong>Medición Técnica:</strong> Realizamos una medición in situ exacta y profesional para evitar cualquier margen de error.</li>
-            <li><strong>Diseño y Visualización 3D:</strong> Elaboramos una propuesta en tres dimensiones realista para que puedas ver y perfeccionar la cocina antes de comenzar la producción.</li>
-            <li><strong>Fabricación e Instalación:</strong> Producimos cada pieza con altos estándares y la instalamos mediante nuestro equipo de montadores especializados para un ajuste milimétrico.</li>
+            <li>
+              <Trans i18nKey="faq.item2.li1">
+                <strong>Asesoría y Concepto:</strong> Nos reunimos para entender tu estilo de vida, necesidades de uso y preferencias estéticas.
+              </Trans>
+            </li>
+            <li>
+              <Trans i18nKey="faq.item2.li2">
+                <strong>Medición Técnica:</strong> Realizamos una medición in situ exacta y profesional para evitar cualquier margen de error.
+              </Trans>
+            </li>
+            <li>
+              <Trans i18nKey="faq.item2.li3">
+                <strong>Diseño y Visualización 3D:</strong> Elaboramos una propuesta en tres dimensiones realista para que puedas ver y perfeccionar la cocina antes de comenzar la producción.
+              </Trans>
+            </li>
+            <li>
+              <Trans i18nKey="faq.item2.li4">
+                <strong>Fabricación e Instalación:</strong> Producimos cada pieza con altos estándares y la instalamos mediante nuestro equipo de montadores especializados para un ajuste milimétrico.
+              </Trans>
+            </li>
           </ul>
         </div>
       ),
     },
     {
-      question: "¿Cuánto tempo estaré sin cocina durante el montaje?",
+      question: t("faq.item3.question"),
       answer: (
         <div className="space-y-3 text-zinc-600 leading-relaxed text-sm sm:text-base">
           <p>
-            Reducimos al mínimo los tiempos de transición para mitigar las molestias en tu día a día. La instalación se planifica minuciosamente con antelación, coordinando los plazos de entrega y montaje de manera eficiente.
+            {t("faq.item3.p1")}
           </p>
           <p>
-            Nuestro objetivo es que el proceso sea rápido, ordenado y limpio, permitiéndote disfrutar de tu nueva cocina en el menor tiempo posible sin comprometer la alta precisión en los acabados.
+            {t("faq.item3.p2")}
           </p>
         </div>
       ),
     },
     {
-      question: "¿Con qué marcas trabajan?",
+      question: t("faq.item4.question"),
       answer: (
         <div className="space-y-4 text-zinc-600 leading-relaxed text-sm sm:text-base">
           <p>
-            Seleccionamos exclusivamente firmas de primer nivel que garanticen durabilidad, ergonomía y resistencia al uso continuo diario:
+            {t("faq.item4.header")}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
             <div className="bg-zinc-50 p-4 border border-zinc-100 rounded-lg">
-              <h4 className="font-bold text-zinc-800 mb-1.5 text-xs sm:text-sm uppercase tracking-wider">Superficies y Encimeras</h4>
+              <h4 className="font-bold text-zinc-800 mb-1.5 text-xs sm:text-sm uppercase tracking-wider">
+                {t("faq.item4.box1.title")}
+              </h4>
               <p className="text-zinc-600 text-xs sm:text-sm">
-                Trabajamos con encimeras de alta gama y gran durabilidad como <strong>Silestone</strong>, <strong>Dekton</strong>, <strong>Corian Solid Surface</strong> y <strong>Compac</strong>.
+                <Trans i18nKey="faq.item4.box1.text">
+                  Trabajamos con encimeras de alta gama y gran durabilidad como <strong>Silestone</strong>, <strong>Dekton</strong>, <strong>Corian Solid Surface</strong> y <strong>Compac</strong>.
+                </Trans>
               </p>
             </div>
             <div className="bg-zinc-50 p-4 border border-zinc-100 rounded-lg">
-              <h4 className="font-bold text-zinc-800 mb-1.5 text-xs sm:text-sm uppercase tracking-wider">Mobiliario y Acabados</h4>
+              <h4 className="font-bold text-zinc-800 mb-1.5 text-xs sm:text-sm uppercase tracking-wider">
+                {t("faq.item4.box2.title")}
+              </h4>
               <p className="text-zinc-600 text-xs sm:text-sm">
-                Utilizamos los tableros de tecnología avanzada de <strong>Alvic</strong> para lograr acabados impecables y frentes resistentes al desgaste.
+                <Trans i18nKey="faq.item4.box2.text">
+                  Utilizamos los tableros de tecnología avanzada de <strong>Alvic</strong> para lograr acabados impecables y frentes resistentes al desgaste.
+                </Trans>
               </p>
             </div>
             <div className="bg-zinc-50 p-4 border border-zinc-100 rounded-lg">
-              <h4 className="font-bold text-zinc-800 mb-1.5 text-xs sm:text-sm uppercase tracking-wider">Herrajes y Sistemas</h4>
+              <h4 className="font-bold text-zinc-800 mb-1.5 text-xs sm:text-sm uppercase tracking-wider">
+                {t("faq.item4.box3.title")}
+              </h4>
               <p className="text-zinc-600 text-xs sm:text-sm">
-                Equipamos nuestros módulos con sistemas de la firma austriaca <strong>Blum</strong>, reconocida por la suavidad y el cierre amortiguado en cajones y puertas.
+                <Trans i18nKey="faq.item4.box3.text">
+                  Equipamos nuestros módulos con sistemas de la firma austriaca <strong>Blum</strong>, reconocida por la suavidad y el cierre amortiguado en cajones y puertas.
+                </Trans>
               </p>
             </div>
             <div className="bg-zinc-50 p-4 border border-zinc-100 rounded-lg">
-              <h4 className="font-bold text-zinc-800 mb-1.5 text-xs sm:text-sm uppercase tracking-wider">Electrodomésticos</h4>
+              <h4 className="font-bold text-zinc-800 mb-1.5 text-xs sm:text-sm uppercase tracking-wider">
+                {t("faq.item4.box4.title")}
+              </h4>
               <p className="text-zinc-600 text-xs sm:text-sm">
-                Integramos equipos adaptados a tu estilo de cocina con marcas de confianza como <strong>Bosch</strong>, <strong>Siemens</strong>, <strong>Franke</strong>, <strong>Teka</strong>, <strong>Balay</strong> y <strong>Fagor</strong>.
+                <Trans i18nKey="faq.item4.box4.text">
+                  Integramos equipos adaptados a tu estilo de cocina con marcas de confianza como <strong>Bosch</strong>, <strong>Siemens</strong>, <strong>Franke</strong>, <strong>Teka</strong>, <strong>Balay</strong> y <strong>Fagor</strong>.
+                </Trans>
               </p>
             </div>
           </div>
           <p className="text-xs text-zinc-500 mt-1 italic">
-            * La selección final se define de manera personalizada en la fase de proyecto según diseño, exigencias técnicas y presupuesto.
+            {t("faq.item4.note")}
           </p>
         </div>
       ),
     },
     {
-      question: "¿Qué pasa si necesito un ajuste o surge algún problema con la cocina?",
+      question: t("faq.item5.question"),
       answer: (
         <div className="space-y-3 text-zinc-600 leading-relaxed text-sm sm:text-base">
           <p>
-            Tu tranquilidad a largo plazo es nuestra prioridad. Si con el transcurso del tiempo necesitas recalibrar una puerta, revisar el deslizamiento de un cajón o corregir un cierre amortiguado, nuestro servicio postventa se encarga de solucionarlo.
+            {t("faq.item5.p1")}
           </p>
           <p>
-            Además, todos los componentes y encimeras cuentan con su correspondiente garantía oficial, gestionada directamente por nuestro equipo para evitarte intermediarios y molestias.
+            {t("faq.item5.p2")}
           </p>
         </div>
       ),
     },
     {
-      question: "¿Cómo funciona la financiación?",
+      question: t("faq.item6.question"),
       answer: (
         <div className="space-y-3 text-zinc-600 leading-relaxed text-sm sm:text-base">
           <p>
-            Ofrecemos atractivas opciones de financiación flexible de hasta <strong>96 meses</strong> para que puedas acomodar el pago de tu proyecto con total comodidad. Esta facilidad está sujeta a la aprobación de la entidad financiera colaboradora.
+            <Trans i18nKey="faq.item6.p1">
+              Ofrecemos atractivas opciones de financiación flexible de hasta <strong>96 meses</strong> para que puedas acomodar el pago de tu proyecto con total comodidad. Esta facilidad está sujeta a la aprobación de la entidad financiera colaboradora.
+            </Trans>
           </p>
           <p>
-            Explicamos todas las condiciones de manera transparente y sin letra pequeña en el momento de entregarte el presupuesto detallado, asegurando que todo quede perfectamente definido antes de comenzar.
+            {t("faq.item6.p2")}
           </p>
         </div>
       ),
@@ -132,7 +174,7 @@ export default function FAQ() {
       <div className="mx-auto max-w-[1600px]">
         {/* Title */}
         <h2 className="text-center text-2xl sm:text-3xl font-extrabold text-[#1c1c1c] tracking-tight mb-16">
-          Preguntas frecuentes
+          {t("faq.title")}
         </h2>
 
         {/* FAQ List Accordion */}

@@ -1,0 +1,327 @@
+{
+  "header": {
+    "cocinas": "COCINAS",
+    "productos": "PRODUCTOS Y SERVICIOS",
+    "sublinks": {
+      "cocinas_medida": "Cocinas a Medida",
+      "muebles_medida": "Muebles a Medida",
+      "decoracion_interiores": "Decoración de Interiores",
+      "accesorios_inteligentes": "Accesorios Inteligentes",
+      "cortinas_pergolas": "Cortinas y Pérgolas"
+    },
+    "sobre_nosotros": "SOBRE NOSOTROS",
+    "blog": "BLOG",
+    "contacto": "CONTACTO",
+    "rights_reserved": "Todos los derechos reservados © - La Favorita 2025"
+  },
+  "hero": {
+    "tag": "La Favorita Interior",
+    "slides": [
+      {
+        "title": "Cocinas y armarios diseñados para transformar tu hogar",
+        "subtitle": "Calidad, ergonomía y acabados de alta gama fabricados a medida en Tenerife."
+      },
+      {
+        "title": "Armarios y vestidores a la medida de tu espacio",
+        "subtitle": "Soluciones de almacenamiento inteligentes que maximizan y organizan tu día a día."
+      },
+      {
+        "title": "Interiores personalizados con alma y elegancia",
+        "subtitle": "Diseños fotorrealistas en 3D para proyectar el espacio de tus sueños."
+      },
+      {
+        "title": "Detalles inteligentes para el confort absoluto",
+        "subtitle": "Iluminación integrada y mecanismos automáticos para el mobiliario moderno."
+      },
+      {
+        "title": "Pérgolas y cortinas para disfrutar del clima canario",
+        "subtitle": "Protección solar avanzada y automatización para tu terraza y exteriores."
+      }
+    ],
+    "btn_presupuesto": "Solicitar presupuesto",
+    "btn_proyectos": "Ver proyectos",
+    "arrow_prev": "Anterior slide",
+    "arrow_next": "Siguiente slide",
+    "dot_aria": "Ir al slide"
+  },
+  "about": {
+    "tag": "Muebles a medida en Tenerife",
+    "title_part1": "Más de 20 años",
+    "title_part2": "transformando",
+    "title_shiny": "hogares",
+    "desc_1": "Con <0>experiencia</0> y <1>diseño personalizado</1>, creamos espacios prácticos, funcionales y llenos de estilo.",
+    "desc_2": "Atendemos en <0>Tenerife</0>, <1>El Hierro</1> y <2>La Gomera</2>, entregando proyectos únicos que combinan calidad, buen gusto y funcionalidad.",
+    "sub_title": "Muebles a medida en Tenerife, 100% personalizables",
+    "sub_desc_1": "Creamos muebles que se adaptan a tu estilo de vida y aprovechan cada espacio.",
+    "sub_desc_2": "Desde cocinas y dormitorios hasta decoración de interiores, te ofrecemos <0>diseños innovadores</0> para transformar tu hogar en un espacio funcional y con estilo.",
+    "img_alt": "Cocina de diseño en Tenerife",
+    "passion_title": "Pasión y Experiencia",
+    "quote": "La pasión en cuidar cada detalle, la experiencia en que todo encaje."
+  },
+  "why_choose_us": {
+    "title": "¿Por qué más de 500 clientes ya nos eligieron?",
+    "subtitle": "Diseño, calidad y confianza para tu hogar en Tenerife.",
+    "cards": {
+      "01": {
+        "title": "Precios Justos",
+        "description": "Diseño exclusivo directo de fábrica, a precios justos."
+      },
+      "02": {
+        "title": "Financiación Flexible",
+        "description": "Hasta 60 meses."
+      },
+      "03": {
+        "title": "Amplia Variedad",
+        "description": "Cocinas, armarios y más, a medida para cada espacio."
+      },
+      "04": {
+        "title": "Garantía Extendida",
+        "description": "Hasta 5 años de garantía en todos nuestros muebles."
+      }
+    }
+  },
+  "stats": {
+    "proyectos": {
+      "value": "+500",
+      "label": "Proyectos Realizados",
+      "description": "Cocinas, armarios y reformas premium en Tenerife."
+    },
+    "garantia": {
+      "value": "5 Años",
+      "label": "Garantía Completa",
+      "description": "Tranquilidad y respaldo directo de fábrica en mobiliario."
+    },
+    "diseno": {
+      "value": "100%",
+      "label": "Diseño Personalizado",
+      "description": "Proyecciones fotorrealistas en 3D antes de fabricar."
+    },
+    "atencion": {
+      "value": "Tenerife",
+      "label": "Atención en toda la Isla",
+      "description": "Nos desplazamos a tu domicilio sin ningún compromiso."
+    }
+  },
+  "projects": {
+    "tag": "Portafolio Exclusivo",
+    "title": "Ambientes reales diseñados para inspirar",
+    "subtitle": "Explora una selección de nuestros últimos trabajos completados en Tenerife. Menos cantidad, más calidad artesanal.",
+    "categories": {
+      "all": "Todos los Proyectos",
+      "cocinas": "Cocinas",
+      "armarios": "Armarios",
+      "vestidores": "Vestidores",
+      "banos": "Baños"
+    },
+    "items": {
+      "1": {
+        "title": "Cocina Japandi en Roble Natural",
+        "description": "Cocina con isla central integrada, encimera de Dekton y armarios con herrajes Blum amortiguados.",
+        "materials": "Roble macizo, Fénix NTM y Dekton"
+      },
+      "2": {
+        "title": "Vestidor en U con Perfilería LED",
+        "description": "Vestidor abierto de alta densidad con organizadores de cuero, pantaloneros extraíbles e iluminación LED sensorizada.",
+        "materials": "Melamina texturizada de 19mm, aluminio negro anodizado"
+      },
+      "3": {
+        "title": "Cocina Concepto Abierto Premium",
+        "description": "Proyecto de reforma de cocina abierta al salón con tiradores gola ocultos y campana de extracción de techo.",
+        "materials": "Laminado antihuella seda, Silestone Calacatta"
+      },
+      "4": {
+        "title": "Armario de Entrada Integrado",
+        "description": "Solución de carpintería a medida que integra almacenamiento de calzado, abrigos y cuadro eléctrico con elegancia.",
+        "materials": "DM lacado mate, tiradores fresados"
+      },
+      "5": {
+        "title": "Mueble de Baño Suspendido Doble",
+        "description": "Conjunto de baño minimalista suspendido con cajones de extracción total y lavabos sobre encimera.",
+        "materials": "Madera de teca hidrófuga, lavabo de resina mate"
+      },
+      "6": {
+        "title": "Cocina Lineal con Columnas Ocultas",
+        "description": "Distribución lineal optimizada para apartamento urbano con despensa y electrodomésticos totalmente panelados.",
+        "materials": "Estratificado alta presión, Neolith Iron"
+      },
+      "7": {
+        "title": "Vestidor de Diseño Abierto",
+        "description": "Diseño elegante y sobrio para dormitorio principal con distribución simétrica y módulos zapateros inclinados.",
+        "materials": "Madera barnizada, iluminación interna cálida"
+      },
+      "8": {
+        "title": "Armario Empotrado Coplanares",
+        "description": "Frente de armario empotrado con puertas coplanares deslizantes que quedan en un único plano al cerrarse.",
+        "materials": "Cristal templado tintado, perfilería de acero"
+      }
+    },
+    "labels": {
+      "location": "Ubicación",
+      "materials": "Materiales",
+      "description_label": "Descripción del Proyecto",
+      "cta": "Preguntar por un diseño similar",
+      "baño": "Baño",
+      "mueble_baño": "Mueble de Baño"
+    }
+  },
+  "reviews": {
+    "profile_title": "La Favorita Interior en Tenerife: Especialistas en Cocinas y Muebles a medida.",
+    "count": "81 reseñas Google",
+    "write_review": "Escribe una reseña",
+    "read_more": "Leer más",
+    "read_less": "Leer menos",
+    "items": {
+      "1": {
+        "date": "Hace una semana",
+        "text": "Increíble la atención y la variedad!"
+      },
+      "2": {
+        "date": "Hace 2 meses",
+        "text": "La Favorita interior sin duda es una de las mejores tiendas de muebles de Tenerife, Patricia excelente profesional. Muchas gracias por todo, siempre os recomendaré. 💪"
+      },
+      "3": {
+        "date": "Hace 6 meses",
+        "text": "La verdad que solo tengo comentarios positivos para todo el equipo de la favorita. Aunque no lo contratamos con ellos (no porque no nos gustara o no nos convenciera su proyecto, sino porque al final lo hicimos con unos amigos), los recomendaría 100%. Tanto Patricia como todo su equipo grandísimas personas y profesionales. Les deseo lo mejor y estamos inmensamente agradecidos por su tiempo y dedicación y por toda su ayuda."
+      },
+      "4": {
+        "date": "Hace 6 meses",
+        "text": "Excelente calidad y servicio. Patricia una gran profesional y persona muy amable 100% recomendable. Muchas gracias por su trabajo."
+      },
+      "5": {
+        "date": "Hace 1 año",
+        "text": "Muy recomendable, trato maravilloso y comunicación fluida para adaptarse a nuestras necesidades, aportando ideas y opciones. Muchas gracias por todo. 🥰"
+      },
+      "6": {
+        "date": "Hace 1 año",
+        "text": "No puedo decir otra cosa, más que se han cumplido mis sueños ✨🪄 y Patricia tiene mucho que ver en ese sueño. Gracias por tu profesionalidad y compromiso en el trabajo!! Te agradezco toda la ilusión y esfuerzo que pusiste tú y Jonathan, en complacerme para que todo saliera bien. Inmensamente agradecida!! 😍<3"
+      },
+      "7": {
+        "date": "Hace 1 año",
+        "text": "Patricia es una persona atenta para ayudarte a hacer realidad tu sueño de muebles a medida. No pierdas tiempo y ven a visitar su tienda y conocerla en persona."
+      },
+      "8": {
+        "date": "Hace 1 año",
+        "text": "Estoy muy agradecida con el trabajo de Patricia y su equipo, aunque nunca fuimos a la tienda, todo fue bastante bien y ahora podemos disfrutar de una preciosa cocina, muy práctica, aprovechando también los espacios."
+      },
+      "9": {
+        "date": "Hace 1 año",
+        "text": "Llegué a La Favorita sin tener ni idea de a quién contratar, solo por las reseñas de Google y no puedo estar más contenta con mi cocina y mi despensa. Patricia es una gran profesional, te coge la idea rápidamente, se adapta a tus necesidades y te aconseja si estás equivocada en alguna idea. Todo ha quedado como lo habíamos realizado en el render y dentro de los plazos. Luego tenemos a Jonatan que es el brazo ejecutor, trabajan fenomenal y son muy detallistas. La verdad no podía haber caído en mejores manos. Gracias infinitas a los dos."
+      }
+    }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "item1": {
+      "question": "¿Las cocinas son a medida o modelos cerrados?",
+      "p1": "Diseñamos y fabricamos cocinas <0>100% a medida</0>. Aunque contamos con conceptos inspiradores y distribuciones de referencia como punto de partida, cada proyecto se proyecta desde cero para adaptarse con total precisión a la arquitectura de tu hogar y a tus rutinas cotidianas.",
+      "p2": "No nos limitamos a encajar módulos estándar de catálogo. Planificamos meticulosamente la capacidad de almacenamiento de cada zona, la configuración interior de cajones y gavetas, el sentido de apertura de las puertas, los sistemas de herrajes avanzados, la ergonomía de las alturas y las proporciones generales.",
+      "p3": "Tu cocina se crea para funcionar de verdad en tu casa, no para cumplir con los estándares de un catálogo predefinido."
+    },
+    "item2": {
+      "question": "¿Qué incluye el proyecto?",
+      "header": "Ofrecemos un <0>servicio integral llave en mano</0> que abarca desde la idea inicial hasta el acabado final:",
+      "li1": "<0>Asesoría y Concepto:</0> Nos reunimos para entender tu estilo de vida, necesidades de uso y preferencias estéticas.",
+      "li2": "<0>Medición Técnica:</0> Realizamos una medición in situ exacta y profesional para evitar cualquier margen de error.",
+      "li3": "<0>Diseño y Visualización 3D:</0> Elaboramos una propuesta en tres dimensiones realista para que puedas ver y perfeccionar la cocina antes de comenzar la producción.",
+      "li4": "<0>Fabricación e Instalación:</0> Producimos cada pieza con altos estándares y la instalamos mediante nuestro equipo de montadores especializados para un ajuste milimétrico."
+    },
+    "item3": {
+      "question": "¿Cuánto tiempo estaré sin cocina durante el montaje?",
+      "p1": "Reducimos al mínimo los tiempos de transición para mitigar las molestias en tu día a día. La instalación se planifica minuciosamente con antelación, coordinando los plazos de entrega y montaje de manera eficiente.",
+      "p2": "Nuestro objetivo es que el proceso sea rápido, ordenado y limpio, permitiéndote disfrutar de tu nueva cocina en el menor tiempo posible sin comprometer la alta precisión en los acabados."
+    },
+    "item4": {
+      "question": "¿Con qué marcas trabajan?",
+      "header": "Seleccionamos exclusivamente firmas de primer nivel que garanticen durabilidad, ergonomía y resistencia al uso continuo diario:",
+      "box1": {
+        "title": "Superficies y Encimeras",
+        "text": "Trabajamos con encimeras de alta gama y gran durabilidad como <0>Silestone</0>, <1>Dekton</1>, <2>Corian Solid Surface</2> y <3>Compac</3>."
+      },
+      "box2": {
+        "title": "Mobiliario y Acabados",
+        "text": "Utilizamos los tableros de tecnología avanzada de <0>Alvic</0> para lograr acabados impecables y frentes resistentes al desgaste."
+      },
+      "box3": {
+        "title": "Herrajes y Sistemas",
+        "text": "Equipamos nuestros módulos con sistemas de la firma austriaca <0>Blum</0>, reconocida por la suavidad y el cierre amortiguado en cajones y puertas."
+      },
+      "box4": {
+        "title": "Electrodomésticos",
+        "text": "Integramos equipos adaptados a tu estilo de cocina con marcas de confianza como <0>Bosch</0>, <1>Siemens</1>, <2>Franke</2>, <3>Teka</3>, <4>Balay</4> y <5>Fagor</5>."
+      },
+      "note": "* La selección final se define de manera personalizada en la fase de proyecto según diseño, exigencias técnicas y presupuesto."
+    },
+    "item5": {
+      "question": "¿Qué pasa si necesito un ajuste o surge algún problema con la cocina?",
+      "p1": "Tu tranquilidad a largo plazo es nuestra prioridad. Si con el transcurso del tiempo necesitas recalibrar una puerta, revisar el deslizamiento de un cajón o corregir un cierre amortiguado, nuestro servicio postventa se encarga de solucionarlo.",
+      "p2": "Además, todos los componentes y encimeras cuentan con su correspondiente garantía oficial, gestionada directamente por nuestro equipo para evitarte intermediarios y molestias."
+    },
+    "item6": {
+      "question": "¿Cómo funciona la financiación?",
+      "p1": "Ofrecemos atractivas opciones de financiación flexible de hasta <0>96 meses</0> para que puedas acomodar el pago de tu proyecto con total comodidad. Esta facilidad está sujeta a la aprobación de la entidad financiera colaboradora.",
+      "p2": "Explicamos todas las condiciones de manera transparente y sin letra pequeña en el momento de entregarte el presupuesto detallado, asegurando que todo quede perfectamente definido antes de comenzar."
+    }
+  },
+  "instagram": {
+    "subtitle": "LA FAVORITA MUEBLES A MEDIDA EN TENERIFE",
+    "posts": "publicaciones",
+    "followers": "seguidores",
+    "following": "seguidos",
+    "follow": "Seguir",
+    "load_more": "Cargar más",
+    "follow_on_instagram": "Seguir en Instagram"
+  },
+  "contact": {
+    "tag": "Contacto",
+    "title_part1": "¿Listo para transformar",
+    "title_shiny": "tu cocina?",
+    "subtitle": "Solicita un presupuesto gratuito y recibe asesoramiento de diseño personalizado para tu hogar en Tenerife. Sin ningún compromiso.",
+    "success_title": "¡Mensaje preparado!",
+    "success_desc": "Se ha abierto tu cliente de correo. Envía el mensaje para completar la consulta.",
+    "email": {
+      "subject": "Nueva consulta de cocina — {{name}}"
+    },
+    "info": {
+      "email_label": "Email",
+      "phone_label": "Teléfono",
+      "address_label": "Dirección"
+    },
+    "form": {
+      "name_label": "Nombre completo",
+      "name_placeholder": "Tu nombre",
+      "email_label": "Email",
+      "email_placeholder": "tu@email.com",
+      "phone_label": "Teléfono",
+      "phone_placeholder": "+34 600 000 000",
+      "message_label": "Cuéntanos tu idea",
+      "message_placeholder": "Describe tu proyecto ideal: distribución, estilo, materiales, presupuesto estimado...",
+      "submit": "Enviar consulta",
+      "privacy_note": "Al enviar este formulario, aceptas que nos pongamos en contacto contigo para responder a tu consulta. Sin spam, sin compromiso."
+    },
+    "map": {
+      "title": "¿Dónde estamos?",
+      "open_route": "Abrir ruta en Google Maps",
+      "hover_text": "Click para abrir en Google Maps"
+    }
+  },
+  "footer": {
+    "rights_reserved": "Todos los derechos reservados",
+    "developed_by": "Desarrollado por",
+    "official_distributor": "Distribuidor Oficial",
+    "company_title": "Empresa",
+    "tenerife_title": "Tenerife",
+    "links": {
+      "cocinas": "Cocinas",
+      "productos": "Productos y servicios",
+      "sobre_nosotros": "Sobre Nosotros",
+      "blog": "Blog",
+      "contacto": "Contacto"
+    },
+    "services": {
+      "cocinas_medida": "Cocinas a medida",
+      "armarios_empotrados": "Armarios empotrados",
+      "vestidores_medida": "Vestidores a medida",
+      "muebles_bano": "Muebles de baño"
+    }
+  }
+}

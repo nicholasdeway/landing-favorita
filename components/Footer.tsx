@@ -2,18 +2,37 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
+import { useTranslation } from "react-i18next";
 
-const FOOTER_LINKS = [
-  { href: "/#cocinas", label: "Cocinas" },
-  { href: "/productos", label: "Productos y servicios" },
-  { href: "/sobre-nosotros", label: "Sobre Nosotros" },
-  { href: "/blog", label: "Blog" },
-  { href: "/#contacto", label: "Contacto" },
+const FOOTER_LINKS_METADATA = [
+  { href: "/#cocinas", key: "cocinas" },
+  { href: "/productos", key: "productos" },
+  { href: "/sobre-nosotros", key: "sobre_nosotros" },
+  { href: "/blog", key: "blog" },
+  { href: "/#contacto", key: "contacto" },
+];
+
+const LOCAL_SERVICES_LINKS_METADATA = [
+  { href: "/cocinas-a-medida-tenerife", key: "cocinas_medida" },
+  { href: "/armarios-empotrados-tenerife", key: "armarios_empotrados" },
+  { href: "/vestidores-tenerife", key: "vestidores_medida" },
+  { href: "/muebles-de-bano-tenerife", key: "muebles_bano" },
 ];
 
 export default function Footer() {
+  const { t } = useTranslation();
   const pathname = usePathname();
   const router = useRouter();
+
+  const footerLinks = FOOTER_LINKS_METADATA.map((link) => ({
+    href: link.href,
+    label: t(`footer.links.${link.key}`),
+  }));
+
+  const localServicesLinks = LOCAL_SERVICES_LINKS_METADATA.map((link) => ({
+    href: link.href,
+    label: t(`footer.services.${link.key}`),
+  }));
 
   const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     if (href.startsWith("/#") || href.startsWith("#")) {
@@ -41,7 +60,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="w-full bg-foreground">
+    <footer className="w-full bg-[#1c1c1c] text-white">
       {/* Top divider */}
       <div className="w-full h-px bg-white/10" />
 
@@ -61,10 +80,10 @@ export default function Footer() {
                 © La Favorita {new Date().getFullYear()}
               </p>
               <p className="text-white/30 text-[10px] sm:text-[11px] font-medium mb-3">
-                Todos los derechos reservados
+                {t("footer.rights_reserved")}
               </p>
               <p className="text-white/20 text-[9px] sm:text-[10px] font-medium uppercase tracking-widest">
-                Desarrollado por{' '}
+                {t("footer.developed_by")}{' '}
                 <a
                   href="https://portfolio-bice-phi-cwnx2074yd.vercel.app/"
                   target="_blank"
@@ -133,7 +152,7 @@ export default function Footer() {
 
             {/* Distributor Badge */}
             <div className="pt-6 border-t border-white/10 flex flex-col items-center gap-3 w-full min-w-[200px]">
-              <span className="text-white/30 text-[9px] uppercase tracking-[0.2em] font-bold">Distribuidor Oficial</span>
+              <span className="text-white/30 text-[9px] uppercase tracking-[0.2em] font-bold">{t("footer.official_distributor")}</span>
               <img
                 src="/logos/logo_alvic.png"
                 alt="Alvic"
@@ -142,19 +161,37 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Right — Navigation Links */}
-          <nav className="flex flex-col items-center lg:items-end gap-3">
-            {FOOTER_LINKS.map((link) => (
-              <Link
-                key={link.label}
-                href={link.href}
-                onClick={(e) => handleLinkClick(e, link.href)}
-                className="text-white/50 text-xs sm:text-sm font-medium tracking-wide hover:text-white transition-colors duration-300"
-              >
-                {link.label}
-              </Link>
-            ))}
-          </nav>
+          {/* Right — Navigation Links Grid */}
+          <div className="flex flex-col sm:flex-row gap-12 lg:gap-16">
+            {/* Group 1: Menu */}
+            <nav className="flex flex-col items-center sm:items-start lg:items-end gap-3">
+              <span className="text-white/30 text-[9px] uppercase tracking-[0.2em] font-bold mb-1">{t("footer.company_title")}</span>
+              {footerLinks.map((link) => (
+                <Link
+                  key={link.label}
+                  href={link.href}
+                  onClick={(e) => handleLinkClick(e, link.href)}
+                  className="text-white/50 text-xs sm:text-sm font-medium tracking-wide hover:text-white transition-colors duration-300"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
+
+            {/* Group 2: Servicios Tenerife */}
+            <nav className="flex flex-col items-center sm:items-start lg:items-end gap-3">
+              <span className="text-white/30 text-[9px] uppercase tracking-[0.2em] font-bold mb-1">{t("footer.tenerife_title")}</span>
+              {localServicesLinks.map((link) => (
+                <Link
+                  key={link.label}
+                  href={link.href}
+                  className="text-white/50 text-xs sm:text-sm font-medium tracking-wide hover:text-white transition-colors duration-300"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
+          </div>
         </div>
       </div>
     </footer>

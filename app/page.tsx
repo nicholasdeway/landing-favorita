@@ -1,6 +1,8 @@
 import HeroCarousel from "@/components/HeroCarousel";
 import AboutSection from "@/components/AboutSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import StatsSection from "@/components/StatsSection";
+import ProjectsShowcase from "@/components/ProjectsShowcase";
 import GoogleReviews from "@/components/GoogleReviews";
 import FAQ from "@/components/FAQ";
 import InstagramGallery from "@/components/InstagramGallery";
@@ -13,6 +15,8 @@ export default function Home() {
       <HeroCarousel />
       <AboutSection />
       <WhyChooseUs />
+      <StatsSection />
+      <ProjectsShowcase />
       <GoogleReviews />
       <FAQ />
       <InstagramGallery />

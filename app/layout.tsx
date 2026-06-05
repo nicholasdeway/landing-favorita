@@ -6,6 +6,8 @@ import Footer from "@/components/Footer";
 import FloatingWidgets from "@/components/FloatingWidgets";
 import PageLoader from "@/components/PageLoader";
 
+import { LanguageProvider } from "@/components/LanguageProvider";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -18,7 +20,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "La Favorita | Cocinas y Muebles a Medida en Tenerife",
-  description: "Diseño y fabricación de cocinas, armarios y vestidores a medida de alta calidad. Creamos espaços únicos para tu hogar.",
+  description: "Diseño y fabricación de cocinas, armarios y vestidores a medida de alta calidad. Creamos espacios únicos para tu hogar.",
   icons: {
     icon: "/logos/mini-logo.png",
     shortcut: "/logos/mini-logo.png",
@@ -35,13 +37,16 @@ export default function RootLayout({
     <html
       lang="es"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-background">
-        <Header />
-        <main className="flex-1 flex flex-col">{children}</main>
-        <Footer />
-        <FloatingWidgets />
-        <PageLoader />
+        <LanguageProvider>
+          <Header />
+          <main className="flex-1 flex flex-col">{children}</main>
+          <Footer />
+          <FloatingWidgets />
+          <PageLoader />
+        </LanguageProvider>
       </body>
     </html>
   );

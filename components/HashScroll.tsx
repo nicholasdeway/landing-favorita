@@ -51,15 +51,6 @@ export default function HashScroll() {
         return;
       }
 
-      // Signal to WhyChooseUs that a programmatic navigation is in progress so
-      // it skips the snap-back and instead re-triggers the scroll after its
-      // Lenis instance is recreated.
-      (window as any).__scrollingTo = targetId;
-      // Safety clear in case the WhyChooseUs transition never fires.
-      const safetyTimer = setTimeout(() => {
-        delete (window as any).__scrollingTo;
-      }, 3000);
-
       // Use an instant jump (no smooth animation) so the page lands at the
       // target while the PageLoader is still fading — the user never sees it.
       const lenis = (window as any).globalLenis;
@@ -72,11 +63,6 @@ export default function HashScroll() {
       } else {
         window.scrollTo({ top: targetScroll, behavior: "instant" });
       }
-
-      // Clear flag after a moment; if WhyChooseUs re-triggers the scroll it
-      // will clear it itself, otherwise this is the safety net.
-      clearTimeout(safetyTimer);
-      setTimeout(() => { delete (window as any).__scrollingTo; }, 2000);
     };
 
     // First attempt after PageLoader finishes fading (600ms + buffer)

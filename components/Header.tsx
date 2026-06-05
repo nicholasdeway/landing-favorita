@@ -3,23 +3,25 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
+import { useTranslation } from "react-i18next";
+import { useLanguage } from "./LanguageProvider";
 
 const NAV_LINKS = [
-  { href: "/#cocinas", label: "COCINAS" },
+  { href: "/#cocinas", key: "cocinas" },
   {
     href: "/productos",
-    label: "PRODUCTOS Y SERVICIOS",
+    key: "productos",
     sublinks: [
-      { href: "/productos/cocinas-a-medida", label: "Cocinas a Medida" },
-      { href: "/productos/muebles-a-medida", label: "Muebles a Medida" },
-      { href: "/productos/decoracion-de-interiores", label: "Decoración de Interiores" },
-      { href: "/productos/accesorios-inteligentes", label: "Accesorios Inteligentes" },
-      { href: "/productos/cortinas-pergolas", label: "Cortinas y Pérgolas" }
+      { href: "/productos/cocinas-a-medida", key: "cocinas_medida" },
+      { href: "/productos/muebles-a-medida", key: "muebles_medida" },
+      { href: "/productos/decoracion-de-interiores", key: "decoracion_interiores" },
+      { href: "/productos/accesorios-inteligentes", key: "accesorios_inteligentes" },
+      { href: "/productos/cortinas-pergolas", key: "cortinas_pergolas" }
     ]
   },
-  { href: "/sobre-nosotros", label: "SOBRE NOSOTROS" },
-  { href: "/blog", label: "BLOG" },
-  { href: "/#contacto", label: "CONTACTO" },
+  { href: "/sobre-nosotros", key: "sobre_nosotros" },
+  { href: "/blog", key: "blog" },
+  { href: "/#contacto", key: "contacto" },
 ];
 
 const SOCIAL_LINKS = [
@@ -64,6 +66,8 @@ export default function Header() {
   const pathname = usePathname();
   const router = useRouter();
   const [activeSection, setActiveSection] = useState("");
+  const { t } = useTranslation();
+  const { language, changeLanguage } = useLanguage();
 
   // Track active section on scroll if on home page
   useEffect(() => {
@@ -137,20 +141,16 @@ export default function Header() {
         const element = document.getElementById(targetId);
         if (element) {
           const headerOffset = window.innerWidth >= 1024 ? 128 : 96;
-          // Set flag so WhyChooseUs re-triggers the scroll after its Lenis
-          // instance is recreated (instead of snapping back to its own position).
-          (window as any).__scrollingTo = targetId;
+
           const lenis = (window as any).globalLenis;
           if (lenis) {
-            // Use lenis.scrollTo so Lenis' onNativeScroll doesn't cancel the scroll.
             lenis.scrollTo(element, { offset: -headerOffset, force: true, duration: 1.2 });
           } else {
             const elementPosition = element.getBoundingClientRect().top + window.scrollY;
             window.scrollTo({ top: elementPosition - headerOffset, behavior: "smooth" });
           }
+
           window.history.replaceState(null, "", "/");
-          // Safety clear if WhyChooseUs transition never fires.
-          setTimeout(() => { delete (window as any).__scrollingTo; }, 3000);
         }
       } else {
         e.preventDefault();
@@ -221,7 +221,7 @@ export default function Header() {
               const LinkComponent = useAnchor ? "a" : Link;
 
               return (
-                <div key={link.label} className="relative group">
+                <div key={link.key} className="relative group">
                   <LinkComponent
                     href={actualHref}
                     onClick={(e: any) => handleLinkClick(e, link.href)}
@@ -230,7 +230,7 @@ export default function Header() {
                       : "text-zinc-800 hover:text-brand-teal"
                       }`}
                   >
-                    {link.label}
+                    {t("header." + link.key)}
                     {link.sublinks && (
                       <svg className="w-3.5 h-3.5 transition-transform duration-300 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
@@ -250,11 +250,11 @@ export default function Header() {
                       <div className="flex flex-col py-2">
                         {link.sublinks.map((sublink) => (
                           <Link
-                            key={sublink.label}
+                            key={sublink.key}
                             href={sublink.href}
                             className="px-5 py-3 text-xs font-semibold tracking-widest text-zinc-600 hover:text-brand-teal hover:bg-zinc-50 transition-colors duration-300"
                           >
-                            {sublink.label}
+                            {t("header.sublinks." + sublink.key)}
                           </Link>
                         ))}
                       </div>
@@ -275,12 +275,76 @@ export default function Header() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={social.label}
-                  className={`transition-all duration-300 hover:scale-110 ${social.isImage ? "hover-brand-teal" : "text-zinc-800 hover:text-brand-teal"
+                  className={`transition-all duration-300 hover:scale-110 ${social.isImage ? "hover-brand-teal" : "text-zinc-800 hover:text-black"
                     }`}
                 >
                   {social.icon}
                 </a>
               ))}
+
+              {/* Premium Language Selector */}
+              <div className="flex items-center gap-3.5 ml-4 pl-4 border-l border-zinc-200">
+                <button
+                  onClick={() => changeLanguage("es")}
+                  className={`relative p-0.5 rounded-full transition-all duration-300 hover:scale-110 cursor-pointer ${language === "es"
+                    ? "ring-1 ring-brand-teal ring-offset-1 opacity-100 scale-105"
+                    : "opacity-45 hover:opacity-100"
+                    }`}
+                  aria-label="Español"
+                >
+                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clipPath="url(#clip0_flag_es)">
+                      <rect width="24" height="24" fill="#FCD116" />
+                      <rect width="24" height="6" fill="#C60B1E" />
+                      <rect y="18" width="24" height="6" fill="#C60B1E" />
+                    </g>
+                    <circle cx="12" cy="12" r="11.5" stroke="#E4E4E7" strokeWidth="1" />
+                    <defs>
+                      <clipPath id="clip0_flag_es">
+                        <circle cx="12" cy="12" r="12" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </button>
+                <button
+                  onClick={() => changeLanguage("en")}
+                  className={`relative p-0.5 rounded-full transition-all duration-300 hover:scale-110 cursor-pointer ${language === "en"
+                    ? "ring-1 ring-brand-teal ring-offset-1 opacity-100 scale-105"
+                    : "opacity-45 hover:opacity-100"
+                    }`}
+                  aria-label="English"
+                >
+                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clipPath="url(#clip0_flag_us)">
+                      <rect width="24" height="24" fill="#FFFFFF" />
+                      <rect y="0" width="24" height="1.85" fill="#B22234" />
+                      <rect y="3.7" width="24" height="1.85" fill="#B22234" />
+                      <rect y="7.4" width="24" height="1.85" fill="#B22234" />
+                      <rect y="11.1" width="24" height="1.85" fill="#B22234" />
+                      <rect y="14.8" width="24" height="1.85" fill="#B22234" />
+                      <rect y="18.5" width="24" height="1.85" fill="#B22234" />
+                      <rect y="22.2" width="24" height="1.8" fill="#B22234" />
+                      <rect width="12" height="12.95" fill="#3C3B6E" />
+                      <circle cx="2.5" cy="2.5" r="0.65" fill="#FFFFFF" />
+                      <circle cx="5.5" cy="2.5" r="0.65" fill="#FFFFFF" />
+                      <circle cx="8.5" cy="2.5" r="0.65" fill="#FFFFFF" />
+                      <circle cx="4.0" cy="5.0" r="0.65" fill="#FFFFFF" />
+                      <circle cx="7.0" cy="5.0" r="0.65" fill="#FFFFFF" />
+                      <circle cx="2.5" cy="7.5" r="0.65" fill="#FFFFFF" />
+                      <circle cx="5.5" cy="7.5" r="0.65" fill="#FFFFFF" />
+                      <circle cx="8.5" cy="7.5" r="0.65" fill="#FFFFFF" />
+                      <circle cx="4.0" cy="10.0" r="0.65" fill="#FFFFFF" />
+                      <circle cx="7.0" cy="10.0" r="0.65" fill="#FFFFFF" />
+                    </g>
+                    <circle cx="12" cy="12" r="11.5" stroke="#E4E4E7" strokeWidth="1" />
+                    <defs>
+                      <clipPath id="clip0_flag_us">
+                        <circle cx="12" cy="12" r="12" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -373,14 +437,14 @@ export default function Header() {
               const LinkComponent = useAnchor ? "a" : Link;
 
               return (
-                <div key={link.label} className="flex flex-col gap-4">
+                <div key={link.key} className="flex flex-col gap-4">
                   <LinkComponent
                     href={actualHref}
                     onClick={(e: any) => handleLinkClick(e, link.href)}
                     className={`text-3xl sm:text-4xl font-bold tracking-wide transition-colors duration-300 ${active ? "text-brand-teal" : "text-zinc-900 hover:text-brand-teal"
                       }`}
                   >
-                    {link.label}
+                    {t("header." + link.key)}
                   </LinkComponent>
 
                   {/* Mobile Sublinks */}
@@ -388,12 +452,12 @@ export default function Header() {
                     <div className="flex flex-col gap-4 pl-5 border-l-2 border-zinc-100">
                       {link.sublinks.map((sublink) => (
                         <Link
-                          key={sublink.label}
+                          key={sublink.key}
                           href={sublink.href}
                           onClick={(e) => handleLinkClick(e, sublink.href)}
                           className="text-lg font-semibold tracking-wide text-zinc-500 hover:text-brand-teal transition-colors duration-300"
                         >
-                          {sublink.label}
+                          {t("header.sublinks." + sublink.key)}
                         </Link>
                       ))}
                     </div>
@@ -407,51 +471,117 @@ export default function Header() {
           <div className="flex flex-col gap-5">
             {/* Copyright Text */}
             <p className="text-xs text-zinc-400 font-medium">
-              Todos los derechos reservados © - La Favorita 2025
+              {t("header.rights_reserved")}
             </p>
 
-            {/* Horizontal Social Links */}
-            <div className="flex items-center gap-5.5">
-              {/* Instagram */}
-              <a
-                href="https://www.instagram.com/lafavoritainterior/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram"
-                className="text-black hover:text-brand-teal transition-all duration-300 hover:scale-110"
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                </svg>
-              </a>
+            {/* Horizontal Social Links & Mobile Language Selector */}
+            <div className="flex items-center justify-between border-t border-zinc-100 pt-5 mt-1">
+              <div className="flex items-center gap-5.5">
+                {/* Instagram */}
+                <a
+                  href="https://www.instagram.com/lafavoritainterior/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                  className="text-black hover:text-brand-teal transition-all duration-300 hover:scale-110"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                </a>
 
-              {/* Facebook */}
-              <a
-                href="https://www.facebook.com/lafavoritainterior/?locale=es_ES"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Facebook"
-                className="text-black hover:text-brand-teal transition-all duration-300 hover:scale-110"
-              >
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z" />
-                </svg>
-              </a>
+                {/* Facebook */}
+                <a
+                  href="https://www.facebook.com/lafavoritainterior/?locale=es_ES"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                  className="text-black hover:text-brand-teal transition-all duration-300 hover:scale-110"
+                >
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z" />
+                  </svg>
+                </a>
 
-              {/* Google */}
-              <a
-                href="https://www.google.com.br/search?sca_esv=07c1394e5d835a50&sxsrf=ANbL-n5Apabou-hIUXcc3q3zgu020C4NPw:1779868026524&kgmid=/g/11q2m1725b&q=La+Favorita+Interior+en+Tenerife:+Especialistas+en+Cocinas+y+Muebles+a+medida.&shem=rimspwouoe&shndl=30&source=sh/x/loc/uni/m1/1&kgs=368a91ff5dcfca05&utm_source=rimspwouoe,sh/x/loc/uni/m1/1"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Google"
-                className="text-black hover:text-brand-teal transition-all duration-300 hover:scale-110"
-              >
-                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.24 10.285V14.4h6.887c-.648 2.41-2.519 4.114-5.136 4.114-3.518 0-6.377-2.87-6.377-6.4s2.859-6.4 6.377-6.4c1.582 0 3.03.572 4.148 1.57l3.095-3.095C19.348 2.583 15.981 1.1 12.24 1.1 5.866 1.1.7 6.265.7 12.6s5.166 11.5 11.54 11.5c6.31 0 11.528-4.57 11.528-11.5 0-.742-.09-1.428-.242-2.315H12.24z" />
-                </svg>
-              </a>
+                {/* Google */}
+                <a
+                  href="https://www.google.com.br/search?sca_esv=07c1394e5d835a50&sxsrf=ANbL-n5Apabou-hIUXcc3q3zgu020C4NPw:1779868026524&kgmid=/g/11q2m1725b&q=La+Favorita+Interior+en+Tenerife:+Especialistas+en+Cocinas+y+Muebles+a+medida.&shem=rimspwouoe&shndl=30&source=sh/x/loc/uni/m1/1&kgs=368a91ff5dcfca05&utm_source=rimspwouoe,sh/x/loc/uni/m1/1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Google"
+                  className="text-zinc-800 hover:text-black transition-all duration-300 hover:scale-110"
+                >
+                  <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.24 10.285V14.4h6.887c-.648 2.41-2.519 4.114-5.136 4.114-3.518 0-6.377-2.87-6.377-6.4s2.859-6.4 6.377-6.4c1.582 0 3.03.572 4.148 1.57l3.095-3.095C19.348 2.583 15.981 1.1 12.24 1.1 5.866 1.1.7 6.265.7 12.6s5.166 11.5 11.54 11.5c6.31 0 11.528-4.57 11.528-11.5 0-.742-.09-1.428-.242-2.315H12.24z" />
+                  </svg>
+                </a>
+              </div>
+
+              {/* Mobile Language Selector */}
+              <div className="flex items-center gap-3.5">
+                <button
+                  onClick={() => changeLanguage("es")}
+                  className={`relative p-0.5 rounded-full transition-all duration-300 cursor-pointer ${language === "es"
+                    ? "ring-1 ring-brand-teal ring-offset-1 opacity-100 scale-105"
+                    : "opacity-45"
+                    }`}
+                  aria-label="Español"
+                >
+                  <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clipPath="url(#clip0_flag_es_mobile)">
+                      <rect width="24" height="24" fill="#FCD116" />
+                      <rect width="24" height="6" fill="#C60B1E" />
+                      <rect y="18" width="24" height="6" fill="#C60B1E" />
+                    </g>
+                    <circle cx="12" cy="12" r="11.5" stroke="#E4E4E7" strokeWidth="1" />
+                    <defs>
+                      <clipPath id="clip0_flag_es_mobile">
+                        <circle cx="12" cy="12" r="12" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </button>
+                <button
+                  onClick={() => changeLanguage("en")}
+                  className={`relative p-0.5 rounded-full transition-all duration-300 cursor-pointer ${language === "en"
+                    ? "ring-1 ring-brand-teal ring-offset-1 opacity-100 scale-105"
+                    : "opacity-45"
+                    }`}
+                  aria-label="English"
+                >
+                  <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clipPath="url(#clip0_flag_us_mobile)">
+                      <rect width="24" height="24" fill="#FFFFFF" />
+                      <rect y="0" width="24" height="1.85" fill="#B22234" />
+                      <rect y="3.7" width="24" height="1.85" fill="#B22234" />
+                      <rect y="7.4" width="24" height="1.85" fill="#B22234" />
+                      <rect y="11.1" width="24" height="1.85" fill="#B22234" />
+                      <rect y="14.8" width="24" height="1.85" fill="#B22234" />
+                      <rect y="18.5" width="24" height="1.85" fill="#B22234" />
+                      <rect y="22.2" width="24" height="1.8" fill="#B22234" />
+                      <rect width="12" height="12.95" fill="#3C3B6E" />
+                      <circle cx="2.5" cy="2.5" r="0.65" fill="#FFFFFF" />
+                      <circle cx="5.5" cy="2.5" r="0.65" fill="#FFFFFF" />
+                      <circle cx="8.5" cy="2.5" r="0.65" fill="#FFFFFF" />
+                      <circle cx="4.0" cy="5.0" r="0.65" fill="#FFFFFF" />
+                      <circle cx="7.0" cy="5.0" r="0.65" fill="#FFFFFF" />
+                      <circle cx="2.5" cy="7.5" r="0.65" fill="#FFFFFF" />
+                      <circle cx="5.5" cy="7.5" r="0.65" fill="#FFFFFF" />
+                      <circle cx="8.5" cy="7.5" r="0.65" fill="#FFFFFF" />
+                      <circle cx="4.0" cy="10.0" r="0.65" fill="#FFFFFF" />
+                      <circle cx="7.0" cy="10.0" r="0.65" fill="#FFFFFF" />
+                    </g>
+                    <circle cx="12" cy="12" r="11.5" stroke="#E4E4E7" strokeWidth="1" />
+                    <defs>
+                      <clipPath id="clip0_flag_us_mobile">
+                        <circle cx="12" cy="12" r="12" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
         </div>
