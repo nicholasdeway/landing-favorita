@@ -8,7 +8,7 @@ export default function AboutSection() {
   const { t } = useTranslation();
 
   return (
-    <section id="cocinas" className="w-full bg-background py-12 md:py-24 px-6 sm:px-12 lg:px-20">
+    <section id="bienvenida" className="w-full bg-background py-12 md:py-24 px-6 sm:px-12 lg:px-20">
       <div className="mx-auto max-w-5xl">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
 
@@ -26,20 +26,22 @@ export default function AboutSection() {
 
             <div className="text-zinc-500 text-sm md:text-base leading-relaxed space-y-5">
               <p>
-                <Trans i18nKey="about.desc_1">
-                  Con <strong className="text-zinc-800 font-semibold">experiencia</strong> y{" "}
-                  <strong className="text-zinc-800 font-semibold">diseño personalizado</strong>,
-                  creamos espacios prácticos, funcionales y llenos de estilo.
-                </Trans>
+                <Trans
+                  i18nKey="about.desc_1"
+                  components={[
+                    <strong key="0" className="text-zinc-800 font-semibold" />,
+                    <strong key="1" className="text-zinc-800 font-semibold" />
+                  ]}
+                />
               </p>
 
               <p>
-                <Trans i18nKey="about.desc_2">
-                  Atendemos en <strong className="text-zinc-800 font-semibold">Tenerife</strong>,{" "}
-                  <strong className="text-zinc-800 font-semibold">El Hierro</strong> y{" "}
-                  <strong className="text-zinc-800 font-semibold">La Gomera</strong>, entregando
-                  proyectos únicos que combinan calidad, buen gusto y funcionalidad.
-                </Trans>
+                <Trans
+                  i18nKey="about.desc_2"
+                  components={[
+                    <strong key="0" className="text-zinc-800 font-semibold" />
+                  ]}
+                />
               </p>
 
               <div className="pt-4 border-t border-zinc-100">
@@ -50,11 +52,12 @@ export default function AboutSection() {
                   {t("about.sub_desc_1")}
                 </p>
                 <p>
-                  <Trans i18nKey="about.sub_desc_2">
-                    Desde cocinas y dormitorios hasta decoración de interiores, te ofrecemos{" "}
-                    <strong className="text-zinc-800 font-semibold">diseños innovadores</strong> para
-                    transformar tu hogar en un espacio funcional y con estilo.
-                  </Trans>
+                  <Trans
+                    i18nKey="about.sub_desc_2"
+                    components={[
+                      <strong key="0" className="text-zinc-800 font-semibold" />
+                    ]}
+                  />
                 </p>
               </div>
             </div>

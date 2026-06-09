@@ -1,13 +1,13 @@
 {
   "header": {
-    "cocinas": "COCINAS",
+    "bienvenida": "BIENVENIDA",
     "productos": "PRODUCTOS Y SERVICIOS",
     "sublinks": {
       "cocinas_medida": "Cocinas a Medida",
-      "muebles_medida": "Muebles a Medida",
-      "decoracion_interiores": "Decoración de Interiores",
-      "accesorios_inteligentes": "Accesorios Inteligentes",
-      "cortinas_pergolas": "Cortinas y Pérgolas"
+      "armarios_medida": "Armarios a medida",
+      "muebles_medida": "Muebles a medida",
+      "soluciones_inteligentes": "Soluciones inteligentes",
+      "cortinas_pergolas": "Cortinas y pérgolas"
     },
     "sobre_nosotros": "SOBRE NOSOTROS",
     "blog": "BLOG",
@@ -18,39 +18,44 @@
     "tag": "La Favorita Interior",
     "slides": [
       {
-        "title": "Cocinas y armarios diseñados para transformar tu hogar",
-        "subtitle": "Calidad, ergonomía y acabados de alta gama fabricados a medida en Tenerife."
+        "title": "Cocinas a Medida en Tenerife, diseñada para transformar tu hogar",
+        "subtitle": "Diseño personalizado, materiales de alta calidad e instalación profesional en Tenerife."
       },
       {
-        "title": "Armarios y vestidores a la medida de tu espacio",
+        "title": "Armarios a medida y vestidores para tu espacio",
         "subtitle": "Soluciones de almacenamiento inteligentes que maximizan y organizan tu día a día."
       },
       {
-        "title": "Interiores personalizados con alma y elegancia",
-        "subtitle": "Diseños fotorrealistas en 3D para proyectar el espacio de tus sueños."
+        "title": "Muebles a medida de alta gama para todo tu hogar",
+        "subtitle": "Diseño exclusivo y fabricación local para salón, recibidor o dormitorios."
       },
       {
-        "title": "Detalles inteligentes para el confort absoluto",
+        "title": "Soluciones inteligentes para el confort absoluto",
         "subtitle": "Iluminación integrada y mecanismos automáticos para el mobiliario moderno."
       },
       {
-        "title": "Pérgolas y cortinas para disfrutar del clima canario",
+        "title": "Cortinas y pérgolas para disfrutar del clima canario",
         "subtitle": "Protección solar avanzada y automatización para tu terraza y exteriores."
       }
     ],
-    "btn_presupuesto": "Solicitar presupuesto",
-    "btn_proyectos": "Ver proyectos",
+    "btn_cta": "Descubrir soluciones",
     "arrow_prev": "Anterior slide",
     "arrow_next": "Siguiente slide",
-    "dot_aria": "Ir al slide"
+    "dot_aria": "Ir al slide",
+    "features": [
+      "Proyecto personalizado",
+      "Diseño 3D",
+      "Instalación profesional",
+      "5 años de garantía"
+    ]
   },
   "about": {
     "tag": "Muebles a medida en Tenerife",
     "title_part1": "Más de 20 años",
     "title_part2": "transformando",
     "title_shiny": "hogares",
-    "desc_1": "Con <0>experiencia</0> y <1>diseño personalizado</1>, creamos espacios prácticos, funcionales y llenos de estilo.",
-    "desc_2": "Atendemos en <0>Tenerife</0>, <1>El Hierro</1> y <2>La Gomera</2>, entregando proyectos únicos que combinan calidad, buen gusto y funcionalidad.",
+    "desc_1": "Con <0>20 años de experiencia</0> y <1>diseño personalizado</1>, creamos espacios prácticos, funcionales y llenos de estilo.",
+    "desc_2": "Atendemos en <0>Tenerife</0>, entregando proyectos únicos que combinan calidad, buen gusto y funcionalidad.",
     "sub_title": "Muebles a medida en Tenerife, 100% personalizables",
     "sub_desc_1": "Creamos muebles que se adaptan a tu estilo de vida y aprovechan cada espacio.",
     "sub_desc_2": "Desde cocinas y dormitorios hasta decoración de interiores, te ofrecemos <0>diseños innovadores</0> para transformar tu hogar en un espacio funcional y con estilo.",
@@ -82,14 +87,14 @@
   },
   "stats": {
     "proyectos": {
-      "value": "+500",
+      "value": "+3500",
       "label": "Proyectos Realizados",
       "description": "Cocinas, armarios y reformas premium en Tenerife."
     },
-    "garantia": {
-      "value": "5 Años",
-      "label": "Garantía Completa",
-      "description": "Tranquilidad y respaldo directo de fábrica en mobiliario."
+    "experiencia": {
+      "value": "20 Años",
+      "label": "Experiencia",
+      "description": "Más de 20 años transformando hogares en Tenerife."
     },
     "diseno": {
       "value": "100%",
@@ -258,7 +263,7 @@
     },
     "item6": {
       "question": "¿Cómo funciona la financiación?",
-      "p1": "Ofrecemos atractivas opciones de financiación flexible de hasta <0>96 meses</0> para que puedas acomodar el pago de tu proyecto con total comodidad. Esta facilidad está sujeta a la aprobación de la entidad financiera colaboradora.",
+      "p1": "Ofrecemos atractivas opciones de financiación flexible de hasta <0>60 meses</0> para que puedas acomodar el pago de tu proyecto con total comodidad. Esta facilidad está sujeta a la aprobación de la entidad financiera colaboradora.",
       "p2": "Explicamos todas las condiciones de manera transparente y sin letra pequeña en el momento de entregarte el presupuesto detallado, asegurando que todo quede perfectamente definido antes de comenzar."
     }
   },
@@ -311,7 +316,7 @@
     "company_title": "Empresa",
     "tenerife_title": "Tenerife",
     "links": {
-      "cocinas": "Cocinas",
+      "bienvenida": "Bienvenida",
       "productos": "Productos y servicios",
       "sobre_nosotros": "Sobre Nosotros",
       "blog": "Blog",

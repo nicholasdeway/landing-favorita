@@ -26,8 +26,8 @@ export const CATEGORY_DATA: Record<string, CategoryData> = {
       { label: "Garantía", value: "5 años en todo el mobiliario y herrajes" }
     ]
   },
-  "muebles-a-medida": {
-    title: "Muebles a Medida",
+  "armarios-a-medida": {
+    title: "Armarios a Medida",
     subtitle: "Armarios y vestidores empotrados a medida",
     description: "Creamos armarios, vestidores y soluciones de almacenamiento inteligentes que maximizan y organizan tu espacio.",
     paragraphs: [
@@ -43,25 +43,25 @@ export const CATEGORY_DATA: Record<string, CategoryData> = {
       { label: "Garantía", value: "5 años de fabricación propia" }
     ]
   },
-  "decoracion-de-interiores": {
-    title: "Decoración de Interiores",
-    subtitle: "Conceptos integrales de diseño residencial",
-    description: "Planificamos y estructuramos visualmente tus espacios para convertirlos en ambientes elegantes y acogedores.",
+  "muebles-a-medida": {
+    title: "Muebles a Medida",
+    subtitle: "Mobiliario personalizado para todo tu hogar",
+    description: "Diseñamos y fabricamos muebles a medida que se adaptan a tu estilo de vida, optimizando cada rincón con diseños funcionales y acabados de lujo.",
     paragraphs: [
-      "Nuestro servicio de decoración de interiores te ayuda a visualizar tu hogar antes de fabricar cualquier pieza. Estudiamos la luz, los puntos de paso y el comportamiento diario de tu familia para recomendar la mejor distribución.",
-      "Te acompañamos en la selección de textiles, pinturas, papel pintado, complementos decorativos e iluminación, garantizando coherencia visual y armonía en todo tu hogar."
+      "Desde muebles de salón, aparadores y librerías hasta soluciones integradas para dormitorios y recibidores. Nos adaptamos a cualquier espacio, estilo y necesidad de almacenamiento.",
+      "Utilizamos materiales seleccionados de alta calidad para garantizar la máxima durabilidad y resistencia en el uso diario, combinando diseño y funcionalidad en cada pieza."
     ],
-    image: "/images/004-image.jpg",
+    image: "/images/013-image.jpg",
     gallery: ["/images/005-image.jpg", "/images/006-image.jpg"],
     specifications: [
-      { label: "Servicio", value: "Diseño 3D fotorrealista, selección de materiales, interiorismo" },
-      { label: "Estilos", value: "Minimalista, nórdico, moderno, contemporáneo, industrial" },
-      { label: "Ámbito", value: "Cocinas, salones, dormitorios, viviendas completas" },
-      { label: "Plazos", value: "Entrega de proyecto conceptual en 10-15 días hábiles" }
+      { label: "Materiales", value: "Maderas nobles, tableros MDF lacados, chapas naturales y metales" },
+      { label: "Acabados", value: "Barniz mate o brillo, lacado personalizado, texturas exclusivas" },
+      { label: "Estilos", value: "Moderno, minimalista, contemporáneo, clásico renovado" },
+      { label: "Garantía", value: "5 años de fabricación local propia" }
     ]
   },
-  "accesorios-inteligentes": {
-    title: "Accesorios Inteligentes",
+  "soluciones-inteligentes": {
+    title: "Soluciones Inteligentes",
     subtitle: "Tecnología y automatización para el mobiliario moderno",
     description: "Llevamos la domótica y los mecanismos de alta tecnología a tu cocina y vestidor.",
     paragraphs: [
@@ -74,7 +74,7 @@ export const CATEGORY_DATA: Record<string, CategoryData> = {
       { label: "Iluminación", value: "LED de bajo consumo 24V con temperatura regulable de luz" },
       { label: "Aperturas", value: "Sistemas de pulsador eléctrico para cajones y compuertas elevables" },
       { label: "Conectividad", value: "Cargadores inalámbricos Qi ocultos en encimeras" },
-      { label: "Garantía", value: "2 años en componentes eléctricos y electrónicos" }
+      { label: "Garantía", value: "1 años en componentes eléctricos y electrónicos" }
     ]
   },
   "cortinas-pergolas": {

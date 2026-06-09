@@ -7,36 +7,36 @@ const PRODUCT_CATEGORIES = [
     slug: "cocinas-a-medida",
     title: "Cocinas a Medida",
     description: "Diseñamos y fabricamos cocinas a medida exclusivas en Tenerife, optimizando el espacio, la ergonomía y combinando estética de vanguardia con alta funcionalidad.",
-    image: "/images/001-image.jpg",
+    image: "/images/012-image.jpg",
     features: ["Herrajes amortiguados premium", "Diseño ergonómico personalizado", "Amplia gama de materiales y texturas"]
+  },
+  {
+    slug: "armarios-a-medida",
+    title: "Armarios a Medida",
+    description: "Diseño y fabricación de armarios empotrados y vestidores a medida en Tenerife. Soluciones inteligentes para maximizar y organizar tu espacio del día a día.",
+    image: "/images/001-image.jpg",
+    features: ["Interiores configurables", "Acabados lacados y texturizados", "Puertas correderas o abatibles integradas"]
   },
   {
     slug: "muebles-a-medida",
     title: "Muebles a Medida",
-    description: "Armarios empotrados, vestidores y mobiliario personalizado para cualquier rincón de tu hogar. Aprovechamos cada centímetro con diseños únicos.",
-    image: "/images/002-image.jpg",
-    features: ["Interiores configurables", "Acabados lacados y texturizados", "Puertas abatibles o correderas integradas"]
+    description: "Mobiliario personalizado de alta gama para salones, dormitorios y recibidores. Diseñamos piezas funcionales y exclusivas que se integran en tu hogar.",
+    image: "/images/013-image.jpg",
+    features: ["Fabricación artesanal propia", "Maderas nobles y lacados premium", "Diseños adaptados a tu estilo de vida"]
   },
   {
-    slug: "decoracion-interiores",
-    title: "Decoración de Interiores",
-    description: "Asesoramiento profesional para dar coherencia y estilo a tus estancias. Creamos conceptos espaciales completos integrando mobiliario, luces y colores.",
-    image: "/images/003-image.jpg",
-    features: ["Planificación en 3D", "Coordinación de colores y texturas", "Optimización de la iluminación de estancias"]
-  },
-  {
-    slug: "accesorios-inteligentes",
-    title: "Accesorios Inteligentes",
-    description: "Integración de cajones automáticos, iluminación LED empotrada con sensor de presencia y soluciones que hacen tu cocina y vestidor inteligentes.",
-    image: "/images/001-image.jpg",
-    features: ["Apertura motorizada táctil", "Iluminación interior integrada", "Organizadores extraíbles ergonómicos"]
+    slug: "soluciones-inteligentes",
+    title: "Soluciones Inteligentes",
+    description: "Integración de cajones automáticos, iluminación LED integrada con sensores de presencia y domótica avanzada para hacer tu hogar más práctico.",
+    image: "/images/007-image.jpg",
+    features: ["Aperturas motorizadas y táctiles", "Cargadores inalámbricos ocultos", "Iluminación interior automatizada"]
   },
   {
     slug: "cortinas-pergolas",
     title: "Cortinas y Pérgolas",
-    description: "Soluciones textiles y estructuras para exterior que complementan tus espacios, controlando el sol y dotando de total privacidad a tu hogar.",
-    image: "/images/002-image.jpg",
-    features: ["Sistemas motorizados", "Tejidos técnicos de alta durabilidad", "Pérgolas bioclimáticas a medida"]
+    description: "Soluciones de protección solar a medida como estores técnicos y pérgolas bioclimáticas automáticas para disfrutar al máximo de tu terraza.",
+    image: "/images/010-image.jpg",
+    features: ["Sistemas motorizados WiFi", "Tejidos técnicos de alta durabilidad", "Pérgolas bioclimáticas de aluminio"]
   }
 ];
 

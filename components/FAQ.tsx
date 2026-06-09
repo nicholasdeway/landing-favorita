@@ -22,14 +22,10 @@ export default function FAQ() {
       answer: (
         <div className="space-y-4 text-zinc-600 leading-relaxed text-sm sm:text-base">
           <p>
-            <Trans i18nKey="faq.item1.p1">
-              Diseñamos y fabricamos cocinas <strong>100% a medida</strong>. Aunque contamos con conceptos inspiradores y distribuciones de referencia como punto de partida, cada proyecto se proyecta desde cero para adaptarse con total precisión a la arquitectura de tu hogar y a tus rutinas cotidianas.
-            </Trans>
+            <Trans i18nKey="faq.item1.p1" components={[<strong key="0" />]} />
           </p>
           <p>
-            <Trans i18nKey="faq.item1.p2">
-              No nos limitamos a encajar módulos estándar de catálogo. Planificamos meticulosamente la capacidad de almacenamiento de cada zona, la configuración interior de cajones y gavetas, el sentido de apertura de las puertas, los sistemas de herrajes avanzados, la ergonomía de las alturas y las proporciones generales.
-            </Trans>
+            {t("faq.item1.p2")}
           </p>
           <p className="italic text-zinc-500 font-medium">
             {t("faq.item1.p3")}
@@ -42,30 +38,20 @@ export default function FAQ() {
       answer: (
         <div className="space-y-4 text-zinc-600 leading-relaxed text-sm sm:text-base">
           <p>
-            <Trans i18nKey="faq.item2.header">
-              Ofrecemos un <strong>servicio integral llave en mano</strong> que abarca desde la idea inicial hasta el acabado final:
-            </Trans>
+            <Trans i18nKey="faq.item2.header" components={[<strong key="0" />]} />
           </p>
           <ul className="list-disc pl-5 space-y-2">
             <li>
-              <Trans i18nKey="faq.item2.li1">
-                <strong>Asesoría y Concepto:</strong> Nos reunimos para entender tu estilo de vida, necesidades de uso y preferencias estéticas.
-              </Trans>
+              <Trans i18nKey="faq.item2.li1" components={[<strong key="0" />]} />
             </li>
             <li>
-              <Trans i18nKey="faq.item2.li2">
-                <strong>Medición Técnica:</strong> Realizamos una medición in situ exacta y profesional para evitar cualquier margen de error.
-              </Trans>
+              <Trans i18nKey="faq.item2.li2" components={[<strong key="0" />]} />
             </li>
             <li>
-              <Trans i18nKey="faq.item2.li3">
-                <strong>Diseño y Visualización 3D:</strong> Elaboramos una propuesta en tres dimensiones realista para que puedas ver y perfeccionar la cocina antes de comenzar la producción.
-              </Trans>
+              <Trans i18nKey="faq.item2.li3" components={[<strong key="0" />]} />
             </li>
             <li>
-              <Trans i18nKey="faq.item2.li4">
-                <strong>Fabricación e Instalación:</strong> Producimos cada pieza con altos estándares y la instalamos mediante nuestro equipo de montadores especializados para un ajuste milimétrico.
-              </Trans>
+              <Trans i18nKey="faq.item2.li4" components={[<strong key="0" />]} />
             </li>
           </ul>
         </div>
@@ -97,9 +83,15 @@ export default function FAQ() {
                 {t("faq.item4.box1.title")}
               </h4>
               <p className="text-zinc-600 text-xs sm:text-sm">
-                <Trans i18nKey="faq.item4.box1.text">
-                  Trabajamos con encimeras de alta gama y gran durabilidad como <strong>Silestone</strong>, <strong>Dekton</strong>, <strong>Corian Solid Surface</strong> y <strong>Compac</strong>.
-                </Trans>
+                <Trans
+                  i18nKey="faq.item4.box1.text"
+                  components={[
+                    <strong key="0" />,
+                    <strong key="1" />,
+                    <strong key="2" />,
+                    <strong key="3" />
+                  ]}
+                />
               </p>
             </div>
             <div className="bg-zinc-50 p-4 border border-zinc-100 rounded-lg">
@@ -107,9 +99,12 @@ export default function FAQ() {
                 {t("faq.item4.box2.title")}
               </h4>
               <p className="text-zinc-600 text-xs sm:text-sm">
-                <Trans i18nKey="faq.item4.box2.text">
-                  Utilizamos los tableros de tecnología avanzada de <strong>Alvic</strong> para lograr acabados impecables y frentes resistentes al desgaste.
-                </Trans>
+                <Trans
+                  i18nKey="faq.item4.box2.text"
+                  components={[
+                    <strong key="0" />
+                  ]}
+                />
               </p>
             </div>
             <div className="bg-zinc-50 p-4 border border-zinc-100 rounded-lg">
@@ -117,9 +112,12 @@ export default function FAQ() {
                 {t("faq.item4.box3.title")}
               </h4>
               <p className="text-zinc-600 text-xs sm:text-sm">
-                <Trans i18nKey="faq.item4.box3.text">
-                  Equipamos nuestros módulos con sistemas de la firma austriaca <strong>Blum</strong>, reconocida por la suavidad y el cierre amortiguado en cajones y puertas.
-                </Trans>
+                <Trans
+                  i18nKey="faq.item4.box3.text"
+                  components={[
+                    <strong key="0" />
+                  ]}
+                />
               </p>
             </div>
             <div className="bg-zinc-50 p-4 border border-zinc-100 rounded-lg">
@@ -127,9 +125,17 @@ export default function FAQ() {
                 {t("faq.item4.box4.title")}
               </h4>
               <p className="text-zinc-600 text-xs sm:text-sm">
-                <Trans i18nKey="faq.item4.box4.text">
-                  Integramos equipos adaptados a tu estilo de cocina con marcas de confianza como <strong>Bosch</strong>, <strong>Siemens</strong>, <strong>Franke</strong>, <strong>Teka</strong>, <strong>Balay</strong> y <strong>Fagor</strong>.
-                </Trans>
+                <Trans
+                  i18nKey="faq.item4.box4.text"
+                  components={[
+                    <strong key="0" />,
+                    <strong key="1" />,
+                    <strong key="2" />,
+                    <strong key="3" />,
+                    <strong key="4" />,
+                    <strong key="5" />
+                  ]}
+                />
               </p>
             </div>
           </div>
@@ -157,9 +163,7 @@ export default function FAQ() {
       answer: (
         <div className="space-y-3 text-zinc-600 leading-relaxed text-sm sm:text-base">
           <p>
-            <Trans i18nKey="faq.item6.p1">
-              Ofrecemos atractivas opciones de financiación flexible de hasta <strong>96 meses</strong> para que puedas acomodar el pago de tu proyecto con total comodidad. Esta facilidad está sujeta a la aprobación de la entidad financiera colaboradora.
-            </Trans>
+            <Trans i18nKey="faq.item6.p1" components={[<strong key="0" />]} />
           </p>
           <p>
             {t("faq.item6.p2")}

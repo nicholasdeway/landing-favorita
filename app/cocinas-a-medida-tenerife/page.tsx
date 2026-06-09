@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Cocinas a Medida en Tenerife | Diseños Modernos y de Lujo",
-  description: "Diseño y fabricación de cocinas a medida en Tenerife. Especialistas en cocinas de alta gama con isla, herrajes alemanes y encimeras premium. ¡Presupuesto gratis!",
+  description: "Diseño y fabricación de Cocinas a Medida en Tenerife. Especialistas en cocinas de alta gama con isla, herrajes alemanes y encimeras premium. ¡Presupuesto gratis!",
   keywords: "cocinas a medida tenerife, cocinas de diseño tenerife, reformas de cocinas tenerife, muebles de cocina tenerife"
 };
 
@@ -40,7 +40,7 @@ export default function CocinasTenerifePage() {
         <div className="absolute inset-0 bg-black/55 z-10" />
         <img
           src="/images/012-image.jpg"
-          alt="Cocina a medida de lujo en Tenerife"
+          alt="Cocinas a Medida de lujo en Tenerife"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="relative z-20 max-w-7xl mx-auto px-6 sm:px-10 lg:px-14 w-full">
@@ -70,7 +70,7 @@ export default function CocinasTenerifePage() {
             <p>
               Cada proyecto se fabrica a medida en nuestro taller local, lo que nos permite un control total sobre la calidad y los plazos de entrega. Desde el triángulo de trabajo ergonómico hasta la elección de encimeras (Dekton, Silestone, granito) y herrajes amortiguados de última generación, cuidamos cada detalle para que tu cocina luzca impecable por décadas.
             </p>
-            <h3 className="text-xl font-bold text-zinc-900 pt-4">¿Por qué optar por una cocina a medida con nosotros?</h3>
+            <h3 className="text-xl font-bold text-zinc-900 pt-4">¿Por qué optar por una Cocinas a Medida con nosotros?</h3>
             <ul className="list-disc pl-5 space-y-2">
               <li><strong>Asesoría 3D previa:</strong> Visualiza tu proyecto en renders tridimensionales fotorrealistas antes de iniciar la fabricación.</li>
               <li><strong>Materiales premium:</strong> Estructuras de DM hidrófugo y laminados antihuella resistentes a la humedad de las zonas costeras de Tenerife.</li>

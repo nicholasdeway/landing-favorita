@@ -1,12 +1,12 @@
 {
   "header": {
-    "cocinas": "KITCHENS",
+    "bienvenida": "WELCOME",
     "productos": "PRODUCTS & SERVICES",
     "sublinks": {
       "cocinas_medida": "Custom Kitchens",
+      "armarios_medida": "Custom Wardrobes",
       "muebles_medida": "Custom Furniture",
-      "decoracion_interiores": "Interior Design",
-      "accesorios_inteligentes": "Smart Accessories",
+      "soluciones_inteligentes": "Smart Solutions",
       "cortinas_pergolas": "Curtains & Pergolas"
     },
     "sobre_nosotros": "ABOUT US",
@@ -18,39 +18,44 @@
     "tag": "La Favorita Interior",
     "slides": [
       {
-        "title": "Kitchens and wardrobes designed to transform your home",
-        "subtitle": "Quality, ergonomics and high-end finishes custom-made in Tenerife."
+        "title": "Custom kitchen in Tenerife, designed to transform your home",
+        "subtitle": "Personalized design, high-quality materials and professional installation in Tenerife."
       },
       {
-        "title": "Wardrobes and dressing rooms tailored to your space",
+        "title": "Custom wardrobes and dressing rooms for your space",
         "subtitle": "Smart storage solutions that maximize and organize your daily life."
       },
       {
-        "title": "Personalized interiors with soul and elegance",
-        "subtitle": "Photorealistic 3D designs to project the space of your dreams."
+        "title": "Premium custom furniture for your entire home",
+        "subtitle": "Exclusive design and local manufacturing for living rooms, hallways or bedrooms."
       },
       {
-        "title": "Smart details for absolute comfort",
+        "title": "Smart solutions for absolute comfort",
         "subtitle": "Integrated lighting and automatic mechanisms for modern furniture."
       },
       {
-        "title": "Pergolas and curtains to enjoy the Canarian climate",
+        "title": "Curtains and pergolas to enjoy the Canarian climate",
         "subtitle": "Advanced solar protection and automation for your terrace and outdoors."
       }
     ],
-    "btn_presupuesto": "Request a quote",
-    "btn_proyectos": "View projects",
+    "btn_cta": "Discover solutions",
     "arrow_prev": "Previous slide",
     "arrow_next": "Next slide",
-    "dot_aria": "Go to slide"
+    "dot_aria": "Go to slide",
+    "features": [
+      "Custom project",
+      "3D Design",
+      "Professional installation",
+      "5-year warranty"
+    ]
   },
   "about": {
     "tag": "Custom furniture in Tenerife",
     "title_part1": "More than 20 years",
     "title_part2": "transforming",
     "title_shiny": "homes",
-    "desc_1": "With <0>experience</0> and <1>personalized design</1>, we create practical, functional and stylish spaces.",
-    "desc_2": "We serve in <0>Tenerife</0>, <1>El Hierro</1> and <2>La Gomera</2>, delivering unique projects that combine quality, good taste and functionality.",
+    "desc_1": "With <0>20 years of experience</0> and <1>custom design</1>, we create practical, functional and stylish spaces.",
+    "desc_2": "We serve in <0>Tenerife</0>, delivering unique projects that combine quality, good taste and functionality.",
     "sub_title": "Custom furniture in Tenerife, 100% customizable",
     "sub_desc_1": "We create furniture that adapts to your lifestyle and makes the most of every space.",
     "sub_desc_2": "From kitchens and bedrooms to interior decoration, we offer <0>innovative designs</0> to transform your home into a functional and stylish space.",
@@ -82,14 +87,14 @@
   },
   "stats": {
     "proyectos": {
-      "value": "+500",
+      "value": "+3500",
       "label": "Completed Projects",
       "description": "Premium kitchens, wardrobes and renovations in Tenerife."
     },
-    "garantia": {
-      "value": "5 Years",
-      "label": "Full Warranty",
-      "description": "Peace of mind and direct factory support on furniture."
+    "experiencia": {
+      "value": "20 Years",
+      "label": "Experience",
+      "description": "More than 20 years transforming homes in Tenerife."
     },
     "diseno": {
       "value": "100%",
@@ -258,7 +263,7 @@
     },
     "item6": {
       "question": "How does financing work?",
-      "p1": "We offer attractive flexible financing options of up to <0>96 months</0> so you can accommodate the payment of your project with total comfort. This facility is subject to approval by the collaborating financial entity.",
+      "p1": "We offer attractive flexible financing options of up to <0>60 months</0> so you can accommodate the payment of your project with total comfort. This facility is subject to approval by the collaborating financial entity.",
       "p2": "We explain all conditions transparently and without fine print at the time of delivering the detailed quote, ensuring that everything is perfectly defined before starting."
     }
   },
@@ -311,7 +316,7 @@
     "company_title": "Company",
     "tenerife_title": "Tenerife",
     "links": {
-      "cocinas": "Kitchens",
+      "bienvenida": "Welcome",
       "productos": "Products & services",
       "sobre_nosotros": "About Us",
       "blog": "Blog",

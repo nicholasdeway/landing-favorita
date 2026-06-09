@@ -3,17 +3,24 @@ import { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
 const SLIDES_METADATA = [
-  { image: "/images/012-image.jpg" },
+  { image: "/images/010-image.jpg" },
   { image: "/images/002-image.jpg" },
   { image: "/images/003-image.jpg" },
   { image: "/images/007-image.jpg" },
-  { image: "/images/010-image.jpg" },
+  { image: "/images/013-image.jpg" },
 ];
 
 export default function HeroCarousel() {
   const { t } = useTranslation();
   const [currentSlide, setCurrentSlide] = useState(0);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
+
+  const featuresRaw = t("hero.features", { returnObjects: true }) as any;
+  const features: string[] = Array.isArray(featuresRaw)
+    ? featuresRaw
+    : typeof featuresRaw === "string"
+      ? featuresRaw.split("·").map((s) => s.trim().replace(/^\s*/, ""))
+      : [];
 
   const slides = SLIDES_METADATA.map((slide, idx) => ({
     ...slide,
@@ -81,9 +88,8 @@ export default function HeroCarousel() {
       {slides.map((slide, idx) => (
         <div
           key={idx}
-          className={`absolute inset-0 w-full h-full transition-all duration-[1200ms] ease-in-out ${
-            idx === currentSlide ? "opacity-100 scale-100 z-10" : "opacity-0 scale-105 z-0"
-          }`}
+          className={`absolute inset-0 w-full h-full transition-all duration-[1200ms] ease-in-out ${idx === currentSlide ? "opacity-100 scale-100 z-10" : "opacity-0 scale-105 z-0"
+            }`}
         >
           {/* Magazine-style dark overlay gradient */}
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent z-10" />
@@ -100,7 +106,7 @@ export default function HeroCarousel() {
         <div className="mx-auto w-full max-w-7xl px-6 sm:px-10 lg:px-14">
           <div className="max-w-3xl flex flex-col justify-center pointer-events-auto">
             {/* Small golden tag */}
-            <span className="inline-flex items-center gap-2 text-brand-gold text-xs sm:text-sm font-bold tracking-[0.25em] uppercase mb-4 animate-[fadeIn_0.5s_ease-out]">
+            <span className="inline-flex items-center gap-2 text-brand-gold text-xs sm:text-sm font-bold tracking-[0.25em] uppercase mb-6 sm:mb-4 animate-[fadeIn_0.5s_ease-out]">
               <span className="w-8 h-[1px] bg-brand-gold" />
               {t("hero.tag")}
             </span>
@@ -109,11 +115,10 @@ export default function HeroCarousel() {
             {slides.map((slide, idx) => (
               <div
                 key={idx}
-                className={`transition-all duration-700 ${
-                  idx === currentSlide
-                    ? "opacity-100 translate-y-0 relative pointer-events-auto"
-                    : "opacity-0 translate-y-4 absolute pointer-events-none"
-                }`}
+                className={`transition-all duration-700 ${idx === currentSlide
+                  ? "opacity-100 translate-y-0 relative pointer-events-auto"
+                  : "opacity-0 translate-y-4 absolute pointer-events-none"
+                  }`}
               >
                 {idx === currentSlide && (
                   <>
@@ -131,17 +136,26 @@ export default function HeroCarousel() {
             {/* Premium CTA Button Group */}
             <div className="mt-10 flex flex-wrap gap-4 animate-[fadeIn_0.7s_ease-out]">
               <button
-                onClick={() => handleScrollTo("contacto")}
+                onClick={() => handleScrollTo("proyectos")}
                 className="px-8 py-4 bg-brand-gold hover:bg-brand-gold/90 text-white font-semibold rounded-xl text-xs sm:text-sm uppercase tracking-widest transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-black/25 cursor-pointer"
               >
-                {t("hero.btn_presupuesto")}
+                {t("hero.btn_cta")}
               </button>
-              <button
-                onClick={() => handleScrollTo("proyectos")}
-                className="px-8 py-4 border border-white/30 hover:border-white text-white font-semibold rounded-xl text-xs sm:text-sm uppercase tracking-widest bg-white/5 hover:bg-white/10 transition-all duration-300 backdrop-blur-xs cursor-pointer"
-              >
-                {t("hero.btn_proyectos")}
-              </button>
+            </div>
+
+            {/* Divider Line */}
+            <div className="mt-8 border-t border-white/15 w-full max-w-xl animate-[fadeIn_0.9s_ease-out]" />
+
+            {/* Slide Features */}
+            <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-2 text-[13px] sm:text-xs md:text-sm text-white/80 font-medium tracking-wide animate-[fadeIn_0.9s_ease-out]">
+              {features.map((feature, idx) => (
+                <div key={idx} className="flex items-center gap-1.5 whitespace-nowrap text-brand-gold">
+                  <span>{feature}</span>
+                  {idx < features.length - 1 && (
+                    <span className="text-white/30 ml-2 select-none font-normal">·</span>
+                  )}
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -193,11 +207,10 @@ export default function HeroCarousel() {
           <button
             key={idx}
             onClick={() => handleDotClick(idx)}
-            className={`h-2 rounded-full transition-all duration-500 cursor-pointer ${
-              idx === currentSlide
-                ? "w-8 bg-brand-gold"
-                : "w-2 bg-white/30 hover:bg-white/60"
-            }`}
+            className={`h-2 rounded-full transition-all duration-500 cursor-pointer ${idx === currentSlide
+              ? "w-8 bg-brand-gold"
+              : "w-2 bg-white/30 hover:bg-white/60"
+              }`}
             aria-label={`${t("hero.dot_aria")} ${idx + 1}`}
           />
         ))}

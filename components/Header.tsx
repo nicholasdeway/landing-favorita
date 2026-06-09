@@ -7,15 +7,15 @@ import { useTranslation } from "react-i18next";
 import { useLanguage } from "./LanguageProvider";
 
 const NAV_LINKS = [
-  { href: "/#cocinas", key: "cocinas" },
+  { href: "/#bienvenida", key: "bienvenida" },
   {
     href: "/productos",
     key: "productos",
     sublinks: [
       { href: "/productos/cocinas-a-medida", key: "cocinas_medida" },
+      { href: "/productos/armarios-a-medida", key: "armarios_medida" },
       { href: "/productos/muebles-a-medida", key: "muebles_medida" },
-      { href: "/productos/decoracion-de-interiores", key: "decoracion_interiores" },
-      { href: "/productos/accesorios-inteligentes", key: "accesorios_inteligentes" },
+      { href: "/productos/soluciones-inteligentes", key: "soluciones_inteligentes" },
       { href: "/productos/cortinas-pergolas", key: "cortinas_pergolas" }
     ]
   },
@@ -76,7 +76,7 @@ export default function Header() {
       return;
     }
 
-    const sections = ["cocinas", "contacto"];
+    const sections = ["bienvenida", "contacto"];
     const handleScroll = () => {
       const scrollPosition = window.scrollY + 200; // offset
 
@@ -94,7 +94,7 @@ export default function Header() {
 
       // If we are at the very top
       if (window.scrollY < 200) {
-        setActiveSection("cocinas");
+        setActiveSection("bienvenida");
       }
     };
 
@@ -178,8 +178,8 @@ export default function Header() {
     if (link.href === "/productos" || link.href.startsWith("/productos/")) {
       return pathname.startsWith("/productos");
     }
-    if (link.href === "/#cocinas") {
-      return pathname === "/" && (activeSection === "cocinas" || activeSection === "");
+    if (link.href === "/#bienvenida") {
+      return pathname === "/" && (activeSection === "bienvenida" || activeSection === "");
     }
     if (link.href === "/#contacto") {
       return pathname === "/" && activeSection === "contacto";

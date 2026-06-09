@@ -68,7 +68,7 @@ function AnimatedStat({ value }: AnimatedStatProps) {
 
 const STATS_METADATA = [
   { id: "proyectos" },
-  { id: "garantia" },
+  { id: "experiencia" },
   { id: "diseno" },
   { id: "atencion" }
 ];

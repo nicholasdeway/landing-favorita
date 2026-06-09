@@ -5,7 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useTranslation } from "react-i18next";
 
 const FOOTER_LINKS_METADATA = [
-  { href: "/#cocinas", key: "cocinas" },
+  { href: "/#bienvenida", key: "bienvenida" },
   { href: "/productos", key: "productos" },
   { href: "/sobre-nosotros", key: "sobre_nosotros" },
   { href: "/blog", key: "blog" },

@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "La Favorita | Cocinas y Muebles a Medida en Tenerife",
+  title: "La Favorita | Cocina y Muebles a Medida en Tenerife",
   description: "Diseño y fabricación de cocinas, armarios y vestidores a medida de alta calidad. Creamos espacios únicos para tu hogar.",
   icons: {
     icon: "/logos/mini-logo.png",
