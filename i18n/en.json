@@ -276,6 +276,18 @@
       }
     }
   },
+  "blog_page": {
+    "tag": "Inspiration & Style",
+    "title": "Blog & Trends",
+    "description": "Decorating tips, design guides, and the latest trends to renovate or create your kitchen and custom furniture in Tenerife.",
+    "read_more": "READ MORE",
+    "read_article": "READ ARTICLE",
+    "read_time": "min read",
+    "cta_title": "Inspired by these ideas?",
+    "cta_description": "Our team of designers in Tenerife is ready to turn these trends into reality in your home.",
+    "cta_button": "Request a Quote",
+    "related_title": "Other articles of interest"
+  },
   "why_choose_us": {
     "title": "Why have more than 500 clients already chosen us?",
     "subtitle": "Design, quality and trust for your home in Tenerife.",

@@ -336,6 +336,18 @@
       }
     }
   },
+  "blog_page": {
+    "tag": "Inspiración y Estilo",
+    "title": "Blog & Tendencias",
+    "description": "Consejos de decoración, guías de diseño y las últimas tendencias para reformar o crear tu cocina y muebles a medida en Tenerife.",
+    "read_more": "LEER MÁS",
+    "read_article": "LEER ARTÍCULO",
+    "read_time": "min de lectura",
+    "cta_title": "¿Inspirado por estas ideas?",
+    "cta_description": "Nuestro equipo de diseñadores en Tenerife está listo para convertir estas tendencias en realidad en tu hogar.",
+    "cta_button": "Pedir Presupuesto",
+    "related_title": "Otros artículos de interés"
+  },
   "why_choose_us": {
     "title": "¿Por qué más de 500 clientes ya nos eligieron?",
     "subtitle": "Diseño, calidad y confianza para tu hogar en Tenerife.",
