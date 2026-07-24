@@ -10,20 +10,20 @@ export type CategoryData = {
 
 export const CATEGORY_DATA: Record<string, CategoryData> = {
   "cocinas-a-medida": {
-    title: "Cocinas a Medida",
-    subtitle: "Especialistas en cocinas personalizadas en Tenerife",
-    description: "Diseñamos y fabricamos la cocina de tus sueños adaptada al milímetro a tu espacio y estilo de vida.",
+    title: "Cocinas a medida",
+    subtitle: "Especialistas en cocinas a medida en Tenerife",
+    description: "Diseñamos y fabricamos cocinas a medida en Tenerife adaptadas a tu espacio, a tu estilo de vida y a la forma en que disfrutas tu hogar.",
     paragraphs: [
-      "Cada cocina que sale de nuestra fábrica en Tenerife está hecha con un cuidado meticuloso. Combinamos herrajes de última generación con materiales resistentes a la humedad y arañazos para asegurar que tu cocina luzca impecable por décadas.",
-      "Nos enfocamos en el triángulo de trabajo ergonómico y en la integración perfecta de electrodomésticos, creando un espacio limpio, funcional y estéticamente superior para el día a día."
+      "Cada cocina es un proyecto único. Cuidamos cada detalle, desde la distribución y la ergonomía hasta la selección de materiales y acabados, para crear un espacio funcional, elegante y pensado para acompañarte durante muchos años.",
+      "Trabajamos con materiales de alta calidad, herrajes de última generación y soluciones personalizadas que optimizan cada rincón, integrando diseño, confort y durabilidad en una cocina hecha exclusivamente para ti."
     ],
     image: "/images/012-image.jpg",
     gallery: ["/images/011-image.jpg", "/images/010-image.jpg"],
     specifications: [
-      { label: "Materiales", value: "DM hidrófugo, Fénix NTM, madera maciza, estratificados de alta presión" },
-      { label: "Herrajes", value: "Cajones con guías telescópicas y cierre amortiguado silencioso" },
-      { label: "Encimeras", value: "Granito natural, Silestone, Dekton, Neolith" },
-      { label: "Garantía", value: "5 años en todo el mobiliario y herrajes" }
+      { label: "Materiales", value: "DM hidrófugo, Fénix NTM, madera maciza y estratificados de alta presión." },
+      { label: "Herrajes", value: "Cajones con guías telescópicas y cierre amortiguado de alta precisión." },
+      { label: "Encimeras", value: "Granito natural, Silestone, Dekton y Neolith." },
+      { label: "Garantía", value: "5 años de garantía en todo el mobiliario y herrajes." }
     ]
   },
   "armarios-a-medida": {

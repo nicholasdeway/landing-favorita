@@ -315,30 +315,18 @@ export default function Header() {
                   aria-label="English"
                 >
                   <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clipPath="url(#clip0_flag_us)">
-                      <rect width="24" height="24" fill="#FFFFFF" />
-                      <rect y="0" width="24" height="1.85" fill="#B22234" />
-                      <rect y="3.7" width="24" height="1.85" fill="#B22234" />
-                      <rect y="7.4" width="24" height="1.85" fill="#B22234" />
-                      <rect y="11.1" width="24" height="1.85" fill="#B22234" />
-                      <rect y="14.8" width="24" height="1.85" fill="#B22234" />
-                      <rect y="18.5" width="24" height="1.85" fill="#B22234" />
-                      <rect y="22.2" width="24" height="1.8" fill="#B22234" />
-                      <rect width="12" height="12.95" fill="#3C3B6E" />
-                      <circle cx="2.5" cy="2.5" r="0.65" fill="#FFFFFF" />
-                      <circle cx="5.5" cy="2.5" r="0.65" fill="#FFFFFF" />
-                      <circle cx="8.5" cy="2.5" r="0.65" fill="#FFFFFF" />
-                      <circle cx="4.0" cy="5.0" r="0.65" fill="#FFFFFF" />
-                      <circle cx="7.0" cy="5.0" r="0.65" fill="#FFFFFF" />
-                      <circle cx="2.5" cy="7.5" r="0.65" fill="#FFFFFF" />
-                      <circle cx="5.5" cy="7.5" r="0.65" fill="#FFFFFF" />
-                      <circle cx="8.5" cy="7.5" r="0.65" fill="#FFFFFF" />
-                      <circle cx="4.0" cy="10.0" r="0.65" fill="#FFFFFF" />
-                      <circle cx="7.0" cy="10.0" r="0.65" fill="#FFFFFF" />
+                    <g clipPath="url(#clip0_flag_en)">
+                      <g transform="scale(0.046875)">
+                        <path fill="#012169" d="M0 0h512v512H0z"/>
+                        <path fill="#FFF" d="M512 0v64L322 256l190 187v69h-67L254 324 68 512H0v-68l186-187L0 74V0h62l192 188L440 0z"/>
+                        <path fill="#C8102E" d="m184 324 11 34L42 512H0v-3zm124-12 54 8 150 147v45zM512 0 320 196l-4-44L466 0zM0 1l193 189-59-8L0 49z"/>
+                        <path fill="#FFF" d="M176 0v512h160V0zM0 176v160h512V176z"/>
+                        <path fill="#C8102E" d="M0 208v96h512v-96zM208 0v512h96V0z"/>
+                      </g>
                     </g>
                     <circle cx="12" cy="12" r="11.5" stroke="#E4E4E7" strokeWidth="1" />
                     <defs>
-                      <clipPath id="clip0_flag_us">
+                      <clipPath id="clip0_flag_en">
                         <circle cx="12" cy="12" r="12" />
                       </clipPath>
                     </defs>
@@ -552,30 +540,18 @@ export default function Header() {
                   aria-label="English"
                 >
                   <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clipPath="url(#clip0_flag_us_mobile)">
-                      <rect width="24" height="24" fill="#FFFFFF" />
-                      <rect y="0" width="24" height="1.85" fill="#B22234" />
-                      <rect y="3.7" width="24" height="1.85" fill="#B22234" />
-                      <rect y="7.4" width="24" height="1.85" fill="#B22234" />
-                      <rect y="11.1" width="24" height="1.85" fill="#B22234" />
-                      <rect y="14.8" width="24" height="1.85" fill="#B22234" />
-                      <rect y="18.5" width="24" height="1.85" fill="#B22234" />
-                      <rect y="22.2" width="24" height="1.8" fill="#B22234" />
-                      <rect width="12" height="12.95" fill="#3C3B6E" />
-                      <circle cx="2.5" cy="2.5" r="0.65" fill="#FFFFFF" />
-                      <circle cx="5.5" cy="2.5" r="0.65" fill="#FFFFFF" />
-                      <circle cx="8.5" cy="2.5" r="0.65" fill="#FFFFFF" />
-                      <circle cx="4.0" cy="5.0" r="0.65" fill="#FFFFFF" />
-                      <circle cx="7.0" cy="5.0" r="0.65" fill="#FFFFFF" />
-                      <circle cx="2.5" cy="7.5" r="0.65" fill="#FFFFFF" />
-                      <circle cx="5.5" cy="7.5" r="0.65" fill="#FFFFFF" />
-                      <circle cx="8.5" cy="7.5" r="0.65" fill="#FFFFFF" />
-                      <circle cx="4.0" cy="10.0" r="0.65" fill="#FFFFFF" />
-                      <circle cx="7.0" cy="10.0" r="0.65" fill="#FFFFFF" />
+                    <g clipPath="url(#clip0_flag_en_mobile)">
+                      <g transform="scale(0.046875)">
+                        <path fill="#012169" d="M0 0h512v512H0z"/>
+                        <path fill="#FFF" d="M512 0v64L322 256l190 187v69h-67L254 324 68 512H0v-68l186-187L0 74V0h62l192 188L440 0z"/>
+                        <path fill="#C8102E" d="m184 324 11 34L42 512H0v-3zm124-12 54 8 150 147v45zM512 0 320 196l-4-44L466 0zM0 1l193 189-59-8L0 49z"/>
+                        <path fill="#FFF" d="M176 0v512h160V0zM0 176v160h512V176z"/>
+                        <path fill="#C8102E" d="M0 208v96h512v-96zM208 0v512h96V0z"/>
+                      </g>
                     </g>
                     <circle cx="12" cy="12" r="11.5" stroke="#E4E4E7" strokeWidth="1" />
                     <defs>
-                      <clipPath id="clip0_flag_us_mobile">
+                      <clipPath id="clip0_flag_en_mobile">
                         <circle cx="12" cy="12" r="12" />
                       </clipPath>
                     </defs>
