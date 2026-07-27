@@ -105,11 +105,14 @@ export default function HeroCarousel() {
       <div className="absolute inset-0 z-20 flex items-center justify-start pointer-events-none">
         <div className="mx-auto w-full max-w-7xl px-6 sm:px-10 lg:px-14">
           <div className="max-w-3xl flex flex-col justify-center pointer-events-auto">
-            {/* Small golden tag */}
-            <span className="inline-flex items-center gap-2 text-brand-gold text-xs sm:text-sm font-bold tracking-[0.25em] uppercase mb-6 sm:mb-4 animate-[fadeIn_0.5s_ease-out]">
-              <span className="w-8 h-[1px] bg-brand-gold" />
-              {t("hero.tag")}
-            </span>
+            {/* White Logo */}
+            <div className="relative h-12 w-56 sm:h-16 sm:w-72 mb-6 sm:mb-8 animate-[fadeIn_0.5s_ease-out]">
+              <img
+                src="/logos/logo-branco.png?v=2"
+                alt="La Favorita Interior"
+                className="h-full w-full object-contain object-left"
+              />
+            </div>
 
             {/* Slide title and subtitle */}
             {slides.map((slide, idx) => (
