@@ -6,11 +6,11 @@ import { useTranslation } from "react-i18next";
 const PRODUCT_CATEGORIES = [
   {
     slug: "cocinas-a-medida",
-    image: "/images/012-image.jpg"
+    image: "/images/008-image.jpg"
   },
   {
     slug: "armarios-a-medida",
-    image: "/images/001-image.jpg"
+    image: "/images/020-image.png"
   },
   {
     slug: "muebles-a-medida",
@@ -22,7 +22,7 @@ const PRODUCT_CATEGORIES = [
   },
   {
     slug: "cortinas-pergolas",
-    image: "/images/010-image.jpg"
+    image: "/images/014-image.png"
   }
 ];
 
