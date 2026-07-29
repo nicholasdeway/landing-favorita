@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Landing Page - Favorita Tenerife
 
-## Getting Started
+Este é o repositório da landing page desenvolvida para uma cliente residente em Tenerife, Espanha. O projeto foi concebido sob medida para uma renomada loja de armários e vestidores de luxo na região das Ilhas Canárias.
 
-First, run the development server:
+🔗 Acesse a aplicação:
+[https://landing-favorita.vercel.app](https://landing-favorita.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Sobre o Projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Uma landing page moderna, elegante e de alta performance criada para apresentar projetos de marcenaria de alto padrão, focar em experiência visual premium e captar potenciais leads interessados em mobiliário planejado exclusivo.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Stack Tecnológica
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O projeto foi construído utilizando ferramentas modernas e focadas em desempenho:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js 16 (App Router)** – Framework React de última geração para renderização ágil e SEO otimizado.
+- **React 19** – Biblioteca para criação de interfaces interativas e reativas.
+- **TypeScript** – Linguagem com tipagem estática que garante robustez e manutenção facilitada.
+- **Tailwind CSS v4** – Framework CSS para estilização rápida, moderna e totalmente responsiva.
+- **Motion** – Criação de animações e transições fluidas e refinadas.
+- **Lenis** – Implementação de rolagem de página (smooth scroll) suave e de alto desempenho.
+- **i18next & react-i18next** – Suporte completo para internacionalização e multi-idioma (espanhol e outros).
