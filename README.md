@@ -1,4 +1,4 @@
-## Landing Page - Favorita Tenerife
+## Landing Page - La Favorita
 
 Este é o repositório da landing page desenvolvida para uma cliente residente em Tenerife, Espanha. O projeto foi concebido sob medida para uma renomada loja de armários e vestidores de luxo na região das Ilhas Canárias.
 
