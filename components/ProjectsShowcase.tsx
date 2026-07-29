@@ -36,7 +36,7 @@ const PROJECTS_METADATA = [
     id: 4,
     category: "armarios" as const,
     location: "La Laguna",
-    image: "/images/001-image.jpg"
+    image: "/images/023-image.png"
   },
   {
     id: 5,
