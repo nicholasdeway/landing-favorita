@@ -24,7 +24,7 @@ export default function SobreNosotrosPage() {
           <div className="relative w-full h-[500px] sm:h-[600px] rounded-3xl overflow-hidden group">
             <div className="absolute inset-0 bg-gradient-to-t from-[#388186]/40 to-transparent z-10 opacity-60 mix-blend-multiply" />
             <img
-              src="/images/patricia2.png"
+              src="/images/patricia2.jpg"
               alt="Patricia - La Favorita Interior"
               className="w-full h-full object-cover object-top transform scale-100 group-hover:scale-105 transition-transform duration-[1500ms]"
             />

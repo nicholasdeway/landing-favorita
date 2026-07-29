@@ -50,7 +50,7 @@
     ]
   },
   "about": {
-    "tag": "Cocinas y Muebles a la medida en Tenerife",
+    "tag": "Cocinas y Muebles a medida en Tenerife",
     "title_part1": "Más de 20 años",
     "title_part2": "creando espacios que reflejan tu",
     "title_shiny": "estilo de vida",
@@ -61,7 +61,7 @@
     "sub_desc_2": "Creamos ambientes pensados para disfrutarse durante muchos años, con <0>materiales de alta calidad</0>, acabados excepcionales y un diseño que nunca pasa de moda.",
     "img_alt": "Cocina de diseño en Tenerife",
     "passion_title": "Pasión y experiencia",
-    "quote": "La pasión por crear espacios únicos. La experiencia para hacerlos realidad."
+    "quote": "La pasión por crear espacios únicos.\nLa experiencia para hacerlos realidad."
   },
   "sobre_nosotros": {
     "hero": {
@@ -361,8 +361,8 @@
         "description": "Creamos espacios únicos que se adaptan a tu hogar y a tu forma de vivir."
       },
       "03": {
-        "title": "Fabricación propia",
-        "description": "Controlamos cada detalle del proceso para garantizar acabados de alta calidad y una ejecución impecable."
+        "title": "Pendiente",
+        "description": "Esta sección será actualizada próximamente."
       },
       "04": {
         "title": "Garantía y confianza",

@@ -73,7 +73,7 @@ export default function AboutSection() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent z-10" />
 
                 <img
-                  src="/images/003-image.jpg"
+                  src="/blog/002-blog.png"
                   alt={t("about.img_alt")}
                   className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
                 />
@@ -90,12 +90,12 @@ export default function AboutSection() {
               <div className="absolute -left-10 -bottom-28 right-[10%] top-[65%] border-t-2 border-l-2 border-b-2 border-r-0 border-brand-teal z-20 pointer-events-none" />
 
               {/* Under-image Quote Container (aligned within the golden border space) */}
-              <div className="absolute -left-4 -bottom-24 right-[12%] flex items-start gap-3.5 z-30">
+              <div className="absolute -left-4 -bottom-24 right-[4%] flex items-start gap-3.5 z-30">
                 {/* Gold Styled Double Quotes (looks like 99) */}
                 <span className="text-8xl font-serif text-brand-teal leading-none -mt-5">
                   ”
                 </span>
-                <p className="text-xs md:text-sm font-semibold italic text-zinc-700 leading-relaxed">
+                <p className="text-xs md:text-sm font-semibold italic text-zinc-700 leading-relaxed whitespace-pre-line">
                   {t("about.quote")}
                 </p>
               </div>
