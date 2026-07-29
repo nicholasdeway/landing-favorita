@@ -24,7 +24,7 @@ const PROJECTS_METADATA = [
     id: 2,
     category: "vestidores" as const,
     location: "Arona",
-    image: "/images/002-image.jpg"
+    image: "/images/020-image.png"
   },
   {
     id: 3,
@@ -42,25 +42,25 @@ const PROJECTS_METADATA = [
     id: 5,
     category: "banos" as const,
     location: "Guía de Isora",
-    image: "/images/008-image.jpg"
+    image: "/images/017-image.png"
   },
   {
     id: 6,
     category: "cocinas" as const,
     location: "Santa Cruz",
-    image: "/images/011-image.jpg"
+    image: "/images/022-image.png"
   },
   {
     id: 7,
     category: "vestidores" as const,
     location: "Adeje",
-    image: "/images/006-image.jpg"
+    image: "/images/021-image.png"
   },
   {
     id: 8,
     category: "armarios" as const,
     location: "Arona",
-    image: "/images/005-image.jpg"
+    image: "/images/018-image.png"
   }
 ];
 
@@ -118,8 +118,8 @@ export default function ProjectsShowcase() {
                 key={cat.value}
                 onClick={() => setFilter(cat.value)}
                 className={`px-5 py-3 rounded-full text-xs font-semibold uppercase tracking-wider transition-all duration-300 cursor-pointer ${filter === cat.value
-                    ? "bg-[#3A3A3A] text-white shadow-md"
-                    : "bg-white/80 hover:bg-white text-zinc-600 border border-zinc-200/60"
+                  ? "bg-[#3A3A3A] text-white shadow-md"
+                  : "bg-white/80 hover:bg-white text-zinc-600 border border-zinc-200/60"
                   }`}
               >
                 {cat.label}

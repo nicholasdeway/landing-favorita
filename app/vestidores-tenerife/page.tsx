@@ -14,7 +14,7 @@ export default function VestidoresTenerifePage() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "La Favorita Interior - Vestidores",
-    "image": "https://lafavoritainterior.com/images/002-image.jpg",
+    "image": "https://lafavoritainterior.com/images/021-image.png",
     "telephone": "+34 650 323 800",
     "email": "proyectoslafavorita@gmail.com",
     "address": {
@@ -39,7 +39,7 @@ export default function VestidoresTenerifePage() {
       <section className="relative h-[60vh] min-h-[400px] flex items-center justify-start overflow-hidden">
         <div className="absolute inset-0 bg-black/55 z-10" />
         <img
-          src="/images/002-image.jpg"
+          src="/images/021-image.png"
           alt="Vestidor a medida con iluminación LED en Tenerife"
           className="absolute inset-0 w-full h-full object-cover"
         />

@@ -194,7 +194,7 @@ export default function Header() {
   }, [mobileMenuOpen]);
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-background transition-all duration-300 shadow-xs">
+    <header className="sticky top-0 z-50 w-full bg-white transition-all duration-300 shadow-xs">
       <div className="mx-auto max-w-10xl px-6 sm:px-10 lg:px-14">
         {/* Desktop Header Layout */}
         <div className="hidden xl:flex relative h-32 items-center justify-center">
@@ -317,11 +317,11 @@ export default function Header() {
                   <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clipPath="url(#clip0_flag_en)">
                       <g transform="scale(0.046875)">
-                        <path fill="#012169" d="M0 0h512v512H0z"/>
-                        <path fill="#FFF" d="M512 0v64L322 256l190 187v69h-67L254 324 68 512H0v-68l186-187L0 74V0h62l192 188L440 0z"/>
-                        <path fill="#C8102E" d="m184 324 11 34L42 512H0v-3zm124-12 54 8 150 147v45zM512 0 320 196l-4-44L466 0zM0 1l193 189-59-8L0 49z"/>
-                        <path fill="#FFF" d="M176 0v512h160V0zM0 176v160h512V176z"/>
-                        <path fill="#C8102E" d="M0 208v96h512v-96zM208 0v512h96V0z"/>
+                        <path fill="#012169" d="M0 0h512v512H0z" />
+                        <path fill="#FFF" d="M512 0v64L322 256l190 187v69h-67L254 324 68 512H0v-68l186-187L0 74V0h62l192 188L440 0z" />
+                        <path fill="#C8102E" d="m184 324 11 34L42 512H0v-3zm124-12 54 8 150 147v45zM512 0 320 196l-4-44L466 0zM0 1l193 189-59-8L0 49z" />
+                        <path fill="#FFF" d="M176 0v512h160V0zM0 176v160h512V176z" />
+                        <path fill="#C8102E" d="M0 208v96h512v-96zM208 0v512h96V0z" />
                       </g>
                     </g>
                     <circle cx="12" cy="12" r="11.5" stroke="#E4E4E7" strokeWidth="1" />
@@ -542,11 +542,11 @@ export default function Header() {
                   <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clipPath="url(#clip0_flag_en_mobile)">
                       <g transform="scale(0.046875)">
-                        <path fill="#012169" d="M0 0h512v512H0z"/>
-                        <path fill="#FFF" d="M512 0v64L322 256l190 187v69h-67L254 324 68 512H0v-68l186-187L0 74V0h62l192 188L440 0z"/>
-                        <path fill="#C8102E" d="m184 324 11 34L42 512H0v-3zm124-12 54 8 150 147v45zM512 0 320 196l-4-44L466 0zM0 1l193 189-59-8L0 49z"/>
-                        <path fill="#FFF" d="M176 0v512h160V0zM0 176v160h512V176z"/>
-                        <path fill="#C8102E" d="M0 208v96h512v-96zM208 0v512h96V0z"/>
+                        <path fill="#012169" d="M0 0h512v512H0z" />
+                        <path fill="#FFF" d="M512 0v64L322 256l190 187v69h-67L254 324 68 512H0v-68l186-187L0 74V0h62l192 188L440 0z" />
+                        <path fill="#C8102E" d="m184 324 11 34L42 512H0v-3zm124-12 54 8 150 147v45zM512 0 320 196l-4-44L466 0zM0 1l193 189-59-8L0 49z" />
+                        <path fill="#FFF" d="M176 0v512h160V0zM0 176v160h512V176z" />
+                        <path fill="#C8102E" d="M0 208v96h512v-96zM208 0v512h96V0z" />
                       </g>
                     </g>
                     <circle cx="12" cy="12" r="11.5" stroke="#E4E4E7" strokeWidth="1" />

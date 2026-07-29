@@ -17,14 +17,14 @@ export default function SobreNosotrosPage() {
   return (
     <div className="min-h-screen bg-background pt-24 pb-20">
       <div className="max-w-[1400px] mx-auto px-6 sm:px-12 lg:px-20">
-        
+
         {/* HERO SECTION */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32">
           {/* Left: Image */}
           <div className="relative w-full h-[500px] sm:h-[600px] rounded-3xl overflow-hidden group">
             <div className="absolute inset-0 bg-gradient-to-t from-[#388186]/40 to-transparent z-10 opacity-60 mix-blend-multiply" />
             <img
-              src="/images/patricia.png"
+              src="/images/patricia2.png"
               alt="Patricia - La Favorita Interior"
               className="w-full h-full object-cover object-top transform scale-100 group-hover:scale-105 transition-transform duration-[1500ms]"
             />
@@ -34,18 +34,18 @@ export default function SobreNosotrosPage() {
           <div className="flex flex-col justify-center space-y-6 lg:pl-4">
             <h1 className="text-4xl sm:text-5xl lg:text-[3.3rem] font-extrabold text-[#1c1c1c] leading-[1.1] tracking-tight text-balance">
               {t("sobre_nosotros.hero.title")}
-              <ShinyText 
-                text={t("sobre_nosotros.hero.title_shiny") || ""} 
-                color="#388186" 
-                shineColor="#5fbfc4" 
-                speed={3} 
-                className="text-4xl sm:text-5xl lg:text-[3.3rem] font-extrabold tracking-tight inline-block" 
+              <ShinyText
+                text={t("sobre_nosotros.hero.title_shiny") || ""}
+                color="#388186"
+                shineColor="#5fbfc4"
+                speed={3}
+                className="text-4xl sm:text-5xl lg:text-[3.3rem] font-extrabold tracking-tight inline-block"
               />
             </h1>
             <p className="text-xl sm:text-2xl font-medium text-zinc-600 mb-2">
               {t("sobre_nosotros.hero.subtitle")}
             </p>
-            
+
             <div className="space-y-5 text-zinc-500 text-base sm:text-lg leading-relaxed">
               <p>
                 {t("sobre_nosotros.hero.p1")}
@@ -80,23 +80,23 @@ export default function SobreNosotrosPage() {
 
         {/* CARDS SECTION */}
         <div className="flex flex-col gap-12 lg:gap-16">
-          
+
           {/* Card 1: Misión & Valores */}
           <div className="flex flex-col lg:flex-row bg-white rounded-[2.5rem] overflow-hidden border border-zinc-100">
             {/* Misión (Teal background) */}
             <div className="w-full lg:w-5/12 bg-[#388186] text-white p-12 lg:p-16 flex flex-col items-center justify-center text-center group cursor-default relative overflow-hidden">
               <div className="absolute inset-0 bg-[url('/noise.png')] opacity-10 mix-blend-overlay"></div>
-              
+
               <div className="relative z-10">
                 {/* Animated Icon */}
                 <div className="w-32 h-32 sm:w-40 sm:h-40 mb-8 mx-auto flex items-center justify-center">
-                  <img 
-                    src="/icons/target.gif" 
-                    alt={t("sobre_nosotros.mission.title") || ""} 
-                    className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110 brightness-0 invert opacity-90" 
+                  <img
+                    src="/icons/target.gif"
+                    alt={t("sobre_nosotros.mission.title") || ""}
+                    className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110 brightness-0 invert opacity-90"
                   />
                 </div>
-                
+
                 <h3 className="text-3xl lg:text-4xl font-extrabold mb-6 tracking-tight">
                   {t("sobre_nosotros.mission.title")}
                 </h3>
@@ -146,17 +146,17 @@ export default function SobreNosotrosPage() {
             {/* Visión (Teal background) */}
             <div className="w-full lg:w-5/12 bg-[#388186] text-white p-12 lg:p-16 flex flex-col items-center justify-center text-center group cursor-default relative overflow-hidden order-1 lg:order-2">
               <div className="absolute inset-0 bg-[url('/noise.png')] opacity-10 mix-blend-overlay"></div>
-              
+
               <div className="relative z-10">
                 {/* Animated Icon */}
                 <div className="w-32 h-32 sm:w-40 sm:h-40 mb-8 mx-auto flex items-center justify-center">
-                  <img 
-                    src="/icons/views.gif" 
-                    alt={t("sobre_nosotros.vision.title") || ""} 
-                    className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110 brightness-0 invert opacity-90" 
+                  <img
+                    src="/icons/views.gif"
+                    alt={t("sobre_nosotros.vision.title") || ""}
+                    className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110 brightness-0 invert opacity-90"
                   />
                 </div>
-                
+
                 <h3 className="text-3xl lg:text-4xl font-extrabold mb-6 tracking-tight">
                   {t("sobre_nosotros.vision.title")}
                 </h3>

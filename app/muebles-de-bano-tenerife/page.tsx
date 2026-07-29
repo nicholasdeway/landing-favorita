@@ -14,7 +14,7 @@ export default function BanosTenerifePage() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "La Favorita Interior - Muebles de Baño",
-    "image": "https://lafavoritainterior.com/images/008-image.jpg",
+    "image": "https://lafavoritainterior.com/images/017-image.png",
     "telephone": "+34 650 323 800",
     "email": "proyectoslafavorita@gmail.com",
     "address": {
@@ -39,7 +39,7 @@ export default function BanosTenerifePage() {
       <section className="relative h-[60vh] min-h-[400px] flex items-center justify-start overflow-hidden">
         <div className="absolute inset-0 bg-black/55 z-10" />
         <img
-          src="/images/008-image.jpg"
+          src="/images/017-image.png"
           alt="Mueble de baño moderno a medida en Tenerife"
           className="absolute inset-0 w-full h-full object-cover"
         />

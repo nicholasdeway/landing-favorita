@@ -129,21 +129,21 @@
     "breadcrumb_products": "Productos",
     "specifications_title": "Especificaciones Técnicas",
     "remote_design": {
-      "title": "Diseño y proyectos ",
-      "italic": "a distancia",
-      "subtitle": "Cercanía digital, resultados reales.",
-      "description": "En La Favorita Interior te acercamos el diseño estés donde estés. Gracias a nuestras herramientas digitales y asesoría personalizada, trabajamos contigo en cada detalle de tu proyecto:",
+      "title": "Diseñamos contigo, ",
+      "italic": "estés donde estés.",
+      "subtitle": "La misma atención personalizada, estés donde estés.",
+      "description": "En La Favorita Interior ponemos la tecnología al servicio de la cercanía. Si no puedes desplazarte, te acompañamos durante todo el proceso mediante videollamadas, diseños en 3D y asesoramiento personalizado, para que vivas la misma experiencia y confianza que si estuvieras con nosotros.",
       "items": [
-        "Videollamadas de asesoría en tiempo real",
-        "Visualización de tu espacio en 3D interactivo",
-        "Selección conjunta de materiales y acabados",
-        "Acompañamiento completo hasta la instalación final"
+        "Asesoramiento personalizado por videollamada.",
+        "Visualización de tu proyecto en 3D.",
+        "Selección conjunta de materiales y acabados.",
+        "Acompañamiento hasta la fabricación e instalación."
       ]
     },
     "cta": {
-      "title": "¿Listo para dar forma a tu espacio?",
-      "subtitle": "Solicita una asesoría de diseño personalizada y presupuesto sin compromiso. Nos desplazamos a tu domicilio en Tenerife.",
-      "button": "Pedir Presupuesto"
+      "title": "¿Listo para dar forma a tu espacio? Hablemos de tu proyecto.",
+      "subtitle": "Solicita una asesoría personalizada y descubre cómo podemos crear un espacio diseñado para ti, sin compromiso.",
+      "button": "Pedir presupuesto"
     },
     "categories": {
       "cocinas-a-medida": {
@@ -349,27 +349,28 @@
     "related_title": "Otros artículos de interés"
   },
   "why_choose_us": {
-    "title": "¿Por qué más de 500 clientes ya nos eligieron?",
-    "subtitle": "Diseño, calidad y confianza para tu hogar en Tenerife.",
+    "title": "Más de 500 hogares ya confían en La Favorita Interior",
+    "subtitle": "",
     "cards": {
       "01": {
-        "title": "Precios Justos",
-        "description": "Diseño exclusivo directo de fábrica, a precios justos."
+        "title": "Atención personalizada",
+        "description": "Te acompañamos desde la primera idea hasta la instalación final, haciendo que todo el proceso sea sencillo y cercano."
       },
       "02": {
-        "title": "Financiación Flexible",
-        "description": "Hasta 60 meses."
+        "title": "Diseño a medida",
+        "description": "Creamos espacios únicos que se adaptan a tu hogar y a tu forma de vivir."
       },
       "03": {
-        "title": "Amplia Variedad",
-        "description": "Cocinas, armarios y más, a medida para cada espacio."
+        "title": "Fabricación propia",
+        "description": "Controlamos cada detalle del proceso para garantizar acabados de alta calidad y una ejecución impecable."
       },
       "04": {
-        "title": "Garantía Extendida",
-        "description": "Hasta 5 años de garantía en todos nuestros muebles."
+        "title": "Garantía y confianza",
+        "description": "Más de 20 años de experiencia y más de 500 clientes satisfechos respaldan nuestro compromiso con cada proyecto."
       }
     }
   },
+
   "stats": {
     "proyectos": {
       "value": "+3500",
@@ -394,8 +395,8 @@
   },
   "projects": {
     "tag": "Portafolio Exclusivo",
-    "title": "Ambientes reales diseñados para inspirar",
-    "subtitle": "Explora una selección de nuestros últimos trabajos completados en Tenerife. Menos cantidad, más calidad artesanal.",
+    "title": "Espacios reales que hablan por sí solos",
+    "subtitle": "Cada espacio que diseñamos nace de una historia, una necesidad y una forma de vivir diferente. Explora una selección de proyectos realizados en Tenerife donde el diseño, la calidad y el cuidado por cada detalle son los protagonistas.",
     "categories": {
       "all": "Todos los Proyectos",
       "cocinas": "Cocinas",

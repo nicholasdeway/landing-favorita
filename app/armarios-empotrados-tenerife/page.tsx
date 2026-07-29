@@ -14,7 +14,7 @@ export default function ArmariosTenerifePage() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "La Favorita Interior - Armarios Empotrados",
-    "image": "https://lafavoritainterior.com/images/001-image.jpg",
+    "image": "https://lafavoritainterior.com/images/018-image.png",
     "telephone": "+34 650 323 800",
     "email": "proyectoslafavorita@gmail.com",
     "address": {
@@ -39,7 +39,7 @@ export default function ArmariosTenerifePage() {
       <section className="relative h-[60vh] min-h-[400px] flex items-center justify-start overflow-hidden">
         <div className="absolute inset-0 bg-black/55 z-10" />
         <img
-          src="/images/001-image.jpg"
+          src="/images/018-image.png"
           alt="Armario empotrado a medida en Tenerife"
           className="absolute inset-0 w-full h-full object-cover"
         />

@@ -2,7 +2,7 @@ export const BLOG_POSTS = [
   {
     id: 5,
     slug: "primera-cocina-alvic-en-una-cueva-claves-diseno",
-    image: "/blog/001-blog.png",
+    image: "/blog/002-blog.png",
     category_es: "Proyectos",
     category_en: "Projects",
     date_es: "24 Junio, 2026",
@@ -16,36 +16,36 @@ export const BLOG_POSTS = [
     content_es: `
       <p>En el corazón de Arico, Tenerife, una impresionante formación natural de 240 m² se ha convertido en el lienzo perfecto para redefinir el lujo contemporáneo. Patricia Borges Sánchez, alma máter del estudio La Favorita Interiores, ha firmado uno de los proyectos más singulares de su carrera: una vivienda cueva donde la piedra ancestral y la tecnología exclusiva de las superficies y materiales de ALVIC conviven en perfecta armonía.</p>
 
-      <p><img src="/images/007-image.jpg" alt="La primera cocina ALVIC en una cueva en Tenerife" className="w-full rounded-2xl my-8 object-cover aspect-video" /></p>
+      <p><img src="/blog/001-blog.png" alt="La primera cocina ALVIC en una cueva en Tenerife" className="w-full rounded-2xl my-8 object-cover aspect-video" /></p>
 
       <p>Para lograr que esta cocina se funde con las entrañas de la naturaleza sin renunciar a la vanguardia y el estilo contemporáneo, el estudio tuvo en cuenta una serie de factores determinantes durante el desarrollo del proyecto:</p>
 
       <h3>La luz como guía para una distribución audaz</h3>
       <p>Gracias a los imponentes ventanales de la entrada, que inundan el espacio con la luz dorada del Atlántico, el estudio tomó una decisión atrevida: situar la cocina justo en el acceso de la cueva. Aunque es un planteamiento inusual al estructurar una vivienda, esta apuesta ha logrado convertir a la cocina en el espacio más importante, vivo y magnético de toda la casa. ¡Todo un reto!</p>
 
-      <p><img src="/images/006-image.jpg" alt="Distribución e iluminación de la cocina en la cueva" className="w-full rounded-2xl my-8 object-cover aspect-video" /></p>
+      <p><img src="/blog/003-blog.png" alt="Distribución e iluminación de la cocina en la cueva" className="w-full rounded-2xl my-8 object-cover aspect-video" /></p>
 
       <h3>El magnetismo de las cocinas negras con tecnología Zenit 3.0</h3>
       <p>El color de los frentes fue el punto de partida del diseño. «Tener una cocina negra era el sueño de la propietaria», explica Patricia Borges. Para hacerlo realidad con éxito, la diseñadora apostó por el acabado Zenit Negro SM de ALVIC.</p>
 
-      <p><img src="/images/001-image.jpg" alt="Acabado Zenit Negro SM de ALVIC" className="w-full rounded-2xl my-8 object-cover aspect-video" /></p>
+      <p><img src="/blog/004-blog.png" alt="Acabado Zenit Negro SM de ALVIC" className="w-full rounded-2xl my-8 object-cover aspect-video" /></p>
 
       <p>Esta tecnología aporta una superficie supermate de tacto increíblemente sedoso que no absorbe la luz, todo lo contrario, la amplifica. Además, su tratamiento antihuellas facilita enormemente la limpieza y el mantenimiento. Tal y como aclara Patricia: «Mucha gente es reticente a usar el negro porque se piensa que es un color que oscurece, pero, en este caso, situado estratégicamente frente a la entrada de luz natural, aporta una claridad vibrante, vida y una calidez que abraza el espacio».</p>
 
       <h3>El toque orgánico y natural de la madera</h3>
       <p>Para equilibrar la fuerza visual del negro y conectar el mobiliario con el entorno que rodea la vivienda, era imprescindible introducir la calidez de la madera. El estudio integró el diseño Syncron Nocce 01 de ALVIC, un nogal cuyos matices y tonalidades en beige y marrones armonizan a la perfección con la paleta mineral de la roca. La textura que aporta la tecnología Syncron de ALVIC y su acabado Highland refuerza esa sensación de confort visual, enlazando la cocina directamente con la naturaleza.</p>
 
-      <p><img src="/images/002-image.jpg" alt="Madera Syncron Nocce 01 de ALVIC" className="w-full rounded-2xl my-8 object-cover aspect-video" /></p>
+      <p><img src="/blog/005-blog.png" alt="Madera Syncron Nocce 01 de ALVIC" className="w-full rounded-2xl my-8 object-cover aspect-video" /></p>
 
       <h3>La isla de cocina: el corazón que da vida a la casa</h3>
       <p>En un espacio cavernoso y abierto, la gran isla central actúa como el eje vertebrador. No solo es una superficie de trabajo excepcional, sino que se transforma en el punto de encuentro por excelencia, convirtiendo esta zona en el auténtico corazón del hogar.</p>
 
-      <p><img src="/images/004-image.jpg" alt="Isla de cocina central en casa cueva" className="w-full rounded-2xl my-8 object-cover aspect-video" /></p>
+      <p><img src="/blog/006-blog.png" alt="Isla de cocina central en casa cueva" className="w-full rounded-2xl my-8 object-cover aspect-video" /></p>
 
       <h3>Interiores casi tan importantes como los frentes</h3>
       <p>En un proyecto de este nivel, la belleza no puede quedarse solo en el exterior. La Favorita Interiores cuidó al máximo la estructura interna, utilizando módulos en gris de ALVIC y herrajes de alta calidad. Esto garantiza que la funcionalidad y la ingeniería del mobiliario estén exactamente a la misma altura que su vanguardista y cuidado diseño exterior.</p>
 
-      <p><img src="/images/005-image.jpg" alt="Detalle del interior del mobiliario" className="w-full rounded-2xl my-8 object-cover aspect-video" /></p>
+      <p><img src="/blog/007-blog.png" alt="Detalle del interior del mobiliario" className="w-full rounded-2xl my-8 object-cover aspect-video" /></p>
 
       <h3>Dos consejos extra de La Favorita Interiores para reformar casas cueva o proyectos singulares como este</h3>
       <p>A la hora de enfrentarse a un reto arquitectónico de esta magnitud, Patricia Borges comparte dos de sus secretos de diseño:</p>
@@ -59,7 +59,7 @@ export const BLOG_POSTS = [
 
       <p>Un proyecto que nos invita a perder el miedo a los colores oscuros, a jugar con los contrastes y a apostar por materiales que respondan tanto a nivel visual como técnico. Si esta espectacular cocina te ha inspirado para tus próximos proyectos, recuerda que en tu ALVIC Center más cercano tienes a tu disposición todas las tecnologías, diseños y el asesoramiento necesario para hacer realidad hasta los retos más increíbles. ¿Te atreves a diseñar sin límites?</p>
 
-      <p><img src="/images/003-image.jpg" alt="Resultado final de la cocina en cueva natural" className="w-full rounded-2xl my-8 object-cover aspect-video" /></p>
+      <p><img src="/blog/001-blog.png" alt="Resultado final de la cocina en cueva natural" className="w-full rounded-2xl my-8 object-cover aspect-video" /></p>
 
       <div className="mt-12 p-8 bg-zinc-50 rounded-3xl border border-zinc-100 text-sm space-y-2">
         <h4 className="font-bold text-base text-zinc-800 uppercase tracking-wider mb-3">Guía del Proyecto</h4>

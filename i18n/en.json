@@ -129,21 +129,21 @@
     "breadcrumb_products": "Products",
     "specifications_title": "Technical Specifications",
     "remote_design": {
-      "title": "Remote design and projects ",
-      "italic": "at a distance",
-      "subtitle": "Digital closeness, real results.",
-      "description": "At La Favorita Interior, we bring design to you wherever you are. Thanks to our digital tools and personalized advice, we work with you on every detail of your project:",
+      "title": "We design with you, ",
+      "italic": "wherever you are.",
+      "subtitle": "The same personalized attention, wherever you are.",
+      "description": "At La Favorita Interior, we put technology at the service of closeness. If you cannot travel, we accompany you throughout the process through video calls, 3D designs, and personalized advice, so that you experience the same closeness and trust as if you were with us.",
       "items": [
-        "Real-time consulting video calls",
-        "Visualization of your space in interactive 3D",
-        "Joint selection of materials and finishes",
-        "Full support until the final installation"
+        "Personalized consulting via video call.",
+        "3D visualization of your project.",
+        "Joint selection of materials and finishes.",
+        "Support until manufacturing and installation."
       ]
     },
     "cta": {
-      "title": "Ready to shape your space?",
-      "subtitle": "Request a personalized design consultation and a quote with no obligation. We travel to your home in Tenerife.",
-      "button": "Request a Quote"
+      "title": "Ready to shape your space? Let's talk about your project.",
+      "subtitle": "Request a personalized consultation and discover how we can create a space designed for you, with no obligation.",
+      "button": "Request a quote"
     },
     "categories": {
       "cocinas-a-medida": {
@@ -289,27 +289,28 @@
     "related_title": "Other articles of interest"
   },
   "why_choose_us": {
-    "title": "Why have more than 500 clients already chosen us?",
-    "subtitle": "Design, quality and trust for your home in Tenerife.",
+    "title": "More than 500 homes already trust La Favorita Interior",
+    "subtitle": "",
     "cards": {
       "01": {
-        "title": "Fair Prices",
-        "description": "Exclusive factory-direct design at fair prices."
+        "title": "Personalized attention",
+        "description": "We accompany you from the first idea to the final installation, making the whole process simple and close."
       },
       "02": {
-        "title": "Flexible Financing",
-        "description": "Up to 60 months."
+        "title": "Custom design",
+        "description": "We create unique spaces that adapt to your home and your way of living."
       },
       "03": {
-        "title": "Wide Variety",
-        "description": "Kitchens, wardrobes and more, custom-made for each space."
+        "title": "In-house manufacturing",
+        "description": "We control every detail of the process to guarantee high-quality finishes and an impeccable execution."
       },
       "04": {
-        "title": "Extended Warranty",
-        "description": "Up to 5 years warranty on all our furniture."
+        "title": "Warranty and trust",
+        "description": "More than 20 years of experience and more than 500 satisfied clients support our commitment to every project."
       }
     }
   },
+
   "stats": {
     "proyectos": {
       "value": "+3500",
@@ -334,8 +335,8 @@
   },
   "projects": {
     "tag": "Exclusive Portfolio",
-    "title": "Real spaces designed to inspire",
-    "subtitle": "Explore a selection of our latest completed works in Tenerife. Less quantity, more handcrafted quality.",
+    "title": "Real spaces that speak for themselves",
+    "subtitle": "Every space we design is born from a story, a need, and a different way of living. Explore a selection of projects completed in Tenerife where design, quality, and attention to every detail are the protagonists.",
     "categories": {
       "all": "All Projects",
       "cocinas": "Kitchens",

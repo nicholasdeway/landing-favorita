@@ -34,8 +34,8 @@ export const CATEGORY_DATA: Record<string, CategoryData> = {
       "Nuestros vestidores a medida son completamente configurables: pantaloneros extraíbles, cajones con frente de cristal, zapateros inclinados e iluminación LED interior automática.",
       "Trabajamos con maderas nobles, melaminas de alta densidad y acabados lacados premium para que cada armario combine a la perfección con la decoración de tu dormitorio."
     ],
-    image: "/images/001-image.jpg",
-    gallery: ["/images/002-image.jpg", "/images/003-image.jpg"],
+    image: "/images/021-image.png",
+    gallery: ["/images/020-image.png", "/images/019-image.png"],
     specifications: [
       { label: "Materiales", value: "DM lacado, melamina texturizada de 19mm, madera natural" },
       { label: "Puertas", value: "Correderas con freno amortiguado, abatibles, coplanares" },
@@ -85,8 +85,8 @@ export const CATEGORY_DATA: Record<string, CategoryData> = {
       "Ofrecemos pérgolas bioclimáticas con lamas orientables motorizadas que regulan la temperatura de tu terraza y protegen de la lluvia de forma automatizada.",
       "Nuestros estores y cortinas técnicas cuentan con filtros UV avanzados que protegen tus muebles del sol, reduciendo la temperatura interior y optimizando el consumo energético."
     ],
-    image: "/images/010-image.jpg",
-    gallery: ["/images/011-image.jpg", "/images/012-image.jpg"],
+    image: "/images/016-image.png",
+    gallery: ["/images/015-image.png", "/images/014-image.png"],
     specifications: [
       { label: "Estructuras", value: "Aluminio extrusionado con recubrimiento de polvo termoendurecido" },
       { label: "Motorización", value: "Sistemas motorizados de alta precisión con conectividad WiFi" },

@@ -76,7 +76,7 @@ export default function BlogPostPage({ params }: { params: Params }) {
         </div>
 
         {/* Article Content */}
-        <div 
+        <div
           className="text-lg text-zinc-700 leading-relaxed 
           [&>h3]:text-2xl [&>h3]:sm:text-3xl [&>h3]:font-extrabold [&>h3]:text-[#1c1c1c] [&>h3]:mt-12 [&>h3]:mb-6 [&>h3]:tracking-tight
           [&>p]:mb-6
