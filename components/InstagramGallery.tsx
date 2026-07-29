@@ -50,9 +50,9 @@ export default function InstagramGallery() {
               {t("instagram.subtitle")}
             </p>
             <div className="flex items-center justify-center sm:justify-start gap-6 mt-4 text-xs sm:text-sm text-zinc-500 font-medium">
-              <span><strong className="text-zinc-800 font-bold">341</strong> {t("instagram.posts")}</span>
+              <span><strong className="text-zinc-800 font-bold">347</strong> {t("instagram.posts")}</span>
               <span><strong className="text-zinc-800 font-bold">5.008</strong> {t("instagram.followers")}</span>
-              <span><strong className="text-zinc-800 font-bold">1.515</strong> {t("instagram.following")}</span>
+              <span><strong className="text-zinc-800 font-bold">1.524</strong> {t("instagram.following")}</span>
             </div>
           </div>
         </div>
