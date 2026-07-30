@@ -455,6 +455,40 @@
       "mueble_baño": "Mueble de Baño"
     }
   },
+  "featured_project": {
+    "tag": "PROYECTO DESTACADO",
+    "title": "La primera cocina ALVIC en una cueva",
+    "subtitle": "Un desafío de diseño en Arico, Tenerife, donde la piedra volcánica y la tecnología supermate conviven en armonía.",
+    "cta": "Ver artículo completo",
+    "labels": {
+      "location": "Ubicación",
+      "location_val": "Arico, Tenerife",
+      "materials": "Materiales",
+      "materials_val": "Zenit Negro SM & Syncron Nocce 01"
+    },
+    "keys": {
+      "01": {
+        "title": "Luz como guía",
+        "desc": "Distribución audaz frente al acceso principal para inundar y dar vida al espacio con la luz del Atlántico."
+      },
+      "02": {
+        "title": "Tecnología Zenit 3.0",
+        "desc": "Superficies supermates de tacto sedoso y antihuellas que potencian la claridad y la elegancia."
+      },
+      "03": {
+        "title": "Nogal Syncron Nocce",
+        "desc": "Detalles en madera con matices orgánicos para conectar el mobiliario con el entorno mineral."
+      },
+      "04": {
+        "title": "Isla Central",
+        "desc": "Un bloque de trabajo de gran tamaño que funciona como eje vertebrador y corazón del hogar."
+      },
+      "05": {
+        "title": "Interiores Premium",
+        "desc": "Módulos internos en gris y herrajes de alta resistencia diseñados para durar ante cualquier clima."
+      }
+    }
+  },
   "reviews": {
     "profile_title": "La Favorita Interior en Tenerife: Especialistas en Cocinas y Muebles a medida.",
     "count": "81 reseñas Google",

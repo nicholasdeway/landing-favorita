@@ -395,6 +395,40 @@
       "mueble_baño": "Bathroom Furniture"
     }
   },
+  "featured_project": {
+    "tag": "FEATURED PROJECT",
+    "title": "The first ALVIC kitchen in a cave",
+    "subtitle": "A design challenge in Arico, Tenerife, where volcanic stone and super-matte technology coexist in harmony.",
+    "cta": "Read full article",
+    "labels": {
+      "location": "Location",
+      "location_val": "Arico, Tenerife",
+      "materials": "Materials",
+      "materials_val": "Zenit Negro SM & Syncron Nocce 01"
+    },
+    "keys": {
+      "01": {
+        "title": "Light as a guide",
+        "desc": "Bold layout directly in the main access to flood and bring life to the space with Atlantic golden light."
+      },
+      "02": {
+        "title": "Zenit 3.0 Technology",
+        "desc": "Super-matte surfaces with a silky touch and anti-fingerprint properties that amplify clarity and elegance."
+      },
+      "03": {
+        "title": "Syncron Nocce Walnut",
+        "desc": "Wood details with organic hues to connect the cabinetry directly with the mineral environment."
+      },
+      "04": {
+        "title": "Central Island",
+        "desc": "A large-scale workspace that acts as the backbone and true heart of the home."
+      },
+      "05": {
+        "title": "Premium Interiors",
+        "desc": "Gray interior modules and high-durability hardware designed to withstand any climate conditions."
+      }
+    }
+  },
   "reviews": {
     "profile_title": "La Favorita Interior in Tenerife: Specialists in Custom Kitchens and Furniture.",
     "count": "81 Google reviews",

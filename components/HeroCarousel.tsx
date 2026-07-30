@@ -105,13 +105,12 @@ export default function HeroCarousel() {
       <div className="absolute inset-0 z-20 flex items-center justify-start pointer-events-none">
         <div className="mx-auto w-full max-w-7xl px-6 sm:px-10 lg:px-14">
           <div className="max-w-3xl flex flex-col justify-center pointer-events-auto">
-            {/* White Logo */}
-            <div className="relative h-12 w-56 sm:h-16 sm:w-72 mb-6 sm:mb-8 animate-[fadeIn_0.5s_ease-out]">
-              <img
-                src="/logos/logo-branco.png?v=2"
-                alt="La Favorita Interior"
-                className="h-full w-full object-contain object-left"
-              />
+            {/* Brand Text Label */}
+            <div className="mb-6 sm:mb-8 animate-[fadeIn_0.5s_ease-out] flex items-center gap-3">
+              <span className="block w-6 h-px bg-brand-gold opacity-80" />
+              <span className="text-brand-gold text-xs sm:text-sm font-semibold tracking-[0.25em] uppercase">
+                La Favorita Interior
+              </span>
             </div>
 
             {/* Slide title and subtitle */}

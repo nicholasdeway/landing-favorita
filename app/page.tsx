@@ -1,5 +1,6 @@
 import HeroCarousel from "@/components/HeroCarousel";
 import AboutSection from "@/components/AboutSection";
+import FeaturedCaveProject from "@/components/FeaturedCaveProject";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import StatsSection from "@/components/StatsSection";
 import ProjectsShowcase from "@/components/ProjectsShowcase";
@@ -14,6 +15,7 @@ export default function Home() {
     <div className="flex-1 bg-background">
       <HeroCarousel />
       <AboutSection />
+      <FeaturedCaveProject />
       <WhyChooseUs />
       <StatsSection />
       <ProjectsShowcase />
