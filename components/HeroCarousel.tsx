@@ -3,8 +3,8 @@ import { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
 const SLIDES_METADATA = [
-  { image: "/images/010-image.jpg" },
-  { image: "/images/002-image.jpg" },
+  { image: "/blog/006-blog.png" },
+  { image: "/images/021-image.png" },
   { image: "/images/003-image.jpg" },
   { image: "/images/007-image.jpg" },
   { image: "/images/013-image.jpg" },
