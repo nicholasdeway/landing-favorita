@@ -112,7 +112,7 @@ export default function Header() {
         const element = document.getElementById(targetId);
         if (element) {
           setTimeout(() => {
-            let headerOffset = window.innerWidth >= 1024 ? 128 : 96;
+            let headerOffset = window.innerWidth >= 1024 ? 96 : 72;
             if (targetId === "contacto") headerOffset;
             const elementPosition = element.getBoundingClientRect().top + window.scrollY;
             window.scrollTo({
@@ -140,7 +140,7 @@ export default function Header() {
         setMobileMenuOpen(false);
         const element = document.getElementById(targetId);
         if (element) {
-          const headerOffset = window.innerWidth >= 1024 ? 128 : 96;
+          const headerOffset = window.innerWidth >= 1024 ? 96 : 72;
 
           const lenis = (window as any).globalLenis;
           if (lenis) {
@@ -197,11 +197,11 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full bg-white transition-all duration-300 shadow-xs">
       <div className="mx-auto max-w-10xl px-6 sm:px-10 lg:px-14">
         {/* Desktop Header Layout */}
-        <div className="hidden xl:flex relative h-32 items-center justify-center">
+        <div className="hidden lg:flex relative h-20 sm:h-24 items-center justify-center">
           {/* Logo Section */}
           <div className="absolute left-0 flex-shrink-0">
             <Link href="/" onClick={handleLogoClick} className="flex items-center gap-3 group">
-              <div className="relative h-10 w-48 transition-transform duration-300 group-hover:scale-[1.02]">
+              <div className="relative h-9 w-40 sm:h-10 sm:w-48 transition-transform duration-300 group-hover:scale-[1.02]">
                 <img
                   src="/logos/logo-preto.png?v=2"
                   alt="La Favorita"
@@ -212,7 +212,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation Links */}
-          <nav className="flex items-center gap-8 xl:gap-12">
+          <nav className="flex items-center gap-6 xl:gap-10">
             {NAV_LINKS.map((link) => {
               const active = isLinkActive(link);
               const isHashLink = link.href.startsWith("/#");
@@ -225,7 +225,7 @@ export default function Header() {
                   <LinkComponent
                     href={actualHref}
                     onClick={(e: any) => handleLinkClick(e, link.href)}
-                    className={`relative py-2 text-xs font-semibold tracking-widest transition-colors duration-300 flex items-center gap-1.5 ${active
+                    className={`relative py-2 text-[11px] xl:text-xs font-semibold tracking-wider xl:tracking-widest transition-colors duration-300 flex items-center gap-1.5 ${active
                       ? "text-brand-teal font-semibold"
                       : "text-zinc-800 hover:text-brand-teal"
                       }`}
@@ -267,7 +267,7 @@ export default function Header() {
 
           {/* Right Section (Desktop Socials) */}
           <div className="absolute right-0 flex justify-end items-center">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2.5 xl:gap-3">
               {SOCIAL_LINKS.map((social) => (
                 <a
                   key={social.label}
@@ -283,7 +283,7 @@ export default function Header() {
               ))}
 
               {/* Premium Language Selector */}
-              <div className="flex items-center gap-3.5 ml-4 pl-4 border-l border-zinc-200">
+              <div className="flex items-center gap-3 ml-3 pl-3 xl:ml-4 xl:pl-4 border-l border-zinc-200">
                 <button
                   onClick={() => changeLanguage("es")}
                   className={`relative p-0.5 rounded-full transition-all duration-300 hover:scale-110 cursor-pointer ${language === "es"
@@ -337,11 +337,11 @@ export default function Header() {
           </div>
         </div>
 
-        {/* Mobile Header Layout */}
-        <div className="flex xl:hidden flex-col items-center justify-center py-5 gap-2.5">
-          {/* Centered Large Logo */}
+        {/* Mobile / Tablet Header Layout */}
+        <div className="flex lg:hidden items-center justify-between h-16 sm:h-20 py-2">
+          {/* Logo */}
           <Link href="/" onClick={handleLogoClick} className="flex items-center group">
-            <div className="relative h-14 w-60 transition-transform duration-300 group-hover:scale-[1.02]">
+            <div className="relative h-10 w-44 sm:h-12 sm:w-52 transition-transform duration-300 group-hover:scale-[1.02]">
               <img
                 src="/logos/logo-preto.png?v=2"
                 alt="La Favorita"
@@ -350,18 +350,18 @@ export default function Header() {
             </div>
           </Link>
 
-          {/* Hamburger Menu Button centered below logo */}
+          {/* Hamburger Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             type="button"
-            className="inline-flex items-center justify-center p-1.5 text-zinc-800 hover:text-brand-teal hover:bg-zinc-50 rounded-md focus:outline-none transition-colors duration-300"
+            className="inline-flex items-center justify-center p-2 text-zinc-800 hover:text-brand-teal hover:bg-zinc-50 rounded-md focus:outline-none transition-colors duration-300"
             aria-controls="mobile-menu"
             aria-expanded={mobileMenuOpen}
           >
             <span className="sr-only">Abrir menu</span>
             {mobileMenuOpen ? (
               <svg
-                className="h-7.5 w-7.5"
+                className="h-7 w-7"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth="2.2"
@@ -372,14 +372,13 @@ export default function Header() {
               </svg>
             ) : (
               <svg
-                className="h-7.5 w-7.5"
+                className="h-7 w-7"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth="2.2"
                 stroke="currentColor"
                 aria-hidden="true"
               >
-                {/* Centered two-line `=` menu from the mockup */}
                 <path strokeLinecap="round" strokeLinejoin="round" d="M4 9h16M4 15h16" />
               </svg>
             )}

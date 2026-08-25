@@ -32,7 +32,7 @@ export default function HeroCarousel() {
     stopTimer();
     timerRef.current = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 6000);
+    }, 12000);
   };
 
   const stopTimer = () => {
