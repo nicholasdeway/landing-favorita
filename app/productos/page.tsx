@@ -51,6 +51,9 @@ export default function ProductosPage() {
           {PRODUCT_CATEGORIES.map((category) => {
             const title = t(`productos_page.cards.${category.slug}.title`);
             const description = t(`productos_page.cards.${category.slug}.description`);
+            const buttonText = t(`productos_page.cards.${category.slug}.button`, {
+              defaultValue: t("productos_page.btn_more")
+            });
             const features = (t(`productos_page.cards.${category.slug}.features`, { returnObjects: true }) || []) as string[];
 
             return (
@@ -96,7 +99,7 @@ export default function ProductosPage() {
                       href={`/productos/${category.slug}`}
                       className="w-full inline-flex items-center justify-center gap-2 bg-white hover:bg-[#388186] hover:text-white border border-zinc-200 hover:border-[#388186] text-zinc-800 font-bold py-3.5 px-6 rounded-2xl text-xs uppercase tracking-widest transition-all duration-300"
                     >
-                      <span>{t("productos_page.btn_more")}</span>
+                      <span>{buttonText}</span>
                       <svg
                         className="w-4 h-4"
                         fill="none"

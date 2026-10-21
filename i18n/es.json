@@ -50,55 +50,59 @@
     ]
   },
   "about": {
-    "tag": "Cocinas y Muebles a medida en Tenerife",
+    "tag": "Cocinas y mobiliario a medida en Tenerife",
     "title_part1": "Más de 20 años",
-    "title_part2": "creando espacios que reflejan tu",
-    "title_shiny": "estilo de vida",
-    "desc_1": "En <0>La Favorita Interior</0> diseñamos y fabricamos <1>muebles a medida en Tenerife</1> que combinan diseño, funcionalidad y calidad para transformar cada rincón de tu hogar.",
-    "desc_2": "Desde hace <0>más de dos décadas</0> ayudamos a nuestros clientes a convertir sus ideas en espacios únicos, adaptados a sus necesidades y a su forma de vivir.",
-    "sub_title": "Diseño personalizado para cada espacio de tu hogar",
-    "sub_desc_1": "Cada proyecto comienza escuchándote. Diseñamos cocinas, armarios, vestidores y muebles a medida que aprovechan al máximo cada espacio, cuidando cada detalle para lograr un resultado elegante, funcional y completamente personalizado.",
-    "sub_desc_2": "Creamos ambientes pensados para disfrutarse durante muchos años, con <0>materiales de alta calidad</0>, acabados excepcionales y un diseño que nunca pasa de moda.",
+    "title_part2": "diseñando interiores con",
+    "title_shiny": "criterio y precisión",
+    "desc_1": "En <0>La Favorita Interiores</0> desarrollamos proyectos de cocinas, armarios, vestidores y mobiliario a medida en Tenerife.",
+    "desc_2": "Estudiamos cada vivienda desde su distribución, sus proporciones y su uso cotidiano para plantear soluciones que tengan sentido tanto visual como práctico.",
+    "sub_title": "Todo empieza por una buena distribución",
+    "sub_desc_1": "Antes de elegir colores o acabados, resolvemos lo esencial: recorridos, capacidad de almacenaje, alturas, aperturas, integración de electrodomésticos y relación entre cada elemento.",
+    "sub_desc_2": "A partir de ahí definimos materiales, texturas e iluminación para conseguir un conjunto equilibrado, limpio y coherente con la arquitectura de la vivienda.",
     "img_alt": "Cocina de diseño en Tenerife",
-    "passion_title": "Pasión y experiencia",
-    "quote": "La pasión por crear espacios únicos.\nLa experiencia para hacerlos realidad."
+    "passion_title": "Criterio y experiencia",
+    "quote": "Saber qué funciona, qué conviene evitar y cómo llevar cada decisión hasta el último detalle."
   },
   "sobre_nosotros": {
     "hero": {
-      "title": "La pasión que inspira ",
+      "title": "La pasión que inspira",
       "title_shiny": "cada proyecto",
-      "subtitle": "Más que diseñar espacios, creamos hogares pensados para disfrutar.",
-      "p1": "Detrás de La Favorita Interior está Patricia, una profesional que lleva más de 20 años ayudando a transformar hogares a través del diseño, la funcionalidad y el cuidado por cada detalle.",
-      "p2": "Su experiencia, unida a una forma cercana de entender cada proyecto, le permite crear espacios que reflejan la personalidad y las necesidades de quienes los habitan. Porque cada hogar es diferente y merece una solución diseñada a medida.",
-      "p3": "Para Patricia, el verdadero valor del diseño no está solo en la estética, sino en cómo un espacio puede mejorar la forma de vivir de las personas. Por eso acompaña a cada cliente durante todo el proceso, escuchando, asesorando y cuidando cada decisión hasta conseguir un resultado que combine belleza, confort y funcionalidad.",
-      "button": "Habla con Patricia"
+      "subtitle": "Experiencia, criterio y una forma muy personal de trabajar",
+      "p1": "Detrás de La Favorita Interiores está Patricia, que acompaña personalmente cada proyecto desde la primera conversación.",
+      "p2": "Su forma de trabajar empieza por escuchar. Sin reuniones apresuradas ni decisiones tomadas con prisa. Dedica el tiempo necesario a entender qué necesita cada cliente, qué le preocupa, qué quiere cambiar y cómo utiliza realmente su vivienda.",
+      "p3": "Cuando el proyecto lo requiere, acompaña personalmente a los clientes a la fábrica para que puedan conocer los materiales, ver acabados, comparar opciones y entender mejor cómo se producirá su mobiliario. Porque elegir sobre una muestra pequeña no siempre es suficiente. Patricia participa de cerca en todo el proceso, resolviendo dudas, proponiendo alternativas y ayudando a tomar decisiones con tranquilidad. Esa cercanía permite que cada proyecto avance con una comunicación clara y una relación mucho más directa. Para nosotros, atender bien no significa simplemente responder rápido. Significa estar disponible, escuchar con atención y dedicar a cada proyecto el tiempo que realmente necesita.",
+      "button": "HABLAR CON PATRICIA"
     },
     "mission": {
-      "title": "Misión",
-      "description": "Crear muebles y espacios a medida que combinen diseño, funcionalidad y calidad, adaptándose a la forma de vivir de cada cliente. Desarrollamos proyectos personalizados que reflejan tu estilo y transforman cada espacio en un lugar pensado para disfrutar durante muchos años."
+      "title": "NUESTRA FORMA DE TRABAJAR",
+      "description": "Hacer las cosas con tiempo y con criterio. Queremos que cada cliente entienda lo que está eligiendo y se sienta acompañado durante todo el proceso. Por eso escuchamos, explicamos las opciones, revisamos cada decisión y no tenemos prisa por cerrar un proyecto antes de que esté bien definido. Desde una primera conversación hasta una visita a fábrica o la elección de un acabado, buscamos que el cliente pueda decidir con información, tranquilidad y seguridad."
     },
     "vision": {
       "title": "Visión",
-      "description": "Ser un referente en diseño de interiores y mobiliario a medida en Tenerife y Canarias, reconocidos por la calidad de nuestros proyectos, la atención personalizada y el compromiso con la excelencia en cada detalle."
+      "description": "Crecer sin perder la cercanía. Queremos que La Favorita Interiores siga creciendo sin convertirse en una empresa distante. Mantener el trato personal, dedicar tiempo a cada cliente, acompañarlo cuando necesita ver materiales o conocer la fábrica y seguir estando presentes en las decisiones importantes del proyecto. Crecer, sí. Pero sin perder la forma de trabajar que nos define."
     },
     "values": {
-      "title": "Valores",
+      "title": "LO QUE NOS IMPORTA",
       "items": [
         {
-          "bold": "Compromiso con cada proyecto:",
-          "text": " Escuchamos, asesoramos y cuidamos cada detalle para ofrecer soluciones que respondan a las necesidades de cada cliente."
+          "bold": "Escuchar antes de proponer:",
+          "text": " No empezamos enseñando catálogos. Primero queremos entender qué necesitas, qué no funciona actualmente y qué esperas conseguir."
         },
         {
-          "bold": "Pasión por el diseño:",
-          "text": " Creemos que un buen diseño mejora la forma de vivir. Por eso creamos espacios donde la estética, la funcionalidad y el confort conviven en perfecta armonía."
+          "bold": "Dedicarse el tiempo necesario:",
+          "text": " Una reunión puede durar lo que haga falta. Preferimos resolver las dudas y tomar buenas decisiones antes que acelerar un proceso que requiere atención."
         },
         {
-          "bold": "Honestidad y confianza:",
-          "text": " Trabajamos con transparencia desde el primer contacto hasta la entrega final, construyendo relaciones basadas en la cercanía y la confianza."
+          "bold": "Enseñar, no solo explicar:",
+          "text": " Cuando es útil, acompañamos al cliente a fábrica para ver materiales, acabados y soluciones en persona. Hay decisiones que se entienden mucho mejor cuando se pueden tocar y comparar."
         },
         {
-          "bold": "Calidad que perdura:",
-          "text": " Seleccionamos materiales de primera calidad y cuidamos cada acabado para crear espacios elegantes, resistentes y preparados para el paso del tiempo."
+          "bold": "Hablar con claridad:",
+          "text": " Explicamos posibilidades, limitaciones y alternativas de forma directa. Si creemos que algo puede resolverse mejor de otra manera, lo decimos."
+        },
+        {
+          "bold": "Seguir el proyecto de cerca:",
+          "text": " Patricia mantiene un contacto directo durante el proceso para que las decisiones tomadas al principio se respeten hasta la instalación."
         }
       ]
     },
@@ -127,157 +131,171 @@
   "productos_paginas": {
     "breadcrumb_home": "Home",
     "breadcrumb_products": "Productos",
-    "specifications_title": "Especificaciones Técnicas",
+    "specifications_title": "Especificaciones técnicas",
     "remote_design": {
-      "title": "Diseñamos contigo, ",
-      "italic": "estés donde estés.",
-      "subtitle": "La misma atención personalizada, estés donde estés.",
-      "description": "En La Favorita Interior ponemos la tecnología al servicio de la cercanía. Si no puedes desplazarte, te acompañamos durante todo el proceso mediante videollamadas, diseños en 3D y asesoramiento personalizado, para que vivas la misma experiencia y confianza que si estuvieras con nosotros.",
+      "title": "Si no puedes venir, ",
+      "italic": "podemos empezar a distancia",
+      "subtitle": "No siempre es posible desplazarse hasta nuestra tienda. Por eso también podemos mantener las primeras reuniones por videollamada y avanzar contigo en buena parte del proyecto sin necesidad de estar físicamente aquí.",
+      "description": "A partir de fotografías, medidas e información sobre la vivienda podemos estudiar el punto de partida, comentar alternativas y preparar la propuesta. Después podrás revisar la distribución y la visualización en 3D directamente con nosotros. Cuando llegue el momento de elegir acabados o realizar comprobaciones técnicas, coordinaremos contigo la mejor forma de continuar.",
       "items": [
-        "Asesoramiento personalizado por videollamada.",
-        "Visualización de tu proyecto en 3D.",
-        "Selección conjunta de materiales y acabados.",
-        "Acompañamiento hasta la fabricación e instalación."
+        "Primera reunión por videollamada.",
+        "Revisión conjunta de planos y distribución.",
+        "Presentación del proyecto en 3D.",
+        "Seguimiento directo durante las distintas fases."
       ]
     },
     "cta": {
-      "title": "¿Listo para dar forma a tu espacio? Hablemos de tu proyecto.",
-      "subtitle": "Solicita una asesoría personalizada y descubre cómo podemos crear un espacio diseñado para ti, sin compromiso.",
-      "button": "Pedir presupuesto"
+      "title": "¿Tienes un proyecto en mente? Cuéntanoslo.",
+      "subtitle": "Explícanos qué quieres hacer y en qué punto te encuentras. Revisaremos tu caso contigo y te orientaremos sobre los siguientes pasos.",
+      "button": "HABLAR CON NOSOTROS →"
     },
     "categories": {
       "cocinas-a-medida": {
         "title": "Cocinas a medida",
-        "subtitle": "Especialistas en cocinas a medida en Tenerife",
-        "description": "Diseñamos y fabricamos cocinas a medida en Tenerife adaptadas a tu espacio, a tu estilo de vida y a la forma en que disfrutas tu hogar.",
+        "subtitle": "ESPECIALISTAS EN COCINAS A MEDIDA EN TENERIFE",
+        "description": "Una cocina bien resuelta empieza mucho antes de elegir el color de las puertas. Analizamos la planta, las instalaciones, las alturas, los recorridos y la capacidad de almacenaje para definir una composición que funcione correctamente dentro de la vivienda.",
         "paragraphs": [
-          "Cada cocina es un proyecto único. Cuidamos cada detalle, desde la distribución y la ergonomía hasta la selección de materiales y acabados, para crear un espacio funcional, elegante y pensado para acompañarte durante muchos años.",
-          "Trabajamos con materiales de alta calidad, herrajes de última generación y soluciones personalizadas que optimizan cada rincón, integrando diseño, confort y durabilidad en una cocina hecha exclusivamente para ti."
+          "Desarrollamos la distribución, la modulación, la integración de electrodomésticos, el equipamiento interior, la iluminación y la elección de superficies. El mobiliario se produce en fábrica según las especificaciones del proyecto y se instala cuidando medidas, alineaciones y remates.",
+          "Cuando la arquitectura lo requiere, ajustamos fondos, alturas, columnas, cierres y encuentros para evitar soluciones forzadas. El objetivo es que la cocina aproveche bien el espacio y mantenga una lectura limpia y proporcionada.",
+          "Cada cocina se plantea a partir de la arquitectura existente, las instalaciones y la forma en que realmente va a utilizarse. Definimos la composición antes de entrar en acabados, para que cada elemento tenga una razón de estar.",
+          "Modulación adaptada a las medidas reales."
         ],
         "specifications": [
           {
-            "label": "Materiales",
-            "value": "DM hidrófugo, Fénix NTM, madera maciza y estratificados de alta presión."
+            "label": "MOBILIARIO",
+            "value": "Módulos configurados según el proyecto, con diferentes opciones de alturas, fondos y equipamiento interior."
           },
           {
-            "label": "Herrajes",
-            "value": "Cajones con guías telescópicas y cierre amortiguado de alta precisión."
+            "label": "FRENTES Y ACABADOS",
+            "value": "Superficies mate, supermate, texturizadas, efecto madera y otras colecciones seleccionadas según cada propuesta."
           },
           {
-            "label": "Encimeras",
-            "value": "Granito natural, Silestone, Dekton y Neolith."
+            "label": "HERRAJES",
+            "value": "Sistemas de apertura, bisagras y guías de altas prestaciones, con opciones de cierre amortiguado y extracción total."
           },
           {
-            "label": "Garantía",
-            "value": "5 años de garantía en todo el mobiliario y herrajes."
+            "label": "ENCIMERAS",
+            "value": "Porcelánico, granito natural y otras superficies técnicas, elegidas en función del uso, acabado y características del proyecto."
+          },
+          {
+            "label": "EQUIPAMIENTO INTERIOR",
+            "value": "Cajones, caceroleros, soluciones de esquina, botelleros, sistemas extraíbles y accesorios de organización."
           }
         ]
       },
       "armarios-a-medida": {
-        "title": "Armarios a Medida",
-        "subtitle": "Armarios y vestidores empotrados a medida",
-        "description": "Creamos armarios y vestidores a medida en Tenerife que aprovechan cada centímetro de tu hogar, combinando organización, diseño y funcionalidad en un espacio pensado para ti.",
+        "title": "Armarios a medida",
+        "subtitle": "Armarios y vestidores a medida",
+        "description": "Un buen armario no se define solo por su aspecto exterior. La diferencia está en cómo se organiza por dentro, cuánto espacio útil ofrece y si responde realmente a lo que necesitas guardar.",
         "paragraphs": [
-          "Cada proyecto se desarrolla de forma personalizada para adaptarse a tus necesidades, a tu estilo de vida y a la distribución de tu vivienda. Incorporamos soluciones inteligentes de almacenamiento, acabados de alta calidad y detalles que aportan confort, orden y elegancia a tu día a día.",
-          "Desde armarios empotrados hasta vestidores totalmente personalizados, cuidamos cada detalle para crear espacios funcionales, duraderos y perfectamente integrados con el diseño de tu hogar."
+          "Estudiamos alturas, profundidades, accesos y tipo de uso para distribuir barras, cajones, baldas, zapateros y accesorios de forma lógica. Cada interior se configura según el contenido previsto, evitando compartimentos estándar que terminan desaprovechados.",
+          "En frentes y aperturas, elegimos la solución más adecuada según el espacio disponible: puertas abatibles, correderas o coplanares, integradas en la arquitectura y coordinadas con el resto de la estancia."
         ],
         "specifications": [
           {
-            "label": "Materiales",
-            "value": "DM lacado, melamina texturizada de 19 mm y madera natural."
+            "label": "PUERTAS",
+            "value": "Sistemas abatibles, correderos y coplanares, seleccionados en función del espacio de apertura y del resultado buscado."
           },
           {
-            "label": "Puertas",
-            "value": "Correderas con cierre amortiguado, abatibles y coplanares."
+            "label": "ACABADOS",
+            "value": "Opciones lisas, lacadas, texturizadas, efecto madera y otras superficies combinables con el interior de la vivienda."
           },
           {
-            "label": "Accesorios",
-            "value": "Organizadores interiores, pistones de gas, iluminación LED integrada y soluciones de almacenamiento personalizadas."
+            "label": "EQUIPAMIENTO",
+            "value": "Zapateros, pantaloneros, accesorios extraíbles, iluminación LED, barras especiales y soluciones de organización interior."
           },
           {
-            "label": "Garantía",
-            "value": "5 años de garantía de fabricación."
+            "label": "INTEGRACIÓN",
+            "value": "Adaptación a techos, pilares, retranqueos, esquinas y otras particularidades de la estancia para aprovechar el volumen disponible."
           }
         ]
       },
       "muebles-a-medida": {
-        "title": "Muebles a Medida",
-        "subtitle": "Mobiliario personalizado para todo tu hogar",
-        "description": "Creamos muebles a medida en Tenerife que se integran perfectamente en tu hogar, combinando diseño, funcionalidad y calidad en cada detalle.",
+        "title": "Muebles a medida",
+        "subtitle": "MOBILIARIO A MEDIDA PARA DISTINTAS ZONAS DE LA VIVIENDA",
+        "description": "Hay espacios que no se resuelven bien con mobiliario convencional. Huecos difíciles, paredes completas, cambios de profundidad o necesidades específicas de almacenaje requieren una pieza pensada desde el principio para ese lugar.",
         "paragraphs": [
-          "Desarrollamos soluciones personalizadas para salones, comedores, dormitorios, recibidores, librerías y cualquier espacio que necesite aprovecharse al máximo. Cada pieza se concibe según tus necesidades, tu estilo y las características de tu vivienda.",
-          "Seleccionamos materiales de primera calidad y acabados cuidadosamente elegidos para ofrecer muebles resistentes, elegantes y pensados para acompañarte durante muchos años."
+          "Proyectamos mobiliario para salones, recibidores, dormitorios, comedores, zonas de trabajo y otros ambientes, ajustando proporciones, capacidad y composición a la arquitectura existente.",
+          "Podemos integrar iluminación, puertas, vitrinas, cajones, estanterías, panelados y otros elementos dentro de una misma composición para conseguir un conjunto más limpio y mejor aprovechado."
         ],
         "specifications": [
           {
-            "label": "Materiales",
-            "value": "Maderas nobles, tableros MDF lacados, chapas naturales y metales."
+            "label": "APLICACIONES",
+            "value": "Muebles de salón, recibidores, dormitorios, zonas de trabajo, librerías, aparadores, panelados y composiciones especiales."
           },
           {
-            "label": "Acabados",
-            "value": "Barniz mate o brillo, lacados personalizados y texturas exclusivas."
+            "label": "CONFIGURACIÓN",
+            "value": "Diseños adaptados a paredes completas, huecos, pilares, desniveles, diferentes profundidades y otras particularidades constructivas."
           },
           {
-            "label": "Estilos",
-            "value": "Moderno, minimalista, contemporáneo y clásico renovado."
+            "label": "ACABADOS",
+            "value": "Superficies lisas, texturizadas, efecto madera, lacadas y otras combinaciones seleccionadas según el proyecto."
           },
           {
-            "label": "Garantía",
-            "value": "5 años de fabricación local propia"
+            "label": "ELEMENTOS INTEGRADOS",
+            "value": "Iluminación LED, vitrinas, estantes, cajones, puertas, paneles decorativos y zonas técnicas."
+          },
+          {
+            "label": "PRODUCCIÓN",
+            "value": "Mobiliario producido según planos y especificaciones definidos para cada proyecto."
           }
         ]
       },
       "soluciones-inteligentes": {
-        "title": "Soluciones Inteligentes",
-        "subtitle": "Tecnología y automatización para el mobiliario moderno",
-        "description": "Incorporamos tecnología inteligente a tu mobiliario para crear espacios más cómodos, funcionales, eficientes y elegantes, donde el diseño y la innovación conviven de forma natural.",
+        "title": "Automatización integrada",
+        "subtitle": "TECNOLOGÍA INTEGRADA EN EL MOBILIARIO",
+        "description": "La tecnología tiene sentido cuando simplifica el uso sin convertirse en protagonista. Incorporamos iluminación, mecanismos eléctricos y puntos de conexión directamente en el mobiliario para resolver funciones concretas de forma discreta.",
         "paragraphs": [
-          "Integramos soluciones domóticas que mejoran tu día a día, como iluminación LED automática, sistemas de apertura eléctrica, enchufes ocultos y mecanismos inteligentes que aportan mayor comodidad, optimizan el espacio y facilitan cada tarea.",
-          "Cada proyecto se adapta a tus necesidades para ofrecer una experiencia más práctica, intuitiva y sofisticada, integrando la tecnología de forma discreta y armoniosa en cocinas, vestidores y muebles a medida."
+          "Estos elementos se prevén durante el desarrollo del proyecto, definiendo su posición, alimentación y accionamiento antes de la producción. Así evitamos añadidos posteriores y conseguimos una integración más limpia.",
+          "Desde una tira LED oculta hasta un sistema de apertura eléctrica, seleccionamos cada recurso por su utilidad dentro de la composición, no simplemente por incorporar tecnología."
         ],
         "specifications": [
           {
-            "label": "Iluminación",
-            "value": "LED de bajo consumo de 24 V con temperatura de luz regulable."
+            "label": "ILUMINACIÓN INTEGRADA",
+            "value": "Perfiles y sistemas LED incorporados en vitrinas, estantes, interiores de armarios, zonas de trabajo y otros puntos definidos en proyecto."
           },
           {
-            "label": "Aperturas",
-            "value": "Sistemas de pulsador eléctrico para cajones y compuertas elevables."
+            "label": "APERTURAS ELÉCTRICAS",
+            "value": "Mecanismos asistidos para cajones, puertas y elementos elevables cuando la configuración del mueble lo requiere."
           },
           {
-            "label": "Conectividad",
-            "value": "Cargadores inalámbricos Qi integrados y ocultos en encimeras."
+            "label": "CONEXIONES",
+            "value": "Enchufes, tomas USB, torres extraíbles y otros puntos de alimentación integrables en encimeras o mobiliario."
           },
           {
-            "label": "Garantía",
-            "value": "1 año de garantía en componentes eléctricos y electrónicos."
+            "label": "CONTROL",
+            "value": "Opciones de encendido, regulación y accionamiento adaptadas al sistema instalado."
+          },
+          {
+            "label": "PLANIFICACIÓN TÉCNICA",
+            "value": "Previsión de alimentación, cableado y ubicación de componentes durante la fase de proyecto para mantenerlos accesibles y visualmente discretos."
           }
         ]
       },
       "cortinas-pergolas": {
-        "title": "Cortinas y Pérgolas",
-        "subtitle": "Protección solar y confort exterior",
-        "description": "Diseñamos e instalamos pérgolas bioclimáticas, cortinas y estores a medida en Tenerife para que disfrutes de tus espacios exteriores con mayor confort, protección y estilo durante todo el año.",
+        "title": "Control solar para interior y exterior",
+        "subtitle": "CONTROL SOLAR PARA INTERIOR Y EXTERIOR",
+        "description": "Controlar la entrada de sol cambia notablemente cómo se utiliza una vivienda. Seleccionamos e instalamos sistemas de protección solar teniendo en cuenta la orientación, las dimensiones de cada hueco y el nivel de luz o privacidad que se necesita.",
         "paragraphs": [
-          "Nuestras soluciones combinan diseño, innovación y materiales de alta calidad para regular la luz, proteger del sol y la lluvia, y crear ambientes más cómodos, frescos y elegantes, tanto en viviendas como en espacios comerciales.",
-          "Cada proyecto se adapta a las características de tu espacio y a tus necesidades, ofreciendo un equilibrio perfecto entre funcionalidad, estética y durabilidad."
+          "En interiores trabajamos con cortinas y estores confeccionados a medida, con diferentes grados de filtrado y opciones de accionamiento manual o motorizado. En terrazas y zonas exteriores incorporamos pérgolas que permiten ampliar las horas de uso y crear áreas protegidas frente a la exposición directa al sol.",
+          "Cuando el proyecto lo requiere, motores, iluminación y sistemas de control pueden quedar previstos desde el inicio para conseguir una instalación más limpia y mejor integrada."
         ],
         "specifications": [
           {
-            "label": "Estructuras",
-            "value": "Aluminio extrusionado con recubrimiento de polvo termoendurecido."
+            "label": "CORTINAS Y ESTORES",
+            "value": "Soluciones confeccionadas según las dimensiones de cada hueco, con distintas opciones de tejido, transparencia y control de entrada de luz."
           },
           {
-            "label": "Motorización",
-            "value": "Sistemas motorizados de alta precisión con conectividad WiFi."
+            "label": "PÉRGOLAS",
+            "value": "Estructuras para terrazas y zonas exteriores configuradas según superficie, orientación y características del lugar de instalación."
           },
           {
-            "label": "Tejidos",
-            "value": "Polyester Screen y tejido acrílico impermeabilizado."
+            "label": "MOTORIZACIÓN",
+            "value": "Accionamiento eléctrico disponible para cortinas, estores y determinados sistemas exteriores, con diferentes opciones de control según el equipo seleccionado."
           },
           {
-            "label": "Garantía",
-            "value": "5 años de garantía en estructuras y motores."
+            "label": "TEJIDOS",
+            "value": "Selección de tejidos decorativos, técnicos y de protección solar en función del grado de privacidad, filtrado y exposición requerido."
           }
         ]
       }
@@ -286,52 +304,53 @@
   "productos_page": {
     "tag": "Nuestras Especialidades",
     "title": "Productos & Servicios",
-    "description": "Fabricamos e instalamos en toda Canarias. Desde cocinas de alta gama hasta vestidores modernos, con la máxima calidad directo de fábrica.",
-    "btn_more": "Descubrir más",
+    "description": "Desarrollamos proyectos para distintas zonas de la vivienda, desde la toma de medidas y la definición técnica hasta la fabricación especializada y el montaje final.",
+    "btn_more": "VER SOLUCIONES",
     "cards": {
       "cocinas-a-medida": {
-        "title": "Cocinas a Medida",
-        "description": "Creamos cocinas a medida en Tenerife donde el diseño, la funcionalidad y la calidad se unen para adaptarse a tu estilo de vida.",
+        "title": "Cocinas a medida",
+        "description": "Cada cocina se plantea a partir de la arquitectura existente, las instalaciones y la forma en que realmente va a utilizarse. Definimos la composición antes de entrar en acabados, para que cada elemento tenga una razón de estar. Modulación adaptada a las medidas reales.",
         "features": [
-          "Distribución personalizada",
-          "Materiales y acabados de alta calidad",
-          "Diseño funcional y elegante"
+          "Integración de electrodomésticos e instalaciones",
+          "Equipamiento interior según las necesidades de uso"
         ]
       },
       "armarios-a-medida": {
-        "title": "Armarios a Medida",
-        "description": "Diseñamos armarios y vestidores a medida que aprovechan cada espacio con soluciones prácticas, elegantes y totalmente personalizadas.",
+        "title": "Armarios y vestidores",
+        "description": "Organizamos el interior según lo que debe guardar cada zona, evitando soluciones estándar cuando la altura, la profundidad o el tipo de prendas requieren otra respuesta.",
         "features": [
-          "Distribución interior a medida",
-          "Acabados premium",
-          "Puertas correderas o abatibles"
+          "Interiores configurados según su contenido",
+          "Puertas batientes, correderas o coplanares",
+          "Cajoneras, barras, accesorios e iluminación integrada"
         ]
       },
       "muebles-a-medida": {
-        "title": "Muebles a Medida",
-        "description": "Damos forma a muebles a medida que se integran perfectamente en tu hogar, combinando diseño, confort y funcionalidad.",
+        "title": "Mobiliario a medida",
+        "description": "Proyectamos piezas para completar aquellas zonas de la vivienda donde un mueble convencional no resuelve bien la proporción, el almacenaje o la integración con la arquitectura.",
         "features": [
-          "Fabricación personalizada",
-          "Materiales seleccionados",
-          "Diseños adaptados a cada espacio"
+          "Salones, entradas, dormitorios y zonas auxiliares",
+          "Adaptación a huecos, alturas y encuentros existentes",
+          "Acabados coordinados con el resto del interior"
         ]
       },
       "soluciones-inteligentes": {
-        "title": "Soluciones Inteligentes",
-        "description": "Incorporamos tecnología inteligente para crear espacios más cómodos, funcionales, eficientes y elegantes.",
+        "title": "Automatización integrada",
+        "description": "Incorporamos iluminación, mecanismos eléctricos y puntos de conexión directamente en el mobiliario para resolver funciones concretas de forma discreta.",
+        "button": "VER SOLUCIONES",
         "features": [
-          "Sistemas de apertura automatizados",
+          "Aperturas y mecanismos motorizados",
           "Iluminación LED integrada",
-          "Soluciones domóticas para el hogar"
+          "Control de distintos elementos desde sistemas compatibles"
         ]
       },
       "cortinas-pergolas": {
-        "title": "Cortinas y Pérgolas",
-        "description": "Diseñamos e instalamos cortinas, estores y pérgolas a medida para disfrutar de tus espacios con mayor confort y protección durante todo el año.",
+        "title": "Cortinas, estores y pérgolas",
+        "description": "Completamos el proyecto con sistemas de protección solar adaptados a las dimensiones, orientación y condiciones de cada estancia, tanto en interiores como en zonas exteriores.",
+        "button": "VER OPCIONES",
         "features": [
-          "Protección solar de alto rendimiento",
-          "Sistemas motorizados",
-          "Diseño adaptado a cada espacio"
+          "Cortinas y estores a medida",
+          "Sistemas manuales o motorizados",
+          "Pérgolas y soluciones de protección solar"
         ]
       }
     }
@@ -349,54 +368,53 @@
     "related_title": "Otros artículos de interés"
   },
   "why_choose_us": {
-    "title": "Más de 500 hogares ya confían en La Favorita Interior",
+    "title": "Más de dos décadas de experiencia y más de 500 proyectos realizados",
     "subtitle": "",
     "cards": {
       "01": {
-        "title": "Atención personalizada",
-        "description": "Te acompañamos desde la primera idea hasta la instalación final, haciendo que todo el proceso sea sencillo y cercano."
+        "title": "Un acompañamiento continuo",
+        "description": "Desde la primera reunión hasta el montaje, mantenemos el seguimiento del proyecto para que cada decisión llegue correctamente a obra."
       },
       "02": {
-        "title": "Diseño a medida",
-        "description": "Creamos espacios únicos que se adaptan a tu hogar y a tu forma de vivir."
+        "title": "Medidas antes que suposiciones",
+        "description": "Trabajamos a partir de las dimensiones reales de la vivienda, estudiando aperturas, instalaciones, encuentros y condicionantes antes de definir la solución final."
       },
       "03": {
-        "title": "Pendiente",
-        "description": "Esta sección será actualizada próximamente."
+        "title": "Control antes de fabricar",
+        "description": "Revisamos medidas, distribución, electrodomésticos y detalles técnicos antes de enviar cada proyecto a producción. Corregir sobre plano siempre es mejor que improvisar durante el montaje."
       },
       "04": {
-        "title": "Garantía y confianza",
-        "description": "Más de 20 años de experiencia y más de 500 clientes satisfechos respaldan nuestro compromiso con cada proyecto."
+        "title": "Seguimiento después de la instalación",
+        "description": "Nuestro trabajo no termina cuando se monta el mobiliario. Atendemos ajustes e incidencias para que el resultado final responda a lo proyectado."
       }
     }
   },
-
   "stats": {
     "proyectos": {
-      "value": "+3500",
-      "label": "Proyectos Realizados",
-      "description": "Cocinas, armarios y reformas premium en Tenerife."
+      "value": "+3.500",
+      "label": "Proyectos realizados",
+      "description": "Cocinas, armarios, vestidores y mobiliario residencial."
     },
     "experiencia": {
-      "value": "20 Años",
-      "label": "Experiencia",
-      "description": "Más de 20 años transformando hogares en Tenerife."
+      "value": "+20 años",
+      "label": "De experiencia",
+      "description": "Trayectoria especializada en interiorismo y mobiliario en Tenerife."
     },
     "diseno": {
-      "value": "100%",
-      "label": "Diseño Personalizado",
-      "description": "Proyecciones fotorrealistas en 3D antes de fabricar."
+      "value": "Visualización 3D",
+      "label": "Antes de producción",
+      "description": "El proyecto se presenta previamente para definir distribución, acabados y proporciones."
     },
     "atencion": {
       "value": "Tenerife",
-      "label": "Atención en toda la Isla",
-      "description": "Nos desplazamos a tu domicilio sin ningún compromiso."
+      "label": "Servicio en toda la isla",
+      "description": "Medición, asesoramiento y seguimiento directamente en la vivienda."
     }
   },
   "projects": {
-    "tag": "Portafolio Exclusivo",
-    "title": "Espacios reales que hablan por sí solos",
-    "subtitle": "Cada espacio que diseñamos nace de una historia, una necesidad y una forma de vivir diferente. Explora una selección de proyectos realizados en Tenerife donde el diseño, la calidad y el cuidado por cada detalle son los protagonistas.",
+    "tag": "Selección de proyectos",
+    "title": "Proyectos que muestran cómo trabajamos",
+    "subtitle": "Cocinas, armarios, vestidores y otros espacios realizados en viviendas de Tenerife. Cada proyecto responde a una planta, unas necesidades y unas condiciones diferentes. Aquí mostramos el resultado final y algunas de las decisiones que definieron cada propuesta.",
     "categories": {
       "all": "Todos los Proyectos",
       "cocinas": "Cocinas",
@@ -406,43 +424,43 @@
     },
     "items": {
       "1": {
-        "title": "Cocina Japandi en Roble Natural",
-        "description": "Cocina con isla central integrada, encimera de Dekton y armarios con herrajes Blum amortiguados.",
+        "title": "Cocina con isla en roble natural",
+        "description": "Composición abierta con isla central, encimera Dekton y equipamiento interior Blum.",
         "materials": "Roble macizo, Fénix NTM y Dekton"
       },
       "2": {
-        "title": "Vestidor en U con Perfilería LED",
-        "description": "Vestidor abierto de alta densidad con organizadores de cuero, pantaloneros extraíbles e iluminación LED sensorizada.",
+        "title": "Vestidor en U con iluminación integrada",
+        "description": "Distribución perimetral con cajoneras, barras y accesorios extraíbles para aprovechar toda la altura disponible.",
         "materials": "Melamina texturizada de 19mm, aluminio negro anodizado"
       },
       "3": {
-        "title": "Cocina Concepto Abierto Premium",
-        "description": "Proyecto de reforma de cocina abierta al salón con tiradores gola ocultos y campana de extracción de techo.",
+        "title": "Cocina abierta al salón",
+        "description": "Frentes lisos, sistema gola y campana integrada en una composición pensada para mantener una lectura limpia del conjunto.",
         "materials": "Laminado antihuella seda, Silestone Calacatta"
       },
       "4": {
-        "title": "Armario de Entrada Integrado",
-        "description": "Solución de carpintería a medida que integra almacenamiento de calzado, abrigos y cuadro eléctrico con elegancia.",
+        "title": "Armario de entrada integrado",
+        "description": "Frente a medida con almacenaje cerrado, zona para prendas de uso diario y un módulo abierto de apoyo.",
         "materials": "DM lacado mate, tiradores fresados"
       },
       "5": {
-        "title": "Mueble de Baño Suspendido Doble",
-        "description": "Conjunto de baño minimalista suspendido con cajones de extracción total y lavabos sobre encimera.",
+        "title": "Mueble suspendido de doble lavabo",
+        "description": "Composición de pared a pared con cajones de gran capacidad, doble lavabo e iluminación integrada que aligera visualmente el conjunto.",
         "materials": "Madera de teca hidrófuga, lavabo de resina mate"
       },
       "6": {
-        "title": "Cocina Lineal con Columnas Ocultas",
-        "description": "Distribución lineal optimizada para apartamento urbano con despensa y electrodomésticos totalmente panelados.",
+        "title": "Cocina lineal con bloque de columnas",
+        "description": "Una composición compacta que concentra almacenaje y electrodomésticos en los laterales, dejando la zona central abierta para preparación y uso diario.",
         "materials": "Estratificado alta presión, Neolith Iron"
       },
       "7": {
-        "title": "Vestidor de Diseño Abierto",
-        "description": "Diseño elegante y sobrio para dormitorio principal con distribución simétrica y módulos zapateros inclinados.",
+        "title": "Vestidor abierto con distribución simétrica",
+        "description": "Barras, cajoneras, baldas y módulos zapateros se organizan por zonas para facilitar el acceso y mantener una lectura ordenada del conjunto.",
         "materials": "Madera barnizada, iluminación interna cálida"
       },
       "8": {
-        "title": "Armario Empotrado Coplanares",
-        "description": "Frente de armario empotrado con puertas coplanares deslizantes que quedan en un único plano al cerrarse.",
+        "title": "Armario empotrado con puertas coplanares",
+        "description": "Un frente continuo de suelo a techo que oculta una amplia capacidad interior y mantiene las puertas completamente alineadas cuando están cerradas.",
         "materials": "Cristal templado tintado, perfilería de acero"
       }
     },
@@ -451,14 +469,14 @@
       "materials": "Materiales",
       "description_label": "Descripción del Proyecto",
       "cta": "Preguntar por un diseño similar",
-      "baño": "Baño",
+      "baño": "Baños",
       "mueble_baño": "Mueble de Baño"
     }
   },
   "featured_project": {
     "tag": "PROYECTO DESTACADO",
-    "title": "La primera cocina ALVIC en una cueva",
-    "subtitle": "Un desafío de diseño en Arico, Tenerife, donde la piedra volcánica y la tecnología supermate conviven en armonía.",
+    "title": "La Favorita lleva una cocina a medida al interior de una cueva",
+    "subtitle": "En Arico, Tenerife, proyectamos una cocina integrada en una construcción excavada en piedra volcánica, con mobiliario fabricado por ALVIC según nuestro diseño y especificaciones.",
     "cta": "Ver artículo completo",
     "labels": {
       "location": "Ubicación",
@@ -468,24 +486,24 @@
     },
     "keys": {
       "01": {
-        "title": "Luz como guía",
-        "desc": "Distribución audaz frente al acceso principal para inundar y dar vida al espacio con la luz del Atlántico."
+        "title": "La luz natural como protagonista",
+        "desc": "Un proyecto pensado para aprovechar al máximo la luminosidad del Atlántico, creando espacios amplios, acogedores y llenos de vida."
       },
       "02": {
         "title": "Tecnología Zenit 3.0",
-        "desc": "Superficies supermates de tacto sedoso y antihuellas que potencian la claridad y la elegancia."
+        "desc": "Superficies de acabado supermate, tacto sedoso y propiedades antihuellas. Una combinación de estética y funcionalidad que facilita el mantenimiento diario sin renunciar a la elegancia."
       },
       "03": {
         "title": "Nogal Syncron Nocce",
-        "desc": "Detalles en madera con matices orgánicos para conectar el mobiliario con el entorno mineral."
+        "desc": "La calidez del nogal y la textura natural de Syncron Nocce aportan profundidad y contraste al diseño, equilibrando las superficies de acabado mate con la elegancia de la madera."
       },
       "04": {
-        "title": "Isla Central",
-        "desc": "Un bloque de trabajo de gran tamaño que funciona como eje vertebrador y corazón del hogar."
+        "title": "El centro operativo de la cocina",
+        "desc": "Una isla de grandes proporciones concentra preparación, almacenaje y apoyo, reduciendo desplazamientos y ordenando el trabajo alrededor de una sola pieza."
       },
       "05": {
-        "title": "Interiores Premium",
-        "desc": "Módulos internos en gris y herrajes de alta resistencia diseñados para durar ante cualquier clima."
+        "title": "Solidez desde el interior",
+        "desc": "Módulos interiores en gris y herrajes de altas prestaciones que refuerzan la estructura y mantienen un funcionamiento preciso incluso con un uso intensivo."
       }
     }
   },
@@ -598,9 +616,9 @@
   },
   "contact": {
     "tag": "Contacto",
-    "title_part1": "¿Listo para transformar",
-    "title_shiny": "tu cocina?",
-    "subtitle": "Solicita un presupuesto gratuito y recibe asesoramiento de diseño personalizado para tu hogar en Tenerife. Sin ningún compromiso.",
+    "title_part1": "Si no puedes venir,",
+    "title_shiny": "podemos empezar a distancia",
+    "subtitle": "No siempre es posible desplazarse hasta nuestra tienda. Por eso también podemos mantener las primeras reuniones por videollamada y avanzar contigo en buena parte del proyecto sin necesidad de estar físicamente aquí. A partir de fotografías, medidas e información sobre la vivienda podemos estudiar el punto de partida, comentar alternativas y preparar la propuesta. Después podrás revisar la distribución y la visualización en 3D directamente con nosotros. Cuando llegue el momento de elegir acabados o realizar comprobaciones técnicas, coordinaremos contigo la mejor forma de continuar.",
     "success_title": "¡Mensaje preparado!",
     "success_desc": "Se ha abierto tu cliente de correo. Envía el mensaje para completar la consulta.",
     "email": {
@@ -618,10 +636,10 @@
       "email_placeholder": "tu@email.com",
       "phone_label": "Teléfono",
       "phone_placeholder": "+34 600 000 000",
-      "message_label": "Cuéntanos tu idea",
-      "message_placeholder": "Describe tu proyecto ideal: distribución, estilo, materiales, presupuesto estimado...",
-      "submit": "Enviar consulta",
-      "privacy_note": "Al enviar este formulario, aceptas que nos pongamos en contacto contigo para responder a tu consulta. Sin spam, sin compromiso."
+      "message_label": "Háblanos de tu proyecto",
+      "message_placeholder": "Puedes indicarnos qué necesitas, la localidad, las medidas aproximadas y cualquier información que consideres importante.",
+      "submit": "SOLICITAR UNA VIDEOLLAMADA",
+      "privacy_note": "Al enviar el formulario, autorizas a La Favorita Interiores a ponerse en contacto contigo para responder a tu solicitud."
     },
     "map": {
       "title": "¿Dónde estamos?",

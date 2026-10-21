@@ -50,55 +50,59 @@
     ]
   },
   "about": {
-    "tag": "Custom Kitchens & Furniture in Tenerife",
-    "title_part1": "More than 20 years",
-    "title_part2": "creating spaces that reflect your",
-    "title_shiny": "lifestyle",
-    "desc_1": "At <0>La Favorita Interior</0> we design and manufacture <1>custom furniture in Tenerife</1> that combines design, functionality, and quality to transform every corner of your home.",
-    "desc_2": "For <0>more than two decades</0> we have helped our clients turn their ideas into unique spaces, adapted to their needs and way of living.",
-    "sub_title": "Personalized design for every space in your home",
-    "sub_desc_1": "Every project starts by listening to you. We design kitchens, wardrobes, dressing rooms, and custom furniture that make the most of every space, taking care of every detail to achieve an elegant, functional, and completely personalized result.",
-    "sub_desc_2": "We create environments designed to be enjoyed for many years, with <0>high-quality materials</0>, exceptional finishes, and a design that never goes out of style.",
+    "tag": "Custom kitchens & furniture in Tenerife",
+    "title_part1": "Over 20 years",
+    "title_part2": "designing interiors with",
+    "title_shiny": "judgement and precision",
+    "desc_1": "At <0>La Favorita Interiores</0> we develop custom kitchen, wardrobe, walk-in closet and furniture projects in Tenerife.",
+    "desc_2": "We study every home through its layout, its proportions and its everyday use to propose solutions that make sense both visually and practically.",
+    "sub_title": "Everything starts with a good layout",
+    "sub_desc_1": "Before choosing colours or finishes, we solve the essentials: circulation, storage capacity, heights, openings, appliance integration and the relationship between every element.",
+    "sub_desc_2": "From there, we define materials, textures and lighting to achieve a balanced, clean result that is consistent with the architecture of the home.",
     "img_alt": "Designer kitchen in Tenerife",
-    "passion_title": "Passion and experience",
-    "quote": "The passion to create unique spaces.\nThe experience to make them a reality."
+    "passion_title": "Judgement and experience",
+    "quote": "Knowing what works, what to avoid and how to carry every decision through to the last detail."
   },
   "sobre_nosotros": {
     "hero": {
-      "title": "The passion that inspires ",
+      "title": "The passion that inspires",
       "title_shiny": "every project",
-      "subtitle": "More than designing spaces, we create homes designed to be enjoyed.",
-      "p1": "Behind La Favorita Interior is Patricia, a professional with more than 20 years of experience helping transform homes through design, functionality, and care for every detail.",
-      "p2": "Her experience, combined with a close way of understanding each project, allows her to create spaces that reflect the personality and needs of those who inhabit them. Because every home is different and deserves a custom-designed solution.",
-      "p3": "For Patricia, the true value of design is not only in aesthetics, but in how a space can improve people's way of living. That is why she accompanies each client throughout the process, listening, advising, and taking care of every decision to achieve a result that combines beauty, comfort, and functionality.",
-      "button": "Speak with Patricia"
+      "subtitle": "Experience, judgment, and a very personal way of working",
+      "p1": "Behind La Favorita Interiores is Patricia, who personally accompanies each project from the first conversation.",
+      "p2": "Her way of working starts with listening. Without rushed meetings or decisions made in a hurry. She dedicates the necessary time to understand what each client needs, what worries them, what they want to change, and how they actually use their home.",
+      "p3": "When the project requires it, she personally accompanies clients to the factory so they can get to know the materials, see finishes, compare options, and better understand how their furniture will be produced. Because choosing from a small sample is not always enough. Patricia is closely involved in every step of the process, resolving doubts, proposing alternatives, and helping make decisions with peace of mind. That closeness allows each project to move forward with clear communication and a much more direct relationship. For us, attending well does not simply mean responding quickly. It means being available, listening carefully, and giving each project the time it really needs.",
+      "button": "TALK TO PATRICIA"
     },
     "mission": {
-      "title": "Mission",
-      "description": "To create custom furniture and spaces that combine design, functionality, and quality, adapting to each client's lifestyle. We develop personalized projects that reflect your style and transform every space into a place designed to be enjoyed for many years."
+      "title": "OUR WAY OF WORKING",
+      "description": "We like to do things with time and good judgment. We want each client to understand exactly what they are choosing and feel supported throughout the process. That is why we listen, explain the options, review each decision, and never rush to close a project before it is well defined. From the first conversation to a visit to the factory or the choice of a finish, we aim for the client to decide with information, calm, and confidence."
     },
     "vision": {
       "title": "Vision",
-      "description": "To be a benchmark in interior design and custom furniture in Tenerife and the Canary Islands, recognized for the quality of our projects, personalized attention, and commitment to excellence in every detail."
+      "description": "Growing without losing closeness. We want La Favorita Interiores to keep growing without becoming a distant company. Maintaining a personal approach, dedicating time to each client, accompanying them when they need to see materials or visit the factory, and remaining present in the important decisions of the project. Growing, yes. But without losing the way of working that defines us."
     },
     "values": {
-      "title": "Values",
+      "title": "WHAT MATTERS TO US",
       "items": [
         {
-          "bold": "Commitment to every project:",
-          "text": " We listen, advise, and take care of every detail to offer solutions that respond to each client's needs."
+          "bold": "Listen before proposing:",
+          "text": " We do not start by showing catalogues. First, we want to understand what you need, what is not working right now, and what you hope to achieve."
         },
         {
-          "bold": "Passion for design:",
-          "text": " We believe that good design improves the way of living. That is why we create spaces where aesthetics, functionality, and comfort coexist in perfect harmony."
+          "bold": "Dedicate the necessary time:",
+          "text": " A meeting may last as long as it needs to. We prefer to resolve doubts and make good decisions rather than speed up a process that requires attention."
         },
         {
-          "bold": "Honesty and trust:",
-          "text": " We work with transparency from the first contact to the final delivery, building relationships based on closeness and trust."
+          "bold": "Teach, not just explain:",
+          "text": " When useful, we accompany the client to the factory to see materials, finishes, and solutions in person. There are decisions that are understood much better when they can be touched and compared."
         },
         {
-          "bold": "Quality that lasts:",
-          "text": " We select premium quality materials and take care of every finish to create elegant, durable spaces prepared for the passage of time."
+          "bold": "Speak clearly:",
+          "text": " We explain possibilities, limitations, and alternatives directly. If we believe something can be resolved better another way, we say so."
+        },
+        {
+          "bold": "Follow the project closely:",
+          "text": " Patricia maintains direct contact throughout the process so that the decisions made at the beginning are respected until installation."
         }
       ]
     },
@@ -129,66 +133,112 @@
     "breadcrumb_products": "Products",
     "specifications_title": "Technical Specifications",
     "remote_design": {
-      "title": "We design with you, ",
-      "italic": "wherever you are.",
-      "subtitle": "The same personalized attention, wherever you are.",
-      "description": "At La Favorita Interior, we put technology at the service of closeness. If you cannot travel, we accompany you throughout the process through video calls, 3D designs, and personalized advice, so that you experience the same closeness and trust as if you were with us.",
+      "title": "If you can't come,",
+      "italic": "we can start remotely",
+      "subtitle": "It is not always possible to travel to our shop. That is why we can also keep the first meetings by video call and move forward with you on much of the project without needing to be physically here.",
+      "description": "From photographs, measurements, and information about the home, we can study the starting point, discuss alternatives, and prepare the proposal. Afterwards, you can review the layout and the 3D visualization directly with us. When the time comes to choose finishes or carry out technical checks, we will coordinate the best way to continue with you.",
       "items": [
-        "Personalized consulting via video call.",
-        "3D visualization of your project.",
-        "Joint selection of materials and finishes.",
-        "Support until manufacturing and installation."
+        "First meeting by video call.",
+        "Joint review of plans and layout.",
+        "Presentation of the project in 3D.",
+        "Direct follow-up during the different phases."
       ]
     },
     "cta": {
-      "title": "Ready to shape your space? Let's talk about your project.",
-      "subtitle": "Request a personalized consultation and discover how we can create a space designed for you, with no obligation.",
-      "button": "Request a quote"
+      "title": "Do you have a project in mind? Tell us about it.",
+      "subtitle": "Tell us what you want to do and where you are in the process. We will review your case with you and guide you on the next steps.",
+      "button": "TALK TO US →"
     },
     "categories": {
       "cocinas-a-medida": {
         "title": "Custom Kitchens",
-        "subtitle": "Specialists in custom kitchens in Tenerife",
-        "description": "We design and manufacture custom kitchens in Tenerife tailored to your space, your lifestyle, and the way you enjoy your home.",
+        "subtitle": "SPECIALISTS IN BESPOKE KITCHENS IN TENERIFE",
+        "description": "A well-resolved kitchen starts long before choosing the color of the doors. We analyze the layout, installations, heights, circulation routes and storage capacity to define a composition that works correctly within the home.",
         "paragraphs": [
-          "Every kitchen is a unique project. We take care of every detail, from layout and ergonomics to the selection of materials and finishes, to create a functional, elegant space designed to accompany you for many years.",
-          "We work with high-quality materials, state-of-the-art hardware, and custom solutions that optimize every corner, integrating design, comfort, and durability into a kitchen made exclusively for you."
+          "We develop the layout, modulation, appliance integration, interior fittings, lighting and finish selection. The furniture is produced in the factory according to the project specifications and is installed with careful attention to measurements, alignment and finishes.",
+          "When the architecture requires it, we adjust backgrounds, heights, columns, closures and joints to avoid forced solutions. The goal is for the kitchen to make the most of the space while maintaining a clean and proportionate visual reading.",
+          "Each kitchen is planned from the existing architecture, the installations and the way it will actually be used. We define the composition before entering the finishes, so that each element has a reason to exist.",
+          "Modulation adapted to real measurements."
         ],
         "specifications": [
-          { "label": "Materials", "value": "Water-resistant MDF, Fenix NTM, solid wood, and high-pressure laminates." },
-          { "label": "Hardware", "value": "Drawers with telescopic runners and high-precision soft-closing." },
-          { "label": "Countertops", "value": "Natural granite, Silestone, Dekton, and Neolith." },
-          { "label": "Warranty", "value": "5-year warranty on all furniture and hardware." }
+          {
+            "label": "FURNITURE",
+            "value": "Modules configured according to the project, with different height, depth and interior equipment options."
+          },
+          {
+            "label": "FRONTS AND FINISHES",
+            "value": "Matte, supermatte, textured surfaces, wood-effect finishes and other collections selected according to each proposal."
+          },
+          {
+            "label": "HARDWARE",
+            "value": "Opening systems, hinges and high-performance guides with soft-closing and full-extension options."
+          },
+          {
+            "label": "COUNTERTOPS",
+            "value": "Porcelain, natural granite and other technical surfaces chosen according to use, finish and project characteristics."
+          },
+          {
+            "label": "INTERIOR FITTINGS",
+            "value": "Drawers, pantries, corner solutions, bottle holders, pull-out systems and organization accessories."
+          }
         ]
       },
       "armarios-a-medida": {
         "title": "Custom Wardrobes",
-        "subtitle": "Built-in wardrobes and custom dressing rooms",
-        "description": "We create custom wardrobes and walk-in closets in Tenerife that make the most of every inch of your home, combining organization, design, and functionality in a space designed for you.",
+        "subtitle": "Bespoke wardrobes and dressing rooms",
+        "description": "A good wardrobe is not defined only by its exterior appearance. The difference lies in how it is organized inside, how much useful space it offers and whether it truly responds to what you need to store.",
         "paragraphs": [
-          "Each project is custom-developed to adapt to your needs, your lifestyle, and the layout of your home. We incorporate smart storage solutions, high-quality finishes, and details that bring comfort, order, and elegance to your daily life.",
-          "From built-in wardrobes to fully personalized walk-in closets, we take care of every detail to create functional, durable spaces that are perfectly integrated with your home's design."
+          "We study heights, depths, access points and usage patterns to distribute rails, drawers, shelves, shoe storage and accessories in a logical way. Each interior is configured according to the intended contents, avoiding standard compartments that end up being underused.",
+          "For fronts and openings, we choose the most suitable solution according to the available space: hinged, sliding or flush doors, integrated into the architecture and coordinated with the rest of the room."
         ],
         "specifications": [
-          { "label": "Materials", "value": "Lacquered MDF, 19 mm textured melamine, and natural wood." },
-          { "label": "Doors", "value": "Sliding doors with soft-closing, hinged, and coplanar." },
-          { "label": "Accessories", "value": "Interior organizers, gas struts, integrated LED lighting, and personalized storage solutions." },
-          { "label": "Warranty", "value": "5-year manufacturing warranty." }
+          {
+            "label": "DOORS",
+            "value": "Hinged, sliding and flush systems selected according to opening space and the aesthetic result required."
+          },
+          {
+            "label": "FINISHES",
+            "value": "Smooth, lacquered, textured, wood-effect and other surfaces that can be combined with the interior of the home."
+          },
+          {
+            "label": "EQUIPMENT",
+            "value": "Shoe racks, trouser rails, removable accessories, LED lighting, special rails and interior organization solutions."
+          },
+          {
+            "label": "INTEGRATION",
+            "value": "Adaptation to ceilings, pillars, recesses, corners and other room-specific features to make the most of the available volume."
+          }
         ]
       },
       "muebles-a-medida": {
         "title": "Custom Furniture",
-        "subtitle": "Personalized furniture for your entire home",
-        "description": "We create custom furniture in Tenerife that integrates perfectly into your home, combining design, functionality, and quality in every detail.",
+        "subtitle": "CUSTOM FURNITURE FOR DIFFERENT AREAS OF THE HOME",
+        "description": "There are spaces that are not solved well by conventional furniture. Difficult gaps, full-height walls, changes in depth or specific storage needs require a piece designed from the outset for that exact location.",
         "paragraphs": [
-          "We develop customized solutions for living rooms, dining rooms, bedrooms, hallways, bookcases, and any space that needs to be maximized. Each piece is designed according to your needs, style, and the characteristics of your home.",
-          "We select premium quality materials and carefully chosen finishes to offer resistant, elegant furniture designed to accompany you for many years."
+          "We design furniture for living rooms, hallways, bedrooms, dining rooms, work areas, and other environments, adjusting proportions, capacity, and composition to the existing architecture.",
+          "We can integrate lighting, doors, display cases, drawers, shelving, wall paneling, and other elements into the same composition to achieve a cleaner and better-used overall arrangement."
         ],
         "specifications": [
-          { "label": "Materials", "value": "Noble woods, lacquered MDF boards, natural veneers, and metals." },
-          { "label": "Finishes", "value": "Matte or gloss varnish, custom lacquers, and exclusive textures." },
-          { "label": "Styles", "value": "Modern, minimalist, contemporary, and classic renewed." },
-          { "label": "Warranty", "value": "5 years of local in-house manufacturing" }
+          {
+            "label": "APPLICATIONS",
+            "value": "Living room furniture, hallways, bedrooms, work zones, libraries, sideboards, paneling, and special compositions."
+          },
+          {
+            "label": "CONFIGURATION",
+            "value": "Designs adapted to full-height walls, gaps, pillars, uneven levels, different depths, and other constructive particularities."
+          },
+          {
+            "label": "FINISHES",
+            "value": "Smooth and textured surfaces, wood-effect finishes, lacquered surfaces, and other combinations selected according to the project."
+          },
+          {
+            "label": "INTEGRATED ELEMENTS",
+            "value": "LED lighting, display units, shelves, drawers, doors, decorative panels, and technical areas."
+          },
+          {
+            "label": "PRODUCTION",
+            "value": "Furniture produced according to plans and specifications defined for each project."
+          }
         ]
       },
       "soluciones-inteligentes": {
@@ -200,25 +250,49 @@
           "Each project is tailored to your needs to offer a more practical, intuitive, and sophisticated experience, integrating technology discreetly and harmoniously in custom kitchens, wardrobes, and furniture."
         ],
         "specifications": [
-          { "label": "Lighting", "value": "24V low-consumption LED with adjustable light temperature." },
-          { "label": "Openings", "value": "Electric push-button systems for drawers and lift-up doors." },
-          { "label": "Connectivity", "value": "Qi wireless chargers integrated and hidden in countertops." },
-          { "label": "Warranty", "value": "1-year warranty on electrical and electronic components." }
+          {
+            "label": "Lighting",
+            "value": "24V low-consumption LED with adjustable light temperature."
+          },
+          {
+            "label": "Openings",
+            "value": "Electric push-button systems for drawers and lift-up doors."
+          },
+          {
+            "label": "Connectivity",
+            "value": "Qi wireless chargers integrated and hidden in countertops."
+          },
+          {
+            "label": "Warranty",
+            "value": "1-year warranty on electrical and electronic components."
+          }
         ]
       },
       "cortinas-pergolas": {
-        "title": "Curtains and Pergolas",
-        "subtitle": "Solar protection and outdoor comfort",
-        "description": "We design and install custom bioclimatic pergolas, curtains, and blinds in Tenerife so you can enjoy your outdoor spaces with greater comfort, protection, and style all year round.",
+        "title": "Solar control for indoor and outdoor spaces",
+        "subtitle": "SOLAR CONTROL FOR INDOOR AND OUTDOOR SPACES",
+        "description": "Controlling the amount of sunlight that enters drastically changes how a home is used. We select and install solar protection systems considering orientation, the dimensions of each opening, and the level of light or privacy required.",
         "paragraphs": [
-          "Our solutions combine design, innovation, and high-quality materials to regulate light, protect from sun and rain, and create more comfortable, fresh, and elegant environments, both in homes and commercial spaces.",
-          "Each project is adapted to the characteristics of your space and your needs, offering a perfect balance between functionality, aesthetics, and durability."
+          "For interiors, we work with custom-made curtains and blinds with different levels of filtering and options for manual or motorized operation. On terraces and outdoor areas, we incorporate pergolas that extend the hours of use and create protected spaces against direct sun exposure.",
+          "When the project requires it, motors, lighting and control systems can be planned from the start to achieve a cleaner and more integrated installation."
         ],
         "specifications": [
-          { "label": "Structures", "value": "Extruded aluminum with thermosetting powder coating." },
-          { "label": "Motorization", "value": "High-precision motorized systems with WiFi connectivity." },
-          { "label": "Fabrics", "value": "Polyester Screen and waterproofed acrylic fabric." },
-          { "label": "Warranty", "value": "5-year warranty on structures and motors." }
+          {
+            "label": "CURTAINS AND BLINDS",
+            "value": "Tailored solutions made to fit each opening, with different fabric options, transparency levels, and light control."
+          },
+          {
+            "label": "PERGOLAS",
+            "value": "Structures for terraces and outdoor areas configured according to surface area, orientation, and site conditions."
+          },
+          {
+            "label": "MOTORIZATION",
+            "value": "Electric operation available for curtains, blinds, and selected exterior systems, with different control options depending on the equipment."
+          },
+          {
+            "label": "FABRICS",
+            "value": "Selection of decorative, technical and solar-protection fabrics based on privacy, filtering, and exposure requirements."
+          }
         ]
       }
     }
@@ -226,52 +300,53 @@
   "productos_page": {
     "tag": "Our Specialties",
     "title": "Products & Services",
-    "description": "We manufacture and install across the Canary Islands. From high-end kitchens to modern dressing rooms, with top quality direct from the factory.",
-    "btn_more": "Discover more",
+    "description": "We develop projects for different areas of the home, from measuring and technical definition to specialized manufacturing and final installation.",
+    "btn_more": "SEE SOLUTIONS",
     "cards": {
       "cocinas-a-medida": {
         "title": "Custom Kitchens",
-        "description": "We create custom kitchens in Tenerife where design, functionality, and quality combine to adapt to your lifestyle.",
+        "description": "Each kitchen is planned from the existing architecture, the installations and the way it will actually be used. We define the composition before entering the finishes, so that each element has a reason to exist. Modulation adapted to the real measurements.",
         "features": [
-          "Personalized layout",
-          "High-quality materials and finishes",
-          "Functional and elegant design"
+          "Integration of appliances and installations",
+          "Interior equipment according to usage needs"
         ]
       },
       "armarios-a-medida": {
-        "title": "Custom Wardrobes",
-        "description": "We design custom wardrobes and dressing rooms that make the most of every space with practical, elegant, and fully personalized solutions.",
+        "title": "Wardrobes & Dressing Rooms",
+        "description": "We organize the interior according to what each area needs to store, avoiding standard solutions when height, depth or the type of garments require another response.",
         "features": [
-          "Custom interior layout",
-          "Premium finishes",
-          "Sliding or hinged doors"
+          "Interiors configured according to their contents",
+          "Swing, sliding or flush doors",
+          "Drawer units, rails, accessories and integrated lighting"
         ]
       },
       "muebles-a-medida": {
         "title": "Custom Furniture",
-        "description": "We shape custom furniture that integrates perfectly into your home, combining design, comfort, and functionality.",
+        "description": "We design pieces to complete those areas of the home where a conventional piece of furniture does not solve the proportion, storage or integration with the architecture well.",
         "features": [
-          "Personalized manufacturing",
-          "Selected materials",
-          "Designs adapted to each space"
+          "Living rooms, entrances, bedrooms and utility areas",
+          "Adaptation to gaps, heights and existing junctions",
+          "Finishes coordinated with the rest of the interior"
         ]
       },
       "soluciones-inteligentes": {
-        "title": "Smart Solutions",
-        "description": "We incorporate smart technology to create more comfortable, functional, efficient, and elegant spaces.",
+        "title": "Integrated Automation",
+        "description": "We incorporate motorized systems and lighting control in those elements where technology genuinely improves everyday use without compromising the clean visual language of the project.",
+        "button": "SEE SOLUTIONS",
         "features": [
-          "Automated opening systems",
+          "Motorized openings and mechanisms",
           "Integrated LED lighting",
-          "Smart home solutions"
+          "Control of multiple elements through compatible systems"
         ]
       },
       "cortinas-pergolas": {
-        "title": "Curtains & Pergolas",
-        "description": "We design and install custom curtains, blinds, and pergolas to enjoy your spaces with greater comfort and protection all year round.",
+        "title": "Curtains, blinds & pergolas",
+        "description": "We design and install solar control systems for both indoor and outdoor spaces, adapting each solution to the dimensions, orientation and sunlight exposure of the project.",
+        "button": "SEE OPTIONS",
         "features": [
-          "High-performance solar protection",
-          "Motorized systems",
-          "Design adapted to each space"
+          "Custom curtains and blinds",
+          "Manual or motorized systems",
+          "Pergolas and solar protection solutions"
         ]
       }
     }
@@ -289,54 +364,53 @@
     "related_title": "Other articles of interest"
   },
   "why_choose_us": {
-    "title": "More than 500 homes already trust La Favorita Interior",
+    "title": "Over two decades of experience and more than 500 completed projects",
     "subtitle": "",
     "cards": {
       "01": {
-        "title": "Personalized attention",
-        "description": "We accompany you from the first idea to the final installation, making the whole process simple and close."
+        "title": "Continuous support",
+        "description": "From the first meeting to installation, we follow the project closely so that every decision is carried out correctly on site."
       },
       "02": {
-        "title": "Custom design",
-        "description": "We create unique spaces that adapt to your home and your way of living."
+        "title": "Measurements, not assumptions",
+        "description": "We work from the real dimensions of the home, studying openings, installations, junctions and constraints before defining the final solution."
       },
       "03": {
-        "title": "Pending",
-        "description": "This section will be updated soon."
+        "title": "Checks before manufacturing",
+        "description": "We review measurements, layout, appliances and technical details before sending each project to production. Correcting on paper is always better than improvising during installation."
       },
       "04": {
-        "title": "Warranty and trust",
-        "description": "More than 20 years of experience and more than 500 satisfied clients support our commitment to every project."
+        "title": "Follow-up after installation",
+        "description": "Our work doesn't end when the furniture is installed. We handle adjustments and issues so that the final result matches what was designed."
       }
     }
   },
-
   "stats": {
     "proyectos": {
-      "value": "+3500",
-      "label": "Completed Projects",
-      "description": "Premium kitchens, wardrobes and renovations in Tenerife."
+      "value": "+3,500",
+      "label": "Completed projects",
+      "description": "Kitchens, wardrobes, walk-in closets and residential furniture."
     },
     "experiencia": {
-      "value": "20 Years",
-      "label": "Experience",
-      "description": "More than 20 years transforming homes in Tenerife."
+      "value": "+20 years",
+      "label": "Of experience",
+      "description": "A specialised track record in interior design and furniture in Tenerife."
     },
     "diseno": {
-      "value": "100%",
-      "label": "Custom Design",
-      "description": "Photorealistic 3D projections before manufacturing."
+      "value": "3D Visualisation",
+      "label": "Before production",
+      "description": "The project is presented in advance to define layout, finishes and proportions."
     },
     "atencion": {
       "value": "Tenerife",
-      "label": "Island-wide Service",
-      "description": "We travel to your home without any obligation."
+      "label": "Island-wide service",
+      "description": "Measuring, advice and follow-up directly at your home."
     }
   },
   "projects": {
-    "tag": "Exclusive Portfolio",
-    "title": "Real spaces that speak for themselves",
-    "subtitle": "Every space we design is born from a story, a need, and a different way of living. Explore a selection of projects completed in Tenerife where design, quality, and attention to every detail are the protagonists.",
+    "tag": "Selected projects",
+    "title": "Projects that show how we work",
+    "subtitle": "Kitchens, wardrobes, walk-in closets and other spaces completed in homes across Tenerife. Each project responds to a different floor plan, set of needs and conditions. Here we show the final result and some of the decisions that shaped each proposal.",
     "categories": {
       "all": "All Projects",
       "cocinas": "Kitchens",
@@ -346,43 +420,43 @@
     },
     "items": {
       "1": {
-        "title": "Japandi Kitchen in Natural Oak",
-        "description": "Kitchen with integrated central island, Dekton countertop, and cabinets with soft-close Blum hardware.",
+        "title": "Kitchen with island in natural oak",
+        "description": "Open layout with a central island, Dekton countertop and Blum interior fittings.",
         "materials": "Solid oak, Fenix NTM and Dekton"
       },
       "2": {
-        "title": "U-Shaped Dressing Room with LED Profiles",
-        "description": "High-density open walk-in closet with leather organizers, pull-out trouser racks, and sensorized LED lighting.",
+        "title": "U-shaped walk-in closet with integrated lighting",
+        "description": "Perimeter layout with drawer units, hanging rails and pull-out accessories to make use of the full available height.",
         "materials": "19mm textured melamine, black anodized aluminum"
       },
       "3": {
-        "title": "Premium Open Concept Kitchen",
-        "description": "Renovation project of a kitchen open to the living room with concealed gola handles and ceiling extractor hood.",
+        "title": "Kitchen open to the living room",
+        "description": "Flat fronts, gola system and integrated hood in a composition designed to keep a clean, uncluttered look.",
         "materials": "Silk anti-fingerprint laminate, Silestone Calacatta"
       },
       "4": {
-        "title": "Integrated Entrance Wardrobe",
-        "description": "Custom carpentry solution elegantly integrating shoe storage, coats, and electrical panel.",
+        "title": "Integrated entrance wardrobe",
+        "description": "Custom front with closed storage, an area for everyday clothing and an open support module.",
         "materials": "Matte lacquered MDF, milled handles"
       },
       "5": {
-        "title": "Double Suspended Bathroom Cabinet",
-        "description": "Minimalist wall-mounted bathroom set with full-extension drawers and countertop washbasins.",
+        "title": "Wall-hung double-basin vanity",
+        "description": "Wall-to-wall composition with large-capacity drawers, a double basin and integrated lighting that visually lightens the whole unit.",
         "materials": "Waterproof teak wood, matte resin washbasin"
       },
       "6": {
-        "title": "Linear Kitchen with Hidden Columns",
-        "description": "Optimized linear layout for an urban apartment with fully integrated pantry and appliances.",
+        "title": "Linear kitchen with tall-unit block",
+        "description": "A compact composition that concentrates storage and appliances at the sides, leaving the central area open for preparation and everyday use.",
         "materials": "High-pressure laminate, Neolith Iron"
       },
       "7": {
-        "title": "Open Design Dressing Room",
-        "description": "Elegant and sober design for the master bedroom with symmetrical layout and slanted shoe rack modules.",
+        "title": "Open walk-in closet with symmetrical layout",
+        "description": "Rails, drawer units, shelves and shoe modules are organised by zones for easy access and a tidy overall look.",
         "materials": "Varnished wood, warm internal lighting"
       },
       "8": {
-        "title": "Coplanar Built-in Wardrobe",
-        "description": "Built-in wardrobe front with coplanar sliding doors that sit on a single plane when closed.",
+        "title": "Built-in wardrobe with coplanar doors",
+        "description": "A continuous floor-to-ceiling front that hides generous interior capacity and keeps the doors perfectly aligned when closed.",
         "materials": "Tinted tempered glass, steel profile frame"
       }
     },
@@ -391,14 +465,14 @@
       "materials": "Materials",
       "description_label": "Project Description",
       "cta": "Inquire about a similar design",
-      "baño": "Bathroom",
+      "baño": "Bathrooms",
       "mueble_baño": "Bathroom Furniture"
     }
   },
   "featured_project": {
     "tag": "FEATURED PROJECT",
-    "title": "The first ALVIC kitchen in a cave",
-    "subtitle": "A design challenge in Arico, Tenerife, where volcanic stone and super-matte technology coexist in harmony.",
+    "title": "La Favorita brings a custom kitchen inside a cave",
+    "subtitle": "In Arico, Tenerife, we designed a kitchen integrated into a structure carved out of volcanic rock, with furniture manufactured by ALVIC to our design and specifications.",
     "cta": "Read full article",
     "labels": {
       "location": "Location",
@@ -408,24 +482,24 @@
     },
     "keys": {
       "01": {
-        "title": "Light as a guide",
-        "desc": "Bold layout directly in the main access to flood and bring life to the space with Atlantic golden light."
+        "title": "Natural light takes centre stage",
+        "desc": "A project designed to make the most of the Atlantic light, creating spacious, welcoming spaces full of life."
       },
       "02": {
         "title": "Zenit 3.0 Technology",
-        "desc": "Super-matte surfaces with a silky touch and anti-fingerprint properties that amplify clarity and elegance."
+        "desc": "Super-matte surfaces with a silky touch and anti-fingerprint properties. A blend of aesthetics and functionality that makes daily maintenance easy without sacrificing elegance."
       },
       "03": {
         "title": "Syncron Nocce Walnut",
-        "desc": "Wood details with organic hues to connect the cabinetry directly with the mineral environment."
+        "desc": "The warmth of walnut and the natural texture of Syncron Nocce add depth and contrast to the design, balancing the matte surfaces with the elegance of wood."
       },
       "04": {
-        "title": "Central Island",
-        "desc": "A large-scale workspace that acts as the backbone and true heart of the home."
+        "title": "The kitchen's operational centre",
+        "desc": "A large island brings together preparation, storage and support, reducing movement and organising work around a single piece."
       },
       "05": {
-        "title": "Premium Interiors",
-        "desc": "Gray interior modules and high-durability hardware designed to withstand any climate conditions."
+        "title": "Strength from within",
+        "desc": "Grey interior modules and high-performance hardware that reinforce the structure and ensure precise operation even under intensive use."
       }
     }
   },
@@ -538,9 +612,9 @@
   },
   "contact": {
     "tag": "Contact",
-    "title_part1": "Ready to transform",
-    "title_shiny": "your kitchen?",
-    "subtitle": "Request a free quote and receive personalized design advice for your home in Tenerife. With no obligation.",
+    "title_part1": "If you can't come,",
+    "title_shiny": "we can start remotely",
+    "subtitle": "It is not always possible to travel to our shop. That is why we can also keep the first meetings by video call and move forward with you on much of the project without needing to be physically here. From photographs, measurements, and information about the home, we can study the starting point, discuss alternatives, and prepare the proposal. Afterwards, you can review the layout and the 3D visualization directly with us. When the time comes to choose finishes or carry out technical checks, we will coordinate the best way to continue with you.",
     "success_title": "Message prepared!",
     "success_desc": "Your email client has been opened. Send the message to complete the inquiry.",
     "email": {
@@ -558,10 +632,10 @@
       "email_placeholder": "you@email.com",
       "phone_label": "Phone",
       "phone_placeholder": "+34 600 000 000",
-      "message_label": "Tell us your idea",
-      "message_placeholder": "Describe your ideal project: layout, style, materials, estimated budget...",
-      "submit": "Send Inquiry",
-      "privacy_note": "By sending this form, you agree to let us contact you to respond to your inquiry. No spam, no obligation."
+      "message_label": "Tell us about your project",
+      "message_placeholder": "Let us know what you need, the location, approximate measurements and any information you consider important.",
+      "submit": "REQUEST A VIDEO CALL",
+      "privacy_note": "By submitting this form, you authorise La Favorita Interiores to contact you in order to respond to your request."
     },
     "map": {
       "title": "Where are we?",

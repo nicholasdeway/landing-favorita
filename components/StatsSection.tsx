@@ -13,17 +13,20 @@ function AnimatedStat({ value }: AnimatedStatProps) {
   const hasAnimated = useRef(false);
 
   useEffect(() => {
-    const numberPattern = /(\d+)/;
-    const match = value.match(numberPattern);
+    // Matches e.g. "+3.500", "+20 años", "100%". Text values like "Visualización 3D" are not animated.
+    const match = value.match(/^([+\-~]?)(\d{1,3}(?:([.,])\d{3})+|\d+)(?![A-Za-z])(.*)$/);
 
     if (!match) {
       setDisplayValue(value);
       return;
     }
 
-    const targetNumber = parseInt(match[0], 10);
-    const prefix = value.substring(0, match.index);
-    const suffix = value.substring((match.index || 0) + match[0].length);
+    const prefix = match[1];
+    const separator = match[3] || "";
+    const targetNumber = parseInt(match[2].replace(/[.,]/g, ""), 10);
+    const suffix = match[4];
+    const format = (n: number) =>
+      separator ? n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, separator) : n.toString();
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -39,7 +42,7 @@ function AnimatedStat({ value }: AnimatedStatProps) {
             const progress = Math.min((timestamp - startTimestamp) / duration, 1);
             const currentNumber = Math.floor(progress * targetNumber);
 
-            setDisplayValue(`${prefix}${currentNumber}${suffix}`);
+            setDisplayValue(`${prefix}${format(currentNumber)}${suffix}`);
 
             if (progress < 1) {
               window.requestAnimationFrame(step);
@@ -91,9 +94,17 @@ export default function StatsSection() {
               key={idx}
               className="flex flex-col items-center text-center p-6 bg-white rounded-2xl border border-zinc-200/40 shadow-xs hover:shadow-md hover:-translate-y-1 transition-all duration-300 group"
             >
-              <span className="text-4xl md:text-5xl font-extrabold text-brand-gold tracking-tight leading-none group-hover:scale-105 transition-transform duration-300">
-                <AnimatedStat value={stat.value} />
-              </span>
+              <div className="w-full min-h-[3.5rem] md:min-h-[4.5rem] flex items-center justify-center">
+                <span
+                  className={`block max-w-full font-extrabold text-brand-gold tracking-tight text-balance break-words group-hover:scale-105 transition-transform duration-300 ${
+                    stat.value.length > 10
+                      ? "text-3xl sm:text-[28px] lg:text-[26px] xl:text-[32px] leading-[1.1]"
+                      : "text-4xl md:text-5xl leading-none"
+                  }`}
+                >
+                  <AnimatedStat value={stat.value} />
+                </span>
+              </div>
               <h3 className="mt-4 text-base font-bold text-zinc-900 tracking-tight uppercase">
                 {stat.label}
               </h3>

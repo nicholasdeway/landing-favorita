@@ -44,37 +44,39 @@ export const CATEGORY_DATA: Record<string, CategoryData> = {
     ]
   },
   "muebles-a-medida": {
-    title: "Muebles a Medida",
-    subtitle: "Mobiliario personalizado para todo tu hogar",
-    description: "Diseñamos y fabricamos muebles a medida que se adaptan a tu estilo de vida, optimizando cada rincón con diseños funcionales y acabados de lujo.",
+    title: "Muebles a medida",
+    subtitle: "MOBILIARIO A MEDIDA PARA DISTINTAS ZONAS DE LA VIVIENDA",
+    description: "Hay espacios que no se resuelven bien con mobiliario convencional. Huecos difíciles, paredes completas, cambios de profundidad o necesidades específicas de almacenaje requieren una pieza pensada desde el principio para ese lugar.",
     paragraphs: [
-      "Desde muebles de salón, aparadores y librerías hasta soluciones integradas para dormitorios y recibidores. Nos adaptamos a cualquier espacio, estilo y necesidad de almacenamiento.",
-      "Utilizamos materiales seleccionados de alta calidad para garantizar la máxima durabilidad y resistencia en el uso diario, combinando diseño y funcionalidad en cada pieza."
+      "Proyectamos mobiliario para salones, recibidores, dormitorios, comedores, zonas de trabajo y otros ambientes, ajustando proporciones, capacidad y composición a la arquitectura existente.",
+      "Podemos integrar iluminación, puertas, vitrinas, cajones, estanterías, panelados y otros elementos dentro de una misma composición para conseguir un conjunto más limpio y mejor aprovechado."
     ],
     image: "/images/013-image.jpg",
     gallery: ["/images/005-image.jpg", "/images/006-image.jpg"],
     specifications: [
-      { label: "Materiales", value: "Maderas nobles, tableros MDF lacados, chapas naturales y metales" },
-      { label: "Acabados", value: "Barniz mate o brillo, lacado personalizado, texturas exclusivas" },
-      { label: "Estilos", value: "Moderno, minimalista, contemporáneo, clásico renovado" },
-      { label: "Garantía", value: "5 años de fabricación local propia" }
+      { label: "APLICACIONES", value: "Muebles de salón, recibidores, dormitorios, zonas de trabajo, librerías, aparadores, panelados y composiciones especiales." },
+      { label: "CONFIGURACIÓN", value: "Diseños adaptados a paredes completas, huecos, pilares, desniveles, diferentes profundidades y otras particularidades constructivas." },
+      { label: "ACABADOS", value: "Superficies lisas, texturizadas, efecto madera, lacadas y otras combinaciones seleccionadas según el proyecto." },
+      { label: "ELEMENTOS INTEGRADOS", value: "Iluminación LED, vitrinas, estantes, cajones, puertas, paneles decorativos y zonas técnicas." },
+      { label: "PRODUCCIÓN", value: "Mobiliario producido según planos y especificaciones definidos para cada proyecto." }
     ]
   },
   "soluciones-inteligentes": {
-    title: "Soluciones Inteligentes",
-    subtitle: "Tecnología y automatización para el mobiliario moderno",
-    description: "Llevamos la domótica y los mecanismos de alta tecnología a tu cocina y vestidor.",
+    title: "Automatización integrada",
+    subtitle: "TECNOLOGÍA INTEGRADA EN EL MOBILIARIO",
+    description: "La tecnología tiene sentido cuando simplifica el uso sin convertirse en protagonista. Incorporamos iluminación, mecanismos eléctricos y puntos de conexión directamente en el mobiliario para resolver funciones concretas de forma discreta.",
     paragraphs: [
-      "Iluminación integrada que se activa al abrir un cajón, sistemas de elevación por motor eléctrico para muebles altos, enchufes ocultos y organizadores magnéticos reposicionables.",
-      "Transformamos el mobiliario tradicional en sistemas inteligentes que se anticipan a tus necesidades y minimizan el esfuerzo diario."
+      "Estos elementos se prevén durante el desarrollo del proyecto, definiendo su posición, alimentación y accionamiento antes de la producción. Así evitamos añadidos posteriores y conseguimos una integración más limpia.",
+      "Desde una tira LED oculta hasta un sistema de apertura eléctrica, seleccionamos cada recurso por su utilidad dentro de la composición, no simplemente por incorporar tecnología."
     ],
     image: "/images/007-image.jpg",
     gallery: ["/images/008-image.jpg", "/images/009-image.jpg"],
     specifications: [
-      { label: "Iluminación", value: "LED de bajo consumo 24V con temperatura regulable de luz" },
-      { label: "Aperturas", value: "Sistemas de pulsador eléctrico para cajones y compuertas elevables" },
-      { label: "Conectividad", value: "Cargadores inalámbricos Qi ocultos en encimeras" },
-      { label: "Garantía", value: "1 años en componentes eléctricos y electrónicos" }
+      { label: "ILUMINACIÓN INTEGRADA", value: "Perfiles y sistemas LED incorporados en vitrinas, estantes, interiores de armarios, zonas de trabajo y otros puntos definidos en proyecto." },
+      { label: "APERTURAS ELÉCTRICAS", value: "Mecanismos asistidos para cajones, puertas y elementos elevables cuando la configuración del mueble lo requiere." },
+      { label: "CONEXIONES", value: "Enchufes, tomas USB, torres extraíbles y otros puntos de alimentación integrables en encimeras o mobiliario." },
+      { label: "CONTROL", value: "Opciones de encendido, regulación y accionamiento adaptadas al sistema instalado." },
+      { label: "PLANIFICACIÓN TÉCNICA", value: "Previsión de alimentación, cableado y ubicación de componentes durante la fase de proyecto para mantenerlos accesibles y visualmente discretos." }
     ]
   },
   "cortinas-pergolas": {
